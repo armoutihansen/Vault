@@ -1,0 +1,62 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "00_meta/templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "01_foundations",
+      "template": "00_meta/templates/tpl_concept.md"
+    },
+    {
+      "folder": "02_modeling",
+      "template": "00_meta/templates/tpl_concept.md"
+    },
+    {
+      "folder": "03_software_engineering",
+      "template": "00_meta/templates/tpl_engineering.md"
+    },
+    {
+      "folder": "04_ml_engineering",
+      "template": "00_meta/templates/tpl_engineering.md"
+    },
+    {
+      "folder": "05_ai_engineering",
+      "template": "00_meta/templates/tpl_ai_system.md"
+    },
+    {
+      "folder": "06_applications",
+      "template": "00_meta/templates/tpl_application.md"
+    },
+    {
+      "folder": "07_projects/_active",
+      "template": "00_meta/templates/tpl_project_overview.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1
+}

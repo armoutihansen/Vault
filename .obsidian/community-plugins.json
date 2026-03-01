@@ -1,3 +1,8 @@
 [
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian",
+  "dataview",
+  "folder-note-plugin",
+  "auto-note-mover",
+  "obsidian-minimal-settings"
 ]
