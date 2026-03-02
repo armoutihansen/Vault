@@ -236,4 +236,4 @@ true || false;   // true
 
 - [[js_functions]]
 - [[js_objects_and_classes]]
-- [[index]]
+- [[03_software_engineering/languages/javascript/index]]

@@ -41,8 +41,8 @@ tags: [ai-agents, function-calling, gemini, lessons]
 
 ## Extracted to Core Layers
 
-- [[05_ai_engineering/agents/agentic_loop]] — generalised agentic loop pattern
-- [[05_ai_engineering/agents/function_calling]] — tool schema design, dispatch, server-side injection
+- [[agentic_loop]] — generalised agentic loop pattern
+- [[function_calling]] — tool schema design, dispatch, server-side injection
 - [[03_software_engineering/security/filesystem_sandboxing]] — `commonpath` sandboxing pattern
 
 ## Links

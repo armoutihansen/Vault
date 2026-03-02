@@ -1,5 +1,6 @@
 {
   "userIgnoreFilters": [
     "quartz/"
-  ]
+  ],
+  "alwaysUpdateLinks": true
 }

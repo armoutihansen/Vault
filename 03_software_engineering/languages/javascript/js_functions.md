@@ -247,4 +247,4 @@ try {
 - [[js_core_language]]
 - [[js_objects_and_classes]]
 - [[js_async]]
-- [[index]]
+- [[03_software_engineering/languages/javascript/index]]

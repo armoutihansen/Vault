@@ -105,4 +105,4 @@ except ValueError as e:
 
 ## Links
 
-- [[05_ai_engineering/agents/function_calling]] — context: sandboxing LLM tool functions
+- [[function_calling]] — context: sandboxing LLM tool functions
