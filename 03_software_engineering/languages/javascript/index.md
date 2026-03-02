@@ -12,7 +12,7 @@ JavaScript is a dynamically-typed, single-threaded, event-driven language that r
 
 ## Notes
 
-- [[js_core_language]] — types, variables, coercions, truthy/falsy, `==` vs `===`, template literals
+- [[js_core_language]] — types, variables, coercions, truthy/falsy,  template literals
 - [[js_functions]] — declarations vs expressions, arrow functions, closures, scope, `this`, error handling
 - [[js_objects_and_classes]] — object literals, spread/destructure, optional chaining, prototypes, classes, inheritance
 - [[js_collections]] — arrays, maps, sets, and all loop constructs (`for`, `for...of`, `for...in`, `while`)
