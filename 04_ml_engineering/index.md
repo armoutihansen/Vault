@@ -184,61 +184,12 @@ This layer treats ML models as production artifacts that require lifecycle manag
 04_ml_engineering/
 ├── index.md
 ├── 00_principles_and_lifecycle/
-│   ├── ml_systems_overview.md
-│   ├── requirements_reliability_scalability_maintainability_adaptability.md
-│   └── iterative_development_cycle.md
 ├── 01_data_engineering/
-│   ├── data_sources.md
-│   ├── data_formats_and_models.md
-│   ├── databases_oltp_vs_olap.md
-│   ├── etl_elt.md
-│   ├── batch_vs_stream_processing.md
-│   └── dataflow_between_services.md
 ├── 02_training_data/
-│   ├── sampling_strategies.md
-│   ├── labeling_strategies.md
-│   ├── weak_natural_labels.md
-│   ├── class_imbalance.md
-│   ├── data_augmentation.md
-│   └── dataset_versioning_and_lineage.md
 ├── 03_feature_engineering/
-│   ├── learned_vs_engineered_features.md
-│   ├── missing_values_scaling_encoding.md
-│   ├── feature_crosses_embeddings.md
-│   ├── data_leakage.md
-│   └── feature_stores.md
 ├── 04_model_development_and_offline_eval/
-│   ├── baselines_and_error_analysis.md
-│   ├── training_and_regularization.md
-│   ├── model_selection_tradeoffs.md
-│   ├── evaluation_methods_metrics_calibration.md
-│   ├── experiment_tracking_mlflow.md
-│   ├── model_versioning_reproducibility.md
-│   └── distributed_training.md
 ├── 05_deployment_and_serving/
-│   ├── batch_vs_online_prediction.md
-│   ├── serving_patterns_api_realtime_streaming.md
-│   ├── model_optimization_compression.md
-│   ├── edge_and_browser_inference.md
-│   └── rollout_strategies.md
 ├── 06_monitoring_and_observability/
-│   ├── operational_metrics.md
-│   ├── ml_metrics_predictions_features_inputs.md
-│   ├── drift_detection_covariate_label_concept.md
-│   ├── logging_tracing_dashboards_alerts.md
-│   └── incident_response_playbooks.md
 ├── 07_continual_learning_and_testing_in_prod/
-│   ├── retraining_strategies_stateless_vs_stateful.md
-│   ├── data_freshness_and_update_frequency.md
-│   ├── test_in_production.md
-│   ├── shadow_ab_canary_bandits.md
-│   └── safe_rollback_and_backfills.md
 └── 08_infrastructure_and_platform/
-    ├── dev_env_standardization.md
-    ├── containers.md
-    ├── schedulers_orchestrators.md
-    ├── workflow_management.md
-    ├── ml_platform_reference_architecture.md
-    ├── model_store.md
-    └── build_vs_buy.md
 ```

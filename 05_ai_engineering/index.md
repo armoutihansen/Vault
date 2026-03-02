@@ -184,59 +184,12 @@ This layer treats the foundation model as a core system component, not just a pr
 
 ```
 05_ai_engineering/
-├── index.md
 ├── 00_foundation_models/
-│   ├── transformer_architecture_overview.md
-│   ├── scaling_laws.md
-│   ├── sampling_and_decoding.md
-│   ├── alignment_sft_rlhf.md
-│   └── model_selection_tradeoffs.md
 ├── 01_evaluation/
-│   ├── language_model_metrics.md
-│   ├── exact_vs_subjective_eval.md
-│   ├── ai_as_a_judge.md
-│   ├── comparative_eval.md
-│   ├── eval_pipeline_design.md
-│   └── benchmark_limitations.md
 ├── 02_prompt_engineering/
-│   ├── prompt_anatomy.md
-│   ├── in_context_learning.md
-│   ├── reasoning_prompts.md
-│   ├── structured_outputs.md
-│   ├── prompt_injection_attacks.md
-│   └── guardrails.md
 ├── 03_rag_and_agents/
-│   ├── rag_basics.md
-│   ├── retriever_design.md
-│   ├── term_vs_embedding_retrieval.md
-│   ├── hybrid_search.md
-│   ├── agent_planning.md
-│   ├── tool_use.md
-│   └── memory_systems.md
 ├── 04_finetuning/
-│   ├── when_to_finetune_vs_rag.md
-│   ├── full_finetuning.md
-│   ├── peft_lora.md
-│   ├── model_merging.md
-│   └── hyperparameters_for_finetuning.md
 ├── 05_dataset_engineering/
-│   ├── dataset_design_principles.md
-│   ├── instruction_data.md
-│   ├── synthetic_data.md
-│   ├── data_quality_coverage_quantity.md
-│   └── dataset_evaluation.md
 ├── 06_inference_optimization/
-│   ├── latency_vs_throughput.md
-│   ├── kv_cache.md
-│   ├── quantization.md
-│   ├── distillation.md
-│   ├── batching_and_parallelism.md
-│   └── serving_tradeoffs.md
 ├── 07_architecture_and_feedback/
-│   ├── ai_application_architecture.md
-│   ├── model_gateway.md
-│   ├── observability_for_llm_systems.md
-│   ├── user_feedback_loops.md
-│   ├── data_flywheel.md
-│   └── build_vs_buy_models.md
 ```

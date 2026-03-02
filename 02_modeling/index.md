@@ -208,82 +208,20 @@ This layer treats models as conceptual decision objects — not production artif
 02_modeling/
 ├── index.md
 ├── 00_modeling_principles/
-│   ├── modeling_workflow.md
-│   ├── problem_types_and_objectives.md
-│   ├── bias_variance.md
-│   ├── overfitting_underfitting.md
-│   └── error_analysis.md
 ├── 01_problem_framing/
-│   ├── prediction_vs_inference.md
-│   ├── target_definition.md
-│   ├── leakage_definition_and_examples.md
-│   ├── train_val_test_splitting.md
-│   └── time_series_splitting.md
 ├── 02_data_and_features/
-│   ├── feature_engineering_overview.md
-│   ├── missing_values.md
-│   ├── encoding_categorical.md
-│   ├── scaling_normalization.md
-│   ├── text_vectorization.md
-│   ├── embeddings.md
-│   ├── imbalance_and_reweighting.md
-│   └── augmentation_strategies.md
 ├── 03_model_families/
-│   ├── linear_and_glm/
-│   │   ├── linear_regression.md
-│   │   ├── logistic_regression.md
-│   │   └── poisson_gamma_tweedie_glm.md
-│   ├── trees_and_boosting/
-│   │   ├── random_forest.md
-│   │   ├── gradient_boosting.md
-│   │   └── xgboost_lightgbm_catboost.md
-│   ├── probabilistic_models/
-│   │   ├── naive_bayes.md
-│   │   ├── bayesian_regression.md
-│   │   └── hidden_markov_models.md
-│   ├── deep_learning/
-│   │   ├── mlp.md
-│   │   ├── cnn.md
-│   │   ├── rnn_lstm_gru.md
-│   │   └── transformers_overview.md
-│   ├── unsupervised_learning/
-│   │   ├── clustering_kmeans_gmm.md
-│   │   ├── dimensionality_reduction_pca_umap.md
-│   │   └── anomaly_detection.md
-│   └── time_series_models/
-│       ├── arima_sarima.md
-│       ├── state_space_kalman.md
-│       └── forecasting_with_ml.md
+│   ├── 00_linear_and_glm/
+│   ├── 01_trees_and_boosting/
+│   ├── 02_probabilistic_models/
+│   ├── 03_deep_learning/
+│   ├── 04_nlp/
+│   ├── 05_unsupervised_learning/
+│   └── 06_time_series_models/
 ├── 04_training_and_tuning/
-│   ├── loss_functions.md
-│   ├── regularization.md
-│   ├── optimization_algorithms.md
-│   ├── hyperparameter_tuning.md
-│   └── early_stopping.md
 ├── 05_evaluation/
-│   ├── offline_evaluation_design.md
-│   ├── classification_metrics.md
-│   ├── regression_metrics.md
-│   ├── ranking_metrics.md
-│   ├── calibration.md
-│   ├── uncertainty_quantification.md
-│   ├── cross_validation.md
-│   └── backtesting_time_series.md
 ├── 06_interpretability_and_fairness/
-│   ├── interpretability_overview.md
-│   ├── shap_and_feature_attribution.md
-│   ├── partial_dependence_ice.md
-│   ├── fairness_metrics.md
-│   └── model_risk_considerations.md
 └── 07_domain_modeling/
-    ├── insurance_models/
-    │   ├── claims_frequency_modeling.md
-    │   ├── claims_severity_modeling.md
-    │   ├── pricing_glms_and_boosting.md
-    │   ├── reserving_overview.md
-    │   └── fraud_modeling.md
-    └── experimentation/
-        ├── ab_testing_basics.md
-        ├── uplift_modeling.md
-        └── causal_inference_overview.md
+    ├── 00_insurance_models/
+    └── 01_experimentation/
 ```
