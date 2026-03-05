@@ -103,50 +103,79 @@ General software engineering knowledge supporting all technical work.
 If the note is about implementation patterns or tooling → it belongs here.  
   
 ---  
-## 04_ml_engineering  
+## 04_ml_engineering
 
-### Purpose  
-Productionization of machine learning systems (model-agnostic).  
-### Contains  
-- Data pipelines  
-- ETL/ELT architectures  
-- Experiment tracking (MLflow, etc.)  
-- Feature stores  
-- Monitoring  
-- Reproducibility  
-- CI/CD for ML systems  
-- Model deployment (non-LLM specific)  
-### Does NOT Contain  
-- Deep learning architecture theory  
-- LLM-specific system integration  
-- Business problem framing  
-### Guiding Question  
-**How do we productionize ML systems?**  
-  
-Infrastructure and lifecycle management live here.  
-  
----  
-## 05_ai_engineering  
-  
-### Purpose  
-Productionization and integration of foundation models and LLM systems.  
-### Contains  
-- Foundation model integration  
-- RAG architectures  
-- LLMOps  
-- Fine-tuning pipelines  
-- Inference optimization  
-- Quantization  
-- LLM evaluation frameworks  
-- Safety and monitoring for LLM systems  
-### Does NOT Contain  
-- Transformer mathematical derivations  
-- General ML infrastructure (unless LLM-specific)  
-- Pure business problem framing  
-### Guiding Question  
-**How do we integrate and operate large-scale pretrained models?**  
-  
-Foundation models are deep learning models conceptually, but treated here as system components.  
+### Purpose
+Productionization of machine learning systems (model-agnostic). Covers the full ML production lifecycle from data ingestion to model retirement.
+
+### Contains
+- Data engineering (pipelines, ETL/ELT, batch vs stream, feature stores)
+- Training data (labeling, sampling, augmentation, versioning)
+- Feature engineering (encoding, leakage prevention, feature stores)
+- Model development (experiment tracking, distributed training, offline evaluation)
+- Deployment and serving (batch/online/edge, compression, rollout strategies)
+- Monitoring and observability (drift detection, operational metrics, alerting)
+- Continual learning (retraining triggers, test-in-production)
+- Infrastructure and platform (orchestration, ML platforms, environment management)
+
+### Does NOT Contain
+- Foundation-model-based system design (→ 05_ai_engineering)
+- Model family selection and statistical trade-offs (→ 02_modeling)
+- Mathematical derivations (→ 01_foundations)
+
+### Guiding Question
+**How do we build reliable, scalable ML systems in production?**
+
+### Sublayer Structure
+```
+04_ml_engineering/
+├── 00_principles_and_lifecycle/
+├── 01_data_engineering/
+├── 02_training_data/
+├── 03_feature_engineering/
+├── 04_model_development/
+├── 05_deployment_and_serving/
+├── 06_monitoring_and_observability/
+├── 07_continual_learning/
+└── 08_infrastructure_and_platform/
+```
+
+---
+## 05_ai_engineering
+
+### Purpose
+Productionization and integration of foundation models and LLM-based systems. Covers the full AI engineering lifecycle from model selection to production feedback loops.
+
+### Contains
+- Foundation models (architecture, scaling, alignment, tokenization)
+- Evaluation (benchmarks, AI-as-judge, code eval, LM Eval Harness)
+- Prompt engineering (CoT, few-shot, structured outputs, injection defense)
+- RAG and agents (retrieval architectures, vector stores, agentic loop, multi-agent, DSPy)
+- Fine-tuning (LoRA/QLoRA, RLHF/DPO/GRPO, Axolotl, LLaMA-Factory)
+- Dataset engineering (instruction data, synthetic data, data flywheel)
+- Inference optimization (quantization: AWQ/GPTQ/GGUF, Flash Attention, KV cache, vLLM)
+- Architecture and feedback (AI app architecture, LLMOps, safety, model gateway)
+
+### Does NOT Contain
+- Transformer mathematical derivations (→ 01_foundations/06_deep_learning_theory)
+- General ML infrastructure (→ 04_ml_engineering)
+- Pure business problem framing (→ 06_applications)
+
+### Guiding Question
+**How do we integrate and operate large-scale pretrained models?**
+
+### Sublayer Structure
+```
+05_ai_engineering/
+├── 00_foundation_models/
+├── 01_evaluation/
+├── 02_prompt_engineering/
+├── 03_rag_and_agents/
+├── 04_finetuning/
+├── 05_dataset_engineering/
+├── 06_inference_optimization/
+└── 07_architecture_and_feedback/
+```  
   
 ---  
 ## 06_applications  
