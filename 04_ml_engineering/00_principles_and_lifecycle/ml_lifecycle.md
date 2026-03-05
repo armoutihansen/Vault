@@ -42,14 +42,14 @@ Retrain on fresh data when performance degrades or at a scheduled cadence. Retra
 
 Before committing to the ML lifecycle, evaluate whether ML is warranted:
 
-| Situation | Recommendation |
-|---|---|
-| Patterns are too complex for hand-crafted rules | Use ML |
-| Data is abundant and labels are available | Use ML |
-| Rules can be enumerated and maintained | Use heuristics |
-| Data volume is small (<1,000 labelled examples) | Heuristics or transfer learning |
-| Latency budget is <10 ms | Consider lookup tables or lightweight models |
-| Regulatory environment requires full explainability | Linear/tree models or heuristics |
+| Situation                                           | Recommendation                               |
+| --------------------------------------------------- | -------------------------------------------- |
+| Patterns are too complex for hand-crafted rules     | Use ML                                       |
+| Data is abundant and labels are available           | Use ML                                       |
+| Rules can be enumerated and maintained              | Use heuristics                               |
+| Data volume is small (<1,000 labelled examples)     | Heuristics or transfer learning              |
+| Latency budget is <10 ms                            | Consider lookup tables or lightweight models |
+| Regulatory environment requires full explainability | Linear/tree models or heuristics             |
 
 A common mistake is building an ML system when a well-maintained rule engine would be cheaper, faster to audit, and easier to update.
 

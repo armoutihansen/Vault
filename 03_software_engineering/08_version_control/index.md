@@ -3,13 +3,15 @@ layer: 03_software_engineering
 type: index
 status: evergreen
 tags: []
-created: 2026-03-02
+created: 2026-03-05
 ---
 
-# Version Control & Collaboration Index
+# Version Control Index
+
+Git workflows, internals, and GitHub collaboration patterns.
 
 ## Subdirectories
-- [[03_software_engineering/02_version_control_and_collaboration/00_git/index|Git]]
+- [[03_software_engineering/08_version_control/00_git/index|Git]]
 
 ## GitHub Notes
 - [[github_actions|GitHub Actions]]

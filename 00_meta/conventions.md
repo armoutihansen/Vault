@@ -84,15 +84,16 @@ Modeling notes describe algorithms, inductive biases, trade-offs, and modeling l
 ### Purpose  
 General software engineering knowledge supporting all technical work.    
 ### Contains  
-- Programming languages (Python, TypeScript, Go)  
-- Data structures & algorithms  
-- System design  
-- API design  
-- Testing strategies  
-- Docker  
-- Kubernetes  
-- GitHub Actions  
-- Framework usage (e.g., PyTorch API patterns, FastAPI usage)  
+- Programming languages (Python, Go, TypeScript, JavaScript)
+- Principles and design patterns (SOLID, clean code)
+- System design and distributed systems
+- API design (REST, FastAPI, gRPC)
+- Databases and storage (SQL, NoSQL, caching)
+- Testing strategies (TDD, property-based testing)
+- DevOps and infrastructure (Docker, Kubernetes, CI/CD)
+- Version control (Git, GitHub)
+- Security and sandboxing
+- AI-assisted engineering (LLM code generation, MCP, agentic coding)
 ### Does NOT Contain  
 - Statistical theory  
 - Business domain reasoning  
@@ -100,7 +101,28 @@ General software engineering knowledge supporting all technical work.
 ### Guiding Question  
 **How do we build robust software systems?**  
   
-If the note is about implementation patterns or tooling → it belongs here.  
+If the note is about implementation patterns or tooling → it belongs here.
+
+### Sublayer Structure
+```
+03_software_engineering/
+├── 00_principles_and_patterns/
+├── 01_programming_and_runtime/
+│   ├── 00_python/
+│   ├── 01_go/
+│   ├── 02_javascript/
+│   └── 03_typescript/
+├── 02_system_design/
+├── 03_apis_and_services/
+├── 04_databases_and_storage/
+├── 05_testing_and_quality/
+├── 06_devops_and_infrastructure/
+│   └── 00_ml_frameworks/
+├── 07_security/
+├── 08_version_control/
+│   └── 00_git/
+└── 09_ai_assisted_engineering/
+```
   
 ---  
 ## 04_ml_engineering

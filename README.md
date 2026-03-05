@@ -40,7 +40,7 @@ notes/
 |---|---|---|
 | `01_foundations` | Why does this work mathematically? | Calculus, linear algebra, backpropagation theory |
 | `02_modeling` | How do we model this problem? | GLMs, neural networks, transformers, interpretability |
-| `03_software_engineering` | How do we build robust software? | Go, TypeScript, Git, system design, security |
+| `03_software_engineering` | How do we build robust software? | Python, Go, TypeScript, APIs, databases, testing, DevOps, AI-assisted SE |
 | `04_ml_engineering` | How do we productionize ML systems? | Feature stores, MLflow, drift detection, serving |
 | `05_ai_engineering` | How do we operate LLM systems? | RAG, LoRA fine-tuning, quantization, LangSmith |
 | `06_applications` | Why are we solving this problem? | Insurance pricing, fraud detection |

@@ -6,7 +6,14 @@ tags: []
 created: 2026-03-02
 ---
 
-# Containerization and DevOps Index
+# DevOps & Infrastructure Index
+
+Container orchestration, CI/CD pipelines, and ML framework tooling.
+
+## Notes
+- [[docker_patterns|Docker Patterns]]
+- [[kubernetes_basics|Kubernetes Basics]]
+- [[cicd_pipelines|CI/CD Pipelines]]
 
 ## Subdirectories
 - [[00_ml_frameworks/index|ML Frameworks]]
