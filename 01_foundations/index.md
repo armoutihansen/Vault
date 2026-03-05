@@ -2,6 +2,7 @@
 layer: 01_foundations
 type: index
 status: evergreen
+tags: []
 created: 2026-03-02
 ---
 
@@ -11,18 +12,32 @@ Timeless theoretical foundations. Notes here answer: *why does this work mathema
 
 ## Sublayers
 
-### Math
-Mathematical theory underpinning ML and data science.
-- [[math/index|math/]] — top-level math index
-  - [[math/calculus/index|calculus/]] — differentiation, integration, series, ODEs
-  - [[math/linear_algebra/index|linear_algebra/]] — matrices, linear systems, vector spaces, eigenvalues
+### [[01_linear_algebra/index|01 — Linear Algebra]]
+Vectors, matrices, linear systems, eigendecomposition.
+- [[01_linear_algebra/01_vector_spaces/index|Vector Spaces]] — vector space, span, basis, null/column/row space, norms, projections
+- [[01_linear_algebra/02_matrices/index|Matrices]] — operations, inner/outer product, inverse, special matrices
+- [[01_linear_algebra/03_eigenvalues/index|Eigenvalues]] — determinants, eigenvalues/eigenvectors, diagonalization
+- [[01_linear_algebra/04_linear_systems/index|Linear Systems]] — Gaussian elimination, LU decomposition, inverses
 
-### Deep Learning Theory
-Theoretical foundations of neural networks and optimization.
-- [[01_foundations/_legacy/deep_learning_theory 1/index|deep_learning_theory/]] — full index
-  - Key notes: [[01_foundations/_legacy/deep_learning_theory 1/backpropagation]], [[01_foundations/_legacy/deep_learning_theory 1/gradient_descent]], [[01_foundations/_legacy/deep_learning_theory 1/adaptive_optimizers]], [[01_foundations/_legacy/deep_learning_theory 1/batch_normalization]], [[01_foundations/_legacy/deep_learning_theory 1/weight_initialization]]
+### [[02_calculus_and_analysis/index|02 — Calculus & Analysis]]
+Differentiation, integration, series, ODEs, vector calculus.
+- [[02_calculus_and_analysis/01_differentiation/index|Differentiation]] — limits, derivatives, chain rule, partial derivatives, Newton's method
+- [[02_calculus_and_analysis/02_integration/index|Integration]] — definite/indefinite, FTC, techniques, numerical methods
+- [[02_calculus_and_analysis/03_series/index|Series]] — sequences, convergence, power series, Taylor series
+- [[02_calculus_and_analysis/04_differential_equations/index|Differential Equations]] — first/second order ODEs, Laplace transform, numerical methods
+- [[02_calculus_and_analysis/05_vector_calculus/index|Vector Calculus]] — vectors, multivariable calculus
 
-### Statistical Learning Theory
-Theory of generalization, model selection, and ML strategy.
-- [[statistical_learning_theory/index|statistical_learning_theory/]] — full index
-  - Key notes: [[bias_variance_analysis]], [[evaluation_metrics]], [[data_splits_and_distribution]]
+### 03 — Probability & Statistics
+*(Pending — no source notes yet)*
+
+### 04 — Optimization
+*(Pending — no source notes yet)*
+
+### [[05_statistical_learning_theory/index|05 — Statistical Learning Theory]]
+Generalization, bias–variance, evaluation strategy, transfer learning.
+
+### [[06_deep_learning_theory/index|06 — Deep Learning Theory]]
+Neural network theory: backpropagation, optimization, regularization, architectures.
+
+## Links
+- [[02_modeling/index|Modeling]]
