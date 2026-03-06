@@ -6,9 +6,9 @@ A personal knowledge management (PKM) system for professional work in data scien
 
 ## Purpose
 
-This vault is a structured, long-lived knowledge base — not a note dump. It is organized by **epistemic layer and abstraction level**: each layer answers a distinct question, from *why does this work mathematically?* down to *why are we solving this problem?*
+This vault is a structured, long-lived knowledge base — not a note dump. It is organized by **epistemic layer and abstraction level**: each layer answers a distinct question, from *why does this work mathematically?* through to *why are we solving this business problem?*
 
-The goal is to accumulate knowledge that compounds over time: timeless theory in foundations, reusable models and algorithms in modeling, proven engineering patterns in the engineering layers, and grounded domain knowledge in applications.
+The goal is to accumulate knowledge that compounds over time: timeless theory in foundations, analytical practice in data science, reusable model knowledge in modeling, proven engineering patterns in the engineering layers, domain use cases in applications, and concrete implementations in reference implementations.
 
 ---
 
@@ -16,20 +16,22 @@ The goal is to accumulate knowledge that compounds over time: timeless theory in
 
 ```
 notes/
-├── 00_meta/              # Vault governance: conventions, templates, dashboard, glossary
-├── 01_foundations/       # Timeless mathematical and theoretical foundations
-├── 02_modeling/          # Model classes and modeling strategies (framework-agnostic)
-├── 03_software_engineering/  # Programming languages, system design, tooling
-├── 04_ml_engineering/    # ML production lifecycle: data, training, deployment, monitoring
-├── 05_ai_engineering/    # Foundation model systems: RAG, fine-tuning, inference, LLMOps
-├── 06_applications/      # Domain knowledge: insurance, business context, constraints
-├── 07_projects/          # Time-bound execution instances
+├── 00_meta/                        # Vault governance: conventions, templates, dashboard, glossary
+├── 01_foundations/                 # Timeless mathematical and theoretical foundations
+├── 02_data_science/                # Analytical reasoning: from data to decisions
+├── 03_modeling/                    # Model families, training, and model selection
+├── 04_software_engineering/        # Programming languages, system design, tooling
+├── 05_ml_engineering/              # ML production lifecycle: data, training, deployment, monitoring
+├── 06_ai_engineering/              # Foundation model systems: RAG, fine-tuning, inference, LLMOps
+├── 07_applications/                # Domain use cases and business application patterns
+├── 08_reference_implementations/   # Runnable code: model implementations, system patterns, end-to-end examples
+├── 09_projects/                    # Time-bound execution instances
 │   ├── _active/
 │   ├── _completed/
 │   └── _experimental/
-├── 08_reading/           # Structured intake: papers, books, articles, reports
-├── 09_logs/              # Operational memory: daily notes, reviews, brain dumps
-└── 99_archive/           # Retired content
+├── 10_reading/                     # Structured intake: papers, books, articles, reports
+├── 11_logs/                        # Operational memory: daily notes, reviews, brain dumps
+└── 99_archive/                     # Retired content
 ```
 
 ---
@@ -39,52 +41,39 @@ notes/
 | Layer | Guiding Question | Examples |
 |---|---|---|
 | `01_foundations` | Why does this work mathematically? | Calculus, linear algebra, backpropagation theory |
-| `02_modeling` | How do we model this problem? | GLMs, neural networks, transformers, interpretability |
-| `03_software_engineering` | How do we build robust software? | Python, Go, TypeScript, APIs, databases, testing, DevOps, AI-assisted SE |
-| `04_ml_engineering` | How do we productionize ML systems? | Feature stores, MLflow, drift detection, serving |
-| `05_ai_engineering` | How do we operate LLM systems? | RAG, LoRA fine-tuning, quantization, LangSmith |
-| `06_applications` | How are models and systems implemented in practice? | Model implementations, system patterns, end-to-end ML/AI pipelines |
-| `07_projects` | What are we executing right now? | Active work, experiments |
-| `08_reading` | What have we learned from external sources? | Paper notes, book summaries |
-| `09_logs` | What happened today / this week? | Daily notes, reflections |
+| `02_data_science` | How do we reason from data to decisions? | EDA, feature engineering, experiment design, interpretability |
+| `03_modeling` | Which model should we use and why? | GLMs, neural networks, transformers, evaluation, regularization |
+| `04_software_engineering` | How do we build robust software? | Python, Go, TypeScript, APIs, databases, testing, DevOps |
+| `05_ml_engineering` | How do we productionize ML systems? | Feature stores, MLflow, drift detection, serving |
+| `06_ai_engineering` | How do we operate LLM systems? | RAG, LoRA fine-tuning, quantization, LangSmith |
+| `07_applications` | Why are we solving this problem? | Fraud detection, churn prediction, document intelligence |
+| `08_reference_implementations` | How is this implemented in code? | Model implementations, system patterns, end-to-end pipelines |
+| `09_projects` | What are we executing right now? | Active work, experiments |
+| `10_reading` | What have we learned from external sources? | Paper notes, book summaries |
+| `11_logs` | What happened today / this week? | Daily notes, reflections |
 
 ---
 
 ## Note Types
 
-Notes follow one of six templates (see `00_meta/templates/`), matched to their layer and purpose:
+Notes follow templates matched to their layer (see `00_meta/templates/`):
 
-**Concept note** (`type: concept`) — `01_foundations`, `02_modeling`
-```
-Definition → Intuition → Formal Description → Applications → Trade-offs → Links
-```
+| Template | Layer | Structure |
+|----------|-------|-----------|
+| `tpl_foundation.md` | 01_foundations | Statement → Intuition → Mathematical Formulation → Assumptions → Consequences |
+| `tpl_proof.md` | 01_foundations | Statement → Assumptions → Proof → Notes |
+| `tpl_data_science.md` | 02_data_science | Problem Context → Analytical Goal → Data Considerations → Method → Validation |
+| `tpl_model.md` | 03_modeling | Core Idea → Math Formulation → Inductive Bias → Strengths/Weaknesses → Variants |
+| `tpl_software_note.md` | 04_software_engineering | Purpose → Core Concepts → Design Notes → Trade-offs → Implementation Notes |
+| `tpl_ml_system.md` | 05_ml_engineering | Purpose → Architecture → Data/Feature Flow → Operational Considerations → Trade-offs |
+| `tpl_ai_system.md` | 06_ai_engineering | Use Case → Model Strategy → Evaluation → Guardrails → Architecture → Cost/Latency |
+| `tpl_application.md` | 07_applications | Problem → Stakeholders → Domain Context → Inputs/Outputs → Modeling Options → Risks |
+| `tpl_reference_implementation.md` | 08_reference_implementations | Goal → Conceptual Counterpart → Dependencies → Code Pattern → Practical Notes |
+| `tpl_end_to_end_example.md` | 08_reference_implementations | Goal → Problem Setup → Data → Design → Implementation → Evaluation → Extensions |
+| `tpl_project_overview.md` | 09_projects | Goal → Scope → Deliverables → Data → Modeling → Engineering → Timeline |
+| `tpl_reading_note.md` | 10_reading | Source → Type → Why It Matters → Key Ideas → Relevance to Vault |
 
-**Proof note** (`type: proof`) — `01_foundations`
-```
-Statement → Assumptions → Proof Sketch → Full Proof → Notes / Intuition → Links
-```
-
-**Engineering note** (`type: engineering`) — `03_software_engineering`, `04_ml_engineering`, `05_ai_engineering` (tooling)
-```
-Purpose → Architecture → Implementation Notes → Trade-offs → References → Links
-```
-
-**AI system note** (`type: ai_system`) — `05_ai_engineering` (system design)
-```
-Goal → Architecture → Components → Evaluation → Failure Modes → Cost / Latency → Links
-```
-
-**Application note** (`type: application`) — `06_applications`
-```
-Problem Definition → Domain Context → Data Requirements → Modeling Options → Deployment Constraints → Risks → Links
-```
-
-**Project overview** (`type: project`) — `07_projects`
-```
-Goal → Scope (In / Out) → Deliverables → Data → Modeling → Engineering → Timeline → Links
-```
-
-All notes carry frontmatter: `layer`, `type`, `status` (`seed` / `growing` / `evergreen`), `tags`, `created`.
+All notes carry frontmatter: `layer`, `type`, `status` (`seed` / `growing` / `stable`), `tags`, `created`.
 
 ---
 
@@ -95,8 +84,9 @@ Full conventions are in [`00_meta/conventions.md`](00_meta/conventions.md). Key 
 - **File names**: lowercase with underscores (`chain_rule.md`, not `ChainRule.md`)
 - **Top-level structure is stable** — changes require updating `conventions.md`
 - **No duplicate concepts** — if overlap exists, merge
-- **Cross-linking**: modeling notes link to foundations; application notes link to modeling and engineering
+- **Cross-linking**: modeling notes link to foundations; application notes link to modeling and engineering; reference implementations link to their conceptual counterpart
 - **Knowledge flows**: Reading → Logs → Projects → Core layers (stable)
+- **Tags**: cross-cutting metadata only; never restate the folder path (see §12 of conventions)
 
 ---
 
