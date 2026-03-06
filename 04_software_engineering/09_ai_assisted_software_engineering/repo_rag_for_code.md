@@ -303,4 +303,4 @@ def answer_code_question(query: str, collection, llm_client, top_k: int = 8) -> 
 - [[mcp_protocol|MCP]]
 - [[agentic_coding|Agentic Coding]]
 - [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]]
-- [[03_software_engineering/04_databases_and_storage/nosql_patterns|NoSQL Patterns (vector DBs)]]
+- [[04_software_engineering/05_databases_and_storage/nosql_patterns|NoSQL Patterns (vector DBs)]]

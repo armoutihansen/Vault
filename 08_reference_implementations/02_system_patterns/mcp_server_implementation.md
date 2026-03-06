@@ -218,5 +218,5 @@ Security boundary:
 - [[agentic_coding|Agentic Coding]]
 - [[repo_rag_for_code|Repo RAG for Code]]
 - [[llm_code_generation|LLM Code Generation]]
-- [[03_software_engineering/07_security/filesystem_sandboxing|Filesystem Sandboxing]]
+- [[04_software_engineering/08_security/filesystem_sandboxing|Filesystem Sandboxing]]
 - [[06_ai_engineering/04_rag_and_agents/function_calling|Function Calling]]

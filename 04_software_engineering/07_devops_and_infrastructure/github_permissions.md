@@ -144,4 +144,4 @@ gh api /orgs/myorg/audit-log --paginate | jq '.[] | select(.action=="org.invite_
 - [[github_workflows|GitHub Workflows]]
 - [[github_repository_management|GitHub Repository Management]]
 - [[cicd_pipelines|CI/CD Pipelines]]
-- [[03_software_engineering/07_security/filesystem_sandboxing|Filesystem Sandboxing]]
+- [[04_software_engineering/08_security/filesystem_sandboxing|Filesystem Sandboxing]]

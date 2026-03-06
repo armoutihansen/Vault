@@ -302,4 +302,4 @@ new MathUtils().circleArea(5); // TypeError — not on instances
 - [[js_core_language]]
 - [[js_functions]]
 - [[js_collections]]
-- [[03_software_engineering/01_programming_and_runtime/02_javascript/index]]
+- [[04_software_engineering/02_programming_languages/02_javascript/index]]
