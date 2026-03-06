@@ -33,6 +33,8 @@ This section does NOT cover:
 |------|-------------|
 | [[batch_ml_prediction_pipeline\|Batch ML Prediction Pipeline]] | Full tabular ML lifecycle: data pipeline → training → evaluation → batch scoring → drift monitoring |
 | [[continuous_training_pipeline\|Continuous Training Pipeline]] | Closed-loop CT system: drift detection → automated retraining → evaluation gate → canary deployment |
+| [[demand_forecasting_pipeline\|Demand Forecasting Pipeline]] | SARIMA + LightGBM ensemble for monthly series: EDA, walk-forward CV, lag features, deployment |
+| [[anomaly_detection_pipeline\|Anomaly Detection Pipeline]] | Isolation Forest + GMM ensemble: PCA preprocessing, unsupervised scoring, UMAP inspection, PR-AUC evaluation |
 
 ### Software Service Systems
 | Note | Description |

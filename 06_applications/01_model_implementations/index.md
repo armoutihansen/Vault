@@ -22,34 +22,28 @@ This section does NOT cover:
 - full production system architecture (→ `02_system_patterns`)
 - project-specific business implementations (→ `07_projects`)
 
-## Implementation Categories
+## Notes
 
 ### Supervised Learning
-Implementations of predictive models for regression and classification.
-
-Examples include:
-- logistic regression with `sklearn`
-- random forests and gradient boosting
-- support vector machines
-- neural network classifiers
+| Note | Description |
+|---|---|
+| [[linear_models_implementation\|Linear Models & GLMs]] | OLS, Ridge/Lasso, logistic regression, statsmodels GLMs with code |
+| [[tree_ensembles_implementation\|Tree Ensembles]] | Random Forest, XGBoost (early stopping), LightGBM, Optuna tuning |
+| [[kernel_methods_implementation\|Kernel Methods]] | SVC/SVR, kernel selection, GridSearchCV, decision boundary visualisation |
+| [[probabilistic_models_implementation\|Probabilistic Models]] | GaussianNB, MultinomialNB, GMM + BIC, BayesianRidge |
 
 ### Unsupervised Learning
-Implementations of clustering, density estimation, and representation learning methods.
+| Note | Description |
+|---|---|
+| [[unsupervised_learning_implementation\|Unsupervised Learning]] | K-means (elbow/silhouette), DBSCAN, PCA, t-SNE, UMAP, Isolation Forest |
 
-Examples include:
-- k-means clustering
-- Gaussian Mixture Models with `sklearn`
-- PCA for dimensionality reduction
-- anomaly detection workflows
+### Forecasting
+| Note | Description |
+|---|---|
+| [[time_series_implementation\|Time Series Models]] | Auto-ARIMA, SARIMAX, Holt-Winters ETS, walk-forward CV, LGBM features |
 
 ### Deep Learning
-Implementations of neural architectures and training workflows.
-
-Examples include:
-- multilayer perceptrons
-- convolutional neural networks
-- sequence models
-- transformer fine-tuning
+*See `04_ml_engineering` for training pipelines and `05_ai_engineering` for transformer fine-tuning.*
 
 ## Role in the Vault
 
