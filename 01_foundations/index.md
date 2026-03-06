@@ -27,11 +27,18 @@ Differentiation, integration, series, ODEs, vector calculus.
 - [[01_foundations/02_calculus_and_analysis/04_differential_equations/index|Differential Equations]] — first/second order ODEs, Laplace transform, numerical methods
 - [[01_foundations/02_calculus_and_analysis/05_vector_calculus/index|Vector Calculus]] — vectors, multivariable calculus
 
-### 03 — Probability & Statistics
-*(Pending — no source notes yet)*
+### [[01_foundations/03_probability_and_statistics/index|03 — Probability & Statistics]]
+Probability theory, distributions, Bayesian inference, hypothesis testing.
+- [[01_foundations/03_probability_and_statistics/probability_theory|Probability Theory]] — axioms, conditional probability, Bayes' theorem, expectation
+- [[01_foundations/03_probability_and_statistics/probability_distributions|Probability Distributions]] — Bernoulli, Poisson, Gaussian, Beta, Dirichlet, exponential family
+- [[01_foundations/03_probability_and_statistics/bayesian_inference|Bayesian Inference]] — prior, posterior, MLE vs MAP, conjugate priors
+- [[01_foundations/03_probability_and_statistics/hypothesis_testing|Hypothesis Testing]] — p-values, t-test, chi-squared, confidence intervals, multiple testing
 
-### 04 — Optimization
-*(Pending — no source notes yet)*
+### [[01_foundations/04_optimization/index|04 — Optimization]]
+Convex optimization, gradient methods, constrained optimization.
+- [[01_foundations/04_optimization/convex_optimization|Convex Optimization]] — convex sets, functions, KKT conditions, duality
+- [[01_foundations/04_optimization/gradient_descent_optimization|Gradient Descent and Variants]] — SGD, momentum, Adam, learning rate schedules
+- [[01_foundations/04_optimization/lagrangian_and_constrained_optimization|Lagrangian and Constrained Optimization]] — Lagrange multipliers, dual problem, SVM
 
 ### [[01_foundations/05_statistical_learning_theory/index|05 — Statistical Learning Theory]]
 Generalization, bias–variance, evaluation strategy, transfer learning.
