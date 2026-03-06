@@ -16,5 +16,5 @@ Detecting failures and maintaining reliability.
 
 ## Links
 - [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[05_deployment_and_serving/index|← 05 — Deployment & Serving]]
-- Next: [[07_continual_learning/index|07 — Continual Learning →]]
+- Prev: [[04_ml_engineering/05_deployment_and_serving/index|← 05 — Deployment & Serving]]
+- Next: [[04_ml_engineering/07_continual_learning/index|07 — Continual Learning →]]

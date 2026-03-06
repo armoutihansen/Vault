@@ -18,7 +18,7 @@ Adapting model weights to specific tasks or domains.
 
 ## Navigation
 
-← Prev [[03_rag_and_agents/index|← RAG and Agents]] | Next → [[05_dataset_engineering/index|Dataset Engineering →]]
+← Prev [[05_ai_engineering/03_rag_and_agents/index|← RAG and Agents]] | Next → [[05_ai_engineering/05_dataset_engineering/index|Dataset Engineering →]]
 
 ## Links
 - [[05_ai_engineering/index|AI Engineering]]

@@ -17,7 +17,7 @@ Designing and curating training data for adaptation.
 
 ## Navigation
 
-← Prev [[04_finetuning/index|← Fine-tuning]] | Next → [[06_inference_optimization/index|Inference Optimization →]]
+← Prev [[05_ai_engineering/04_finetuning/index|← Fine-tuning]] | Next → [[05_ai_engineering/06_inference_optimization/index|Inference Optimization →]]
 
 ## Links
 - [[05_ai_engineering/index|AI Engineering]]

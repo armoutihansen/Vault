@@ -102,4 +102,4 @@ This section connects **engineering principles** to **working system designs**:
 - [[03_software_engineering/index|Software Engineering]]
 - [[04_ml_engineering/index|ML Engineering]]
 - [[05_ai_engineering/index|AI Engineering]]
-- [[07_projects/index|Projects]]
+- Projects

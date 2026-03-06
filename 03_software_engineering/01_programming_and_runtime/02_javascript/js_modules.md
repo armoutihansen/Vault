@@ -205,4 +205,4 @@ export default class Circle { ... }
 
 - [[js_runtimes]]
 - [[js_async]]
-- [[03_software_engineering/languages/javascript/index]]
+- [[03_software_engineering/01_programming_and_runtime/02_javascript/index]]

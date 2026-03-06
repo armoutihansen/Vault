@@ -18,7 +18,7 @@ Controlling model behavior via carefully designed inputs.
 
 ## Navigation
 
-← Prev [[01_evaluation/index|← Evaluation]] | Next → [[03_rag_and_agents/index|RAG and Agents →]]
+← Prev [[05_ai_engineering/01_evaluation/index|← Evaluation]] | Next → [[05_ai_engineering/03_rag_and_agents/index|RAG and Agents →]]
 
 ## Links
 - [[05_ai_engineering/index|AI Engineering]]

@@ -16,5 +16,5 @@ Adapting models to a changing world.
 
 ## Links
 - [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[06_monitoring_and_observability/index|← 06 — Monitoring & Observability]]
-- Next: [[08_infrastructure_and_platform/index|08 — Infrastructure & Platform →]]
+- Prev: [[04_ml_engineering/06_monitoring_and_observability/index|← 06 — Monitoring & Observability]]
+- Next: [[04_ml_engineering/08_infrastructure_and_platform/index|08 — Infrastructure & Platform →]]

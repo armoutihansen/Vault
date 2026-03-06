@@ -24,5 +24,5 @@ TypeScript type system, OOP patterns, generics, and local development setup.
 - [[ts_local_dev|TS Local Dev]] — `tsconfig.json`, strict mode, `ts-node`/`tsx`, and build tooling (esbuild, tsc)
 
 ## Links
-- [[01_programming_and_runtime/index|Programming & Runtime]]
-- [[02_javascript/index|JavaScript]]
+- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]
+- [[03_software_engineering/01_programming_and_runtime/02_javascript/index|JavaScript]]

@@ -17,5 +17,5 @@ Constructing high-quality training datasets.
 
 ## Links
 - [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[01_data_engineering/index|← 01 — Data Engineering]]
-- Next: [[03_feature_engineering/index|03 — Feature Engineering →]]
+- Prev: [[04_ml_engineering/01_data_engineering/index|← 01 — Data Engineering]]
+- Next: [[04_ml_engineering/03_feature_engineering/index|03 — Feature Engineering →]]

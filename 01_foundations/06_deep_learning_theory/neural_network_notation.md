@@ -52,5 +52,5 @@ Conventions differ between frameworks — PyTorch's `nn.Linear` stores weight ma
 
 ## Links
 
-- [[01_foundations/_legacy/deep_learning_theory/backpropagation]]
-- [[01_foundations/_legacy/deep_learning_theory/vectorization]]
+- [[01_foundations/06_deep_learning_theory/backpropagation]]
+- [[01_foundations/06_deep_learning_theory/vectorization]]

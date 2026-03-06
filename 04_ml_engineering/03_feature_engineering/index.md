@@ -16,5 +16,5 @@ Designing model-ready feature representations.
 
 ## Links
 - [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[02_training_data/index|← 02 — Training Data]]
-- Next: [[04_model_development/index|04 — Model Development →]]
+- Prev: [[04_ml_engineering/02_training_data/index|← 02 — Training Data]]
+- Next: [[04_ml_engineering/04_model_development/index|04 — Model Development →]]

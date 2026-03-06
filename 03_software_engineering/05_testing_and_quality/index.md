@@ -10,7 +10,7 @@ created: 2026-03-05
 
 Strategies and techniques for software correctness, quality assurance, and test-driven design.
 
-← Prev [[04_databases_and_storage/index|← Databases & Storage]] | Next → [[06_devops_and_infrastructure/index|DevOps & Infrastructure →]]
+← Prev [[03_software_engineering/04_databases_and_storage/index|← Databases & Storage]] | Next → [[03_software_engineering/06_devops_and_infrastructure/index|DevOps & Infrastructure →]]
 
 ## Notes
 
@@ -20,5 +20,5 @@ Strategies and techniques for software correctness, quality assurance, and test-
 
 ## Links
 - [[03_software_engineering/index|Software Engineering]]
-- [[04_databases_and_storage/index|Databases & Storage]]
-- [[06_devops_and_infrastructure/index|DevOps & Infrastructure]]
+- [[03_software_engineering/04_databases_and_storage/index|Databases & Storage]]
+- [[03_software_engineering/06_devops_and_infrastructure/index|DevOps & Infrastructure]]

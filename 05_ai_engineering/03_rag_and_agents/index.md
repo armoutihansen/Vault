@@ -21,7 +21,7 @@ Architectures that extend foundation models with retrieval and tools.
 
 ## Navigation
 
-← Prev [[02_prompt_engineering/index|← Prompt Engineering]] | Next → [[04_finetuning/index|Fine-tuning →]]
+← Prev [[05_ai_engineering/02_prompt_engineering/index|← Prompt Engineering]] | Next → [[05_ai_engineering/04_finetuning/index|Fine-tuning →]]
 
 ## Links
 - [[05_ai_engineering/index|AI Engineering]]

@@ -279,4 +279,4 @@ const difference   = new Set([...a].filter(x => !b.has(x)));
 - [[js_core_language]]
 - [[js_objects_and_classes]]
 - [[js_async]]
-- [[03_software_engineering/languages/javascript/index]]
+- [[03_software_engineering/01_programming_and_runtime/02_javascript/index]]

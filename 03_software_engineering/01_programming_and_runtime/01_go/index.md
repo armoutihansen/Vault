@@ -25,4 +25,4 @@ Programming language notes for Go — types, concurrency, interfaces, error hand
 - [[go_packages|Go Packages]] — module system, `go.mod`, import paths, and workspace management
 
 ## Links
-- [[01_programming_and_runtime/index|Programming & Runtime]]
+- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]

@@ -10,7 +10,7 @@ created: 2026-03-05
 
 SQL, NoSQL, and caching patterns for persistent data management and high-performance data access.
 
-← Prev [[03_apis_and_services/index|← APIs & Services]] | Next → [[05_testing_and_quality/index|Testing & Quality →]]
+← Prev [[03_software_engineering/03_apis_and_services/index|← APIs & Services]] | Next → [[03_software_engineering/05_testing_and_quality/index|Testing & Quality →]]
 
 ## Notes
 
@@ -20,6 +20,6 @@ SQL, NoSQL, and caching patterns for persistent data management and high-perform
 
 ## Links
 - [[03_software_engineering/index|Software Engineering]]
-- [[03_apis_and_services/index|APIs & Services]]
-- [[05_testing_and_quality/index|Testing & Quality]]
-- [[02_system_design/distributed_systems|Distributed Systems]]
+- [[03_software_engineering/03_apis_and_services/index|APIs & Services]]
+- [[03_software_engineering/05_testing_and_quality/index|Testing & Quality]]
+- [[03_software_engineering/02_system_design/distributed_systems|Distributed Systems]]

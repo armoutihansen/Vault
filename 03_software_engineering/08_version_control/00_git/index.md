@@ -10,7 +10,7 @@ created: 2026-03-02
 
 Core version-control operations, internals, and collaborative workflow patterns.
 
-← Prev [[08_version_control/index|← Version Control]] | Next → [[09_ai_assisted_engineering/index|AI-Assisted Engineering →]]
+← Prev [[03_software_engineering/08_version_control/index|← Version Control]] | Next → [[03_software_engineering/09_ai_assisted_engineering/index|AI-Assisted Engineering →]]
 
 ## Notes
 
@@ -28,5 +28,5 @@ Core version-control operations, internals, and collaborative workflow patterns.
 - [[git_ignore|Git Ignore]] — `.gitignore` patterns, global ignore, and `.gitkeep`
 
 ## Links
-- [[08_version_control/index|Version Control]]
+- [[03_software_engineering/08_version_control/index|Version Control]]
 - [[cicd_pipelines|CI/CD Pipelines]]

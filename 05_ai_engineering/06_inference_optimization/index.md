@@ -18,7 +18,7 @@ Reducing cost and latency for production LLM inference.
 
 ## Navigation
 
-← Prev [[05_dataset_engineering/index|← Dataset Engineering]] | Next → [[07_architecture_and_feedback/index|Architecture and Feedback →]]
+← Prev [[05_ai_engineering/05_dataset_engineering/index|← Dataset Engineering]] | Next → [[05_ai_engineering/07_architecture_and_feedback/index|Architecture and Feedback →]]
 
 ## Links
 - [[05_ai_engineering/index|AI Engineering]]

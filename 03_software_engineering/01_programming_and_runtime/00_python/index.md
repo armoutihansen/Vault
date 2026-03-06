@@ -18,5 +18,5 @@ Core language, data model, async programming, and tooling for the Python ecosyst
 - [[python_tooling|Python Tooling]] — packaging (uv/pip/pyproject.toml), type checking (mypy), linting (ruff), and virtual environments
 
 ## Links
-- [[01_programming_and_runtime/index|Programming & Runtime]]
+- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]
 - [[testing_strategies|Testing Strategies]]

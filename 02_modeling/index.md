@@ -22,18 +22,18 @@ This layer does NOT cover: mathematical proofs (→ 01_foundations), production 
 ### 02 — Data Science
 *(Pending)*
 
-### [[03_model_families/index|03 — Model Families]]
+### [[02_modeling/03_model_families/index|03 — Model Families]]
 Algorithmic toolkits by model class.
-- [[03_model_families/04_neural_networks/index|Neural Networks]] — MLP, CNN, RNN/LSTM, face recognition, object detection
-- [[03_model_families/07_transformers/index|Transformers]] — attention, transformer architecture, seq2seq, word embeddings
+- [[02_modeling/03_model_families/04_neural_networks/index|Neural Networks]] — MLP, CNN, RNN/LSTM, face recognition, object detection
+- [[02_modeling/03_model_families/07_transformers/index|Transformers]] — attention, transformer architecture, seq2seq, word embeddings
 
-### [[04_training_dynamics/index|04 — Training Dynamics]]
+### [[02_modeling/04_training_dynamics/index|04 — Training Dynamics]]
 Loss functions, optimization algorithms, regularization, hyperparameter tuning.
 
 ### 05 — Evaluation
 *(Pending)*
 
-### [[06_interpretability/index|06 — Interpretability & Fairness]]
+### [[02_modeling/06_interpretability/index|06 — Interpretability & Fairness]]
 SHAP, PDP/ICE, fairness metrics, model risk management.
 
 ## Links

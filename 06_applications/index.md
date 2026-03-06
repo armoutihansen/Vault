@@ -34,7 +34,7 @@ This layer does NOT cover:
 
 ## Implementation Patterns
 
-### [[01_model_implementations/index|01 — Model Implementations]]
+### [[06_applications/01_model_implementations/index|01 — Model Implementations]]
 Practical implementations of machine learning and deep learning models.
 
 Examples include:
@@ -47,7 +47,7 @@ These examples connect **model theory** (→ `02_modeling`) with **real code and
 
 ---
 
-### [[02_system_patterns/index|02 — System Patterns]]
+### [[06_applications/02_system_patterns/index|02 — System Patterns]]
 Reusable system-level patterns for building ML and AI systems.
 
 Examples include:
@@ -68,7 +68,7 @@ are implemented in practice.
 
 ---
 
-### [[03_end_to_end_examples/index|03 — End-to-End Examples]]
+### [[06_applications/03_end_to_end_examples/index|03 — End-to-End Examples]]
 Small complete ML/AI systems that combine modeling and engineering concepts.
 
 Examples include:
@@ -114,4 +114,4 @@ This layer forms the **implementation bridge** of the knowledge stack:
 - [[03_software_engineering/index|Software Engineering]]
 - [[04_ml_engineering/index|ML Engineering]]
 - [[05_ai_engineering/index|AI Engineering]]
-- [[07_projects/index|Projects]]
+- Projects

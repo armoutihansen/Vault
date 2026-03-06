@@ -72,6 +72,6 @@ These notes should help answer:
 - which reusable patterns can later be transferred into projects
 
 ## Links
-- [[01_model_implementations/index|Model Implementations]]
-- [[02_system_patterns/index|System Patterns]]
-- [[07_projects/index|Projects]]
+- [[06_applications/01_model_implementations/index|Model Implementations]]
+- [[06_applications/02_system_patterns/index|System Patterns]]
+- Projects

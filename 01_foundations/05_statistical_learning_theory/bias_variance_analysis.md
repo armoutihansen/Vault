@@ -48,6 +48,6 @@ Any supervised learning diagnostic; especially useful when progress has stalled 
 - The framework assumes a clean train/dev split from the same distribution (use training-dev set to disentangle mismatch)
 
 ## Links
-- [[01_foundations/_legacy/statistical_learning_theory/error_analysis]]
+- [[01_foundations/05_statistical_learning_theory/error_analysis]]
 - [[data_splits_and_distribution]]
 - [[orthogonalization]]

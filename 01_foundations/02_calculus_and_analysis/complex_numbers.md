@@ -73,4 +73,4 @@ $\mathbb{C}$ is not an ordered field — there is no consistent way to compare c
 ## Links
 
 - [[trigonometric_functions|Trigonometric Functions]]
-- [[01_foundations/math/calculus/taylor_series|Taylor Series]] — Euler's formula is derived from the Taylor expansions of $e^x$, $\cos x$, and $\sin x$
+- Taylor Series — Euler's formula is derived from the Taylor expansions of $e^x$, $\cos x$, and $\sin x$

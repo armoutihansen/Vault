@@ -16,5 +16,5 @@ Platform-level concerns enabling ML engineering.
 
 ## Links
 - [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[07_continual_learning/index|← 07 — Continual Learning]]
+- Prev: [[04_ml_engineering/07_continual_learning/index|← 07 — Continual Learning]]
 - [[03_software_engineering/06_devops_and_infrastructure/index|SE: DevOps & Infrastructure]]

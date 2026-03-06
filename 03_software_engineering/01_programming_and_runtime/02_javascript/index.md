@@ -21,5 +21,5 @@ Core language features, async patterns, module system, and runtime environments 
 - [[js_runtimes|JS Runtimes]] — Node.js, Deno, Bun — differences, use cases, and ecosystem
 
 ## Links
-- [[01_programming_and_runtime/index|Programming & Runtime]]
-- [[03_typescript/index|TypeScript]]
+- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]
+- [[03_software_engineering/01_programming_and_runtime/03_typescript/index|TypeScript]]

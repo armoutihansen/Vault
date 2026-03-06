@@ -11,7 +11,7 @@ created: 2026-03-01
 
 ## Definition
 
-**Integration by parts** is based on the [[01_foundations/math/calculus/differentiation/product_rule|product rule]] for differentiation. Since $(fg)' = f'g + fg'$, rearranging and integrating gives
+**Integration by parts** is based on the product rule for differentiation. Since $(fg)' = f'g + fg'$, rearranging and integrating gives
 $$
 \int f'(x)\,g(x)\,dx = f(x)\,g(x) - \int f(x)\,g'(x)\,dx.
 $$
@@ -53,6 +53,6 @@ $$
 
 ## Links
 
-- [[01_foundations/math/calculus/differentiation/product_rule|Product Rule]]
+- Product Rule
 - [[fundamental_theorem|Fundamental Theorem of Calculus]]
 - [[integrals|Integrals]]

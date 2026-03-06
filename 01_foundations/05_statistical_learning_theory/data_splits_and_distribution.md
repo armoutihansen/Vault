@@ -53,4 +53,4 @@ All supervised ML projects; especially important in industry where training data
 
 ## Links
 - [[bias_variance_analysis]]
-- [[01_foundations/_legacy/statistical_learning_theory/error_analysis]]
+- [[01_foundations/05_statistical_learning_theory/error_analysis]]

@@ -10,11 +10,11 @@ created: 2026-03-05
 
 Git internals, branching workflows, and GitHub collaboration patterns for effective team code management.
 
-← Prev [[07_security/index|← Security]] | Next → [[09_ai_assisted_engineering/index|AI-Assisted Engineering →]]
+← Prev [[03_software_engineering/07_security/index|← Security]] | Next → [[03_software_engineering/09_ai_assisted_engineering/index|AI-Assisted Engineering →]]
 
 ## Subdirectories
 
-- [[00_git/index|Git]] — object model, staging, branching, rebase, reset, remotes, and workflow patterns
+- [[03_software_engineering/08_version_control/00_git/index|Git]] — object model, staging, branching, rebase, reset, remotes, and workflow patterns
 
 ## GitHub Notes
 
@@ -25,6 +25,6 @@ Git internals, branching workflows, and GitHub collaboration patterns for effect
 
 ## Links
 - [[03_software_engineering/index|Software Engineering]]
-- [[07_security/index|Security]]
-- [[09_ai_assisted_engineering/index|AI-Assisted Engineering]]
-- [[06_devops_and_infrastructure/cicd_pipelines|CI/CD Pipelines]]
+- [[03_software_engineering/07_security/index|Security]]
+- [[03_software_engineering/09_ai_assisted_engineering/index|AI-Assisted Engineering]]
+- [[03_software_engineering/06_devops_and_infrastructure/cicd_pipelines|CI/CD Pipelines]]

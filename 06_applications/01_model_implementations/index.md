@@ -74,4 +74,4 @@ Typical note pattern:
 ## Links
 - [[02_modeling/index|Modeling]]
 - [[03_software_engineering/index|Software Engineering]]
-- [[07_projects/index|Projects]]
+- Projects

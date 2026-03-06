@@ -16,5 +16,5 @@ Data infrastructure: pipelines, formats, and feature stores.
 
 ## Links
 - [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[00_principles_and_lifecycle/index|← 00 — Principles & Lifecycle]]
-- Next: [[02_training_data/index|02 — Training Data →]]
+- Prev: [[04_ml_engineering/00_principles_and_lifecycle/index|← 00 — Principles & Lifecycle]]
+- Next: [[04_ml_engineering/02_training_data/index|02 — Training Data →]]

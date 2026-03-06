@@ -349,4 +349,4 @@ SELECT * FROM products WHERE name % 'posgres';  -- trigram similarity
 ## Links
 - [[nosql_patterns|NoSQL Patterns]]
 - [[caching_strategies|Caching Strategies]]
-- [[04_ml_engineering/01_data_engineering/feature_stores|Feature Stores]]
+- Feature Stores

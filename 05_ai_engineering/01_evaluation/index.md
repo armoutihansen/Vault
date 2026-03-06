@@ -18,7 +18,7 @@ Systematically evaluating generative AI systems.
 
 ## Navigation
 
-← Prev [[00_foundation_models/index|← Foundation Models]] | Next → [[02_prompt_engineering/index|Prompt Engineering →]]
+← Prev [[05_ai_engineering/00_foundation_models/index|← Foundation Models]] | Next → [[05_ai_engineering/02_prompt_engineering/index|Prompt Engineering →]]
 
 ## Links
 - [[05_ai_engineering/index|AI Engineering]]

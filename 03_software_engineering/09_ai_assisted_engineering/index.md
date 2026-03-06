@@ -10,7 +10,7 @@ created: 2026-03-05
 
 LLM-powered development workflows: code generation, agentic coding, model context protocol, and RAG for codebases.
 
-← Prev [[08_version_control/index|← Version Control]]
+← Prev [[03_software_engineering/08_version_control/index|← Version Control]]
 
 ## Notes
 
@@ -21,6 +21,6 @@ LLM-powered development workflows: code generation, agentic coding, model contex
 
 ## Links
 - [[03_software_engineering/index|Software Engineering]]
-- [[08_version_control/index|Version Control]]
+- [[03_software_engineering/08_version_control/index|Version Control]]
 - [[05_ai_engineering/03_rag_and_agents/agentic_loop|Agentic Loop]]
 - [[05_ai_engineering/03_rag_and_agents/function_calling|Function Calling]]

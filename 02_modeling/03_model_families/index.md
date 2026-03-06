@@ -10,15 +10,15 @@ created: 2026-03-02
 
 ## Subdirectories
 
-- [[01_linear_and_glm/index|Linear Models & GLMs]]
-- [[02_tree_ensembles/index|Tree Ensembles]]
-- [[03_probabilistic_models/index|Probabilistic Models]]
-- [[04_neural_networks/index|Neural Networks]]
-- [[05_kernel_methods/index|Kernel Methods]]
-- [[06_unsupervised_learning/index|Unsupervised Learning]]
-- [[07_transformers/index|Transformers]]
-- [[08_graphical_models/index|Graphical Models]]
-- [[09_time_series_models/index|Time Series Models]]
+- Linear Models & GLMs
+- Tree Ensembles
+- Probabilistic Models
+- [[02_modeling/03_model_families/04_neural_networks/index|Neural Networks]]
+- Kernel Methods
+- Unsupervised Learning
+- [[02_modeling/03_model_families/07_transformers/index|Transformers]]
+- Graphical Models
+- Time Series Models
 
 ## Links
 

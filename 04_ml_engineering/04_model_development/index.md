@@ -17,5 +17,5 @@ Controlled offline model development and evaluation.
 
 ## Links
 - [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[03_feature_engineering/index|← 03 — Feature Engineering]]
-- Next: [[05_deployment_and_serving/index|05 — Deployment & Serving →]]
+- Prev: [[04_ml_engineering/03_feature_engineering/index|← 03 — Feature Engineering]]
+- Next: [[04_ml_engineering/05_deployment_and_serving/index|05 — Deployment & Serving →]]

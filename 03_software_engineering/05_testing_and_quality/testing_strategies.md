@@ -332,4 +332,4 @@ project/
 - [[test_driven_development|TDD]]
 - [[property_based_testing|Property Testing]]
 - [[cicd_pipelines|CI/CD Pipelines]]
-- [[04_ml_engineering/00_principles_and_lifecycle/ml_testing_principles|ML Testing Principles]]
+- ML Testing Principles

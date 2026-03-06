@@ -10,7 +10,7 @@ created: 2026-03-05
 
 Software design principles, architectural patterns, and clean code practices that govern how good software is structured.
 
-← Prev [[index|← Software Engineering]] | Next → [[01_programming_and_runtime/index|Programming & Runtime →]]
+← Prev [[index|← Software Engineering]] | Next → [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime →]]
 
 ## Notes
 
@@ -20,4 +20,4 @@ Software design principles, architectural patterns, and clean code practices tha
 
 ## Links
 - [[03_software_engineering/index|Software Engineering]]
-- [[01_programming_and_runtime/index|Programming & Runtime]]
+- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]

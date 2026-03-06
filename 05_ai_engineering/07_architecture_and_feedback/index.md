@@ -18,7 +18,7 @@ Holistic AI system design and production feedback loops.
 
 ## Navigation
 
-← Prev [[06_inference_optimization/index|← Inference Optimization]]
+← Prev [[05_ai_engineering/06_inference_optimization/index|← Inference Optimization]]
 
 ## Links
 - [[05_ai_engineering/index|AI Engineering]]

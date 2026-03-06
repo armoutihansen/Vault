@@ -18,7 +18,7 @@ Pre-training paradigms, model families, and alignment of large language models.
 
 ## Navigation
 
-Next → [[01_evaluation/index|Evaluation →]]
+Next → [[05_ai_engineering/01_evaluation/index|Evaluation →]]
 
 ## Links
 - [[05_ai_engineering/index|AI Engineering]]

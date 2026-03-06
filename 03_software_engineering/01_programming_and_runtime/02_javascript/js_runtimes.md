@@ -154,4 +154,4 @@ npx babel src --out-dir dist --presets @babel/preset-env
 
 - [[js_modules]]
 - [[js_async]]
-- [[03_software_engineering/languages/javascript/index]]
+- [[03_software_engineering/01_programming_and_runtime/02_javascript/index]]

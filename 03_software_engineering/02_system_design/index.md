@@ -10,7 +10,7 @@ created: 2026-03-05
 
 Fundamentals of designing large-scale distributed systems: consistency, scalability, availability, and architectural trade-offs.
 
-← Prev [[01_programming_and_runtime/index|← Programming & Runtime]] | Next → [[03_apis_and_services/index|APIs & Services →]]
+← Prev [[03_software_engineering/01_programming_and_runtime/index|← Programming & Runtime]] | Next → [[03_software_engineering/03_apis_and_services/index|APIs & Services →]]
 
 ## Notes
 
@@ -20,6 +20,6 @@ Fundamentals of designing large-scale distributed systems: consistency, scalabil
 
 ## Links
 - [[03_software_engineering/index|Software Engineering]]
-- [[01_programming_and_runtime/index|Programming & Runtime]]
-- [[03_apis_and_services/index|APIs & Services]]
-- [[04_databases_and_storage/index|Databases & Storage]]
+- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]
+- [[03_software_engineering/03_apis_and_services/index|APIs & Services]]
+- [[03_software_engineering/04_databases_and_storage/index|Databases & Storage]]

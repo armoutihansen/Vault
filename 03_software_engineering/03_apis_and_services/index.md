@@ -10,7 +10,7 @@ created: 2026-03-05
 
 Patterns and frameworks for building APIs and service interfaces: REST design, FastAPI, and gRPC.
 
-← Prev [[02_system_design/index|← System Design]] | Next → [[04_databases_and_storage/index|Databases & Storage →]]
+← Prev [[03_software_engineering/02_system_design/index|← System Design]] | Next → [[03_software_engineering/04_databases_and_storage/index|Databases & Storage →]]
 
 ## Notes
 
@@ -20,5 +20,5 @@ Patterns and frameworks for building APIs and service interfaces: REST design, F
 
 ## Links
 - [[03_software_engineering/index|Software Engineering]]
-- [[02_system_design/index|System Design]]
-- [[04_databases_and_storage/index|Databases & Storage]]
+- [[03_software_engineering/02_system_design/index|System Design]]
+- [[03_software_engineering/04_databases_and_storage/index|Databases & Storage]]

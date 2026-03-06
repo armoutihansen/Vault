@@ -17,5 +17,5 @@ Making trained models accessible in production.
 
 ## Links
 - [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[04_model_development/index|← 04 — Model Development]]
-- Next: [[06_monitoring_and_observability/index|06 — Monitoring & Observability →]]
+- Prev: [[04_ml_engineering/04_model_development/index|← 04 — Model Development]]
+- Next: [[04_ml_engineering/06_monitoring_and_observability/index|06 — Monitoring & Observability →]]

@@ -54,6 +54,6 @@ $$dW = \frac{1}{m}X(A-Y)^\top, \qquad db = \frac{1}{m}\mathbf{1}^\top(A-Y)$$
 
 ## Links
 
-- [[01_foundations/_legacy/deep_learning_theory/cross_entropy_loss]]
-- [[01_foundations/_legacy/deep_learning_theory/gradient_descent]]
-- [[01_foundations/_legacy/deep_learning_theory/backpropagation]]
+- [[01_foundations/06_deep_learning_theory/cross_entropy_loss]]
+- [[01_foundations/06_deep_learning_theory/gradient_descent]]
+- [[01_foundations/06_deep_learning_theory/backpropagation]]

@@ -43,4 +43,4 @@ Structuring the ML iteration loop; debugging stalled training; deciding which kn
 ## Links
 - [[bias_variance_analysis]]
 - [[evaluation_metrics]]
-- [[01_foundations/_legacy/statistical_learning_theory/error_analysis]]
+- [[01_foundations/05_statistical_learning_theory/error_analysis]]

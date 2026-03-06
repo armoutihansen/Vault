@@ -10,7 +10,7 @@ created: 2026-03-02
 
 PyTorch, TensorFlow, JAX, and HuggingFace Transformers — the deep learning runtime infrastructure used for training and fine-tuning models.
 
-← Prev [[06_devops_and_infrastructure/index|← DevOps & Infrastructure]]
+← Prev [[03_software_engineering/06_devops_and_infrastructure/index|← DevOps & Infrastructure]]
 
 ## Notes
 
@@ -20,6 +20,6 @@ PyTorch, TensorFlow, JAX, and HuggingFace Transformers — the deep learning run
 - [[huggingface_usage|HuggingFace Usage]] — Pipeline, AutoModel, Trainer API, datasets library, Hub integration
 
 ## Links
-- [[06_devops_and_infrastructure/index|DevOps & Infrastructure]]
+- [[03_software_engineering/06_devops_and_infrastructure/index|DevOps & Infrastructure]]
 - [[04_ml_engineering/04_model_development/distributed_training|Distributed Training]]
 - [[05_ai_engineering/04_finetuning/peft_and_lora|PEFT and LoRA]]

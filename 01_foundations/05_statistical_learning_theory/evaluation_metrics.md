@@ -44,5 +44,5 @@ If you cannot rank two systems with a single number, iteration slows down; the k
 
 ## Links
 - [[data_splits_and_distribution]]
-- [[01_foundations/_legacy/statistical_learning_theory/error_analysis]]
+- [[01_foundations/05_statistical_learning_theory/error_analysis]]
 - [[orthogonalization]]
