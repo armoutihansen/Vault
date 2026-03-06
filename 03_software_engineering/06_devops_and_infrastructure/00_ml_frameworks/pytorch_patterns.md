@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: PyTorch
 status: growing
-tags: [pytorch, deep-learning, training, custom-layers, optimization]
+tags: [training, mlops]
 created: 2026-03-05
 ---
 

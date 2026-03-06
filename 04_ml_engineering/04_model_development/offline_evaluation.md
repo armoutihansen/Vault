@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: general
 status: growing
-tags: [evaluation, metrics, calibration, offline-evaluation, validation]
+tags: [evaluation]
 created: 2026-03-05
 ---
 

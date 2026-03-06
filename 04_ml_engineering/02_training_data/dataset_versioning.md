@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: dvc
 status: growing
-tags: [dataset-versioning, dvc, data-lineage, reproducibility, mlops]
+tags: [data, workflow]
 created: 2026-03-05
 ---
 

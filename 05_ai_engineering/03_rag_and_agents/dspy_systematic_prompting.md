@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: dspy
 status: evergreen
-tags: [dspy, prompt-optimization, few-shot, pipeline, llm, systematic]
+tags: [reasoning, workflow]
 created: 2026-03-05
 ---
 

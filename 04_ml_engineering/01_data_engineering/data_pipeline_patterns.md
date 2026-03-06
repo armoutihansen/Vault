@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: general
 status: growing
-tags: [data-engineering, pipelines, etl, batch-processing, streaming]
+tags: [pattern, workflow]
 created: 2026-03-05
 ---
 

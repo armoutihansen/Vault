@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: mlflow
 status: growing
-tags: [experiment-tracking, mlflow, reproducibility, model-registry, dvc]
+tags: [workflow]
 created: 2026-03-05
 ---
 

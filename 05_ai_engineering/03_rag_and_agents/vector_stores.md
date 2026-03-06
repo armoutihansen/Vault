@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: chroma
 status: growing
-tags: [vector-store, chroma, faiss, pgvector, pinecone, hnsw, similarity-search, rag]
+tags: [retrieval]
 created: 2026-03-05
 ---
 

@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: growing
-tags: [evaluation, llm-eval, ai-as-judge, metrics, benchmarking]
+tags: [llm, evaluation]
 created: 2026-03-05
 ---
 

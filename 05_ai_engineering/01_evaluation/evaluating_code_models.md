@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: evergreen
-tags: [code-eval, humaneval, pass-at-k, swe-bench, mbpp, code-generation]
+tags: [evaluation, generation]
 created: 2026-03-05
 ---
 

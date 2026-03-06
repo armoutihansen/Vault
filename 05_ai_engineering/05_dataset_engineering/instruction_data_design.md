@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: growing
-tags: [dataset, instruction-tuning, data-quality, sft, alignment]
+tags: [data, workflow]
 created: 2026-03-05
 ---
 

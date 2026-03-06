@@ -3,8 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: git
 status: growing
-tags:
-  - git
+tags: [algorithm]
 created: 2026-03-02
 ---
 

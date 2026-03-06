@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: lm-evaluation-harness
 status: growing
-tags: [benchmarks, evaluation, mmlu, humaneval, gsm8k, eleutherai, leaderboard]
+tags: [llm, evaluation]
 created: 2026-03-05
 ---
 

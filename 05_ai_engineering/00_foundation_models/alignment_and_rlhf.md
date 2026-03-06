@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: growing
-tags: [alignment, rlhf, dpo, sft, constitutional-ai, fine-tuning]
+tags: [fine-tuning, safety]
 created: 2026-03-05
 ---
 

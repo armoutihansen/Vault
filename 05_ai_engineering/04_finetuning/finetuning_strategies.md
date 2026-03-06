@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: growing
-tags: [fine-tuning, llm, peft, rlhf, domain-adaptation]
+tags: [fine-tuning]
 created: 2026-03-05
 ---
 

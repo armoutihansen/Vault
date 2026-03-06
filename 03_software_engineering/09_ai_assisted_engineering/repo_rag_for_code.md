@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: RAG/Embeddings
 status: growing
-tags: [rag, embeddings, code-search, retrieval, vector-search]
+tags: [llm, retrieval]
 created: 2026-03-05
 ---
 

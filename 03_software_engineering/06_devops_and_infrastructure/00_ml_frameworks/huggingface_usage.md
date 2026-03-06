@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: HuggingFace
 status: growing
-tags: [huggingface, transformers, nlp, models, tokenizers, hub, datasets]
+tags: [nlp, mlops]
 created: 2026-03-05
 ---
 

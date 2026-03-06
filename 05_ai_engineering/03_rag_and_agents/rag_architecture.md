@@ -2,7 +2,7 @@
 layer: 05_ai_engineering
 type: ai_system
 status: growing
-tags: [rag, retrieval, vector-store, chunking, embedding, llm, hallucination]
+tags: [retrieval, pattern]
 created: 2026-03-05
 ---
 

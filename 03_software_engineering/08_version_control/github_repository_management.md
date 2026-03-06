@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: GitHub
 status: growing
-tags: [github, repository, settings, releases, packages, topics, templates]
+tags: [workflow]
 created: 2026-03-02
 ---
 

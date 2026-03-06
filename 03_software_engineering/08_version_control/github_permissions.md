@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: GitHub
 status: growing
-tags: [github, permissions, tokens, security, rbac, branch-protection]
+tags: [safety]
 created: 2026-03-02
 ---
 

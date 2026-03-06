@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: general
 status: growing
-tags: [feature-engineering, preprocessing, transformations, embeddings]
+tags: [pattern, workflow]
 created: 2026-03-05
 ---
 

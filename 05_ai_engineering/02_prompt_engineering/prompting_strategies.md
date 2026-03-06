@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: growing
-tags: [prompting, icl, chain-of-thought, react, few-shot, llm]
+tags: [reasoning]
 created: 2026-03-05
 ---
 

@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: growing
-tags: [security, prompt-injection, guardrails, llamaguard, nemo, safety, llm]
+tags: [safety, llm]
 created: 2026-03-05
 ---
 

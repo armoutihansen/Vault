@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: general
 status: growing
-tags: [serving, deployment, batch, streaming, edge, inference]
+tags: [pattern]
 created: 2026-03-05
 ---
 

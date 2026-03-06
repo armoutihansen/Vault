@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: general
 status: growing
-tags: [retraining, continual-learning, data-drift, mlops]
+tags: [workflow, training]
 created: 2026-03-05
 ---
 

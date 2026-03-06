@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: general
 status: growing
-tags: [drift, monitoring, statistics, data-quality, retraining, mlops]
+tags: [algorithm]
 created: 2026-03-05
 ---
 

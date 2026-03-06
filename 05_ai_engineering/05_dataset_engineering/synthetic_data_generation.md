@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: growing
-tags: [synthetic-data, self-instruct, evol-instruct, data-flywheel, llm-judge]
+tags: [data, generation]
 created: 2026-03-05
 ---
 

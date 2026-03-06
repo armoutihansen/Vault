@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: PyTorch/TF/JAX
 status: growing
-tags: [pytorch, tensorflow, jax, deep-learning, framework-selection]
+tags: [mlops]
 created: 2026-03-05
 ---
 

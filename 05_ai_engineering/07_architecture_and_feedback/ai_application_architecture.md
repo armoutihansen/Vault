@@ -2,7 +2,7 @@
 layer: 05_ai_engineering
 type: ai_system
 status: growing
-tags: [architecture, system-design, llm, model-gateway, data-flywheel, production]
+tags: [pattern, llm]
 created: 2026-03-05
 ---
 # AI Application Architecture

@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: docker
 status: growing
-tags: [docker, reproducibility, environment-management, cuda, containers]
+tags: [workflow, pattern]
 created: 2026-03-05
 ---
 

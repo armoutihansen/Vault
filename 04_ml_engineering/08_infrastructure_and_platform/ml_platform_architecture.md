@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: general
 status: growing
-tags: [ml-platform, mlops, feature-store, model-registry, orchestration]
+tags: [pattern]
 created: 2026-03-05
 ---
 

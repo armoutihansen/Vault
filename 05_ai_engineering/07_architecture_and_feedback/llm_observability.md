@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: langsmith
 status: growing
-tags: [observability, tracing, monitoring, langsmith, evaluation, production]
+tags: [llmops, monitoring]
 created: 2026-03-05
 ---
 # LLM Observability

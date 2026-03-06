@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: growing
-tags: [agents, agentic-loop, react, planning, tools, memory, llm]
+tags: [reasoning, pattern]
 created: 2026-03-05
 ---
 

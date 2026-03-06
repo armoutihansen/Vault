@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: general
 status: growing
-tags: [deployment, rollout, canary, blue-green, shadow, ab-testing, mlops]
+tags: [pattern]
 created: 2026-03-05
 ---
 

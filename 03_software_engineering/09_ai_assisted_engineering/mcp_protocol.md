@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: MCP
 status: growing
-tags: [mcp, model-context-protocol, llm, tools, ai-infrastructure]
+tags: [llm, pattern]
 created: 2026-03-05
 ---
 

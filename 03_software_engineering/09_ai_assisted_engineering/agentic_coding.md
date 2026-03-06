@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: AI Agents
 status: growing
-tags: [agents, agentic-coding, ai-tools, automation, code-generation]
+tags: [llm, reasoning, generation]
 created: 2026-03-05
 ---
 

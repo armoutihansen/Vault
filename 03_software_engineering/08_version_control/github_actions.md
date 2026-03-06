@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: GitHub Actions
 status: growing
-tags: [github-actions, ci-cd, automation, workflows, runners, secrets]
+tags: [workflow]
 created: 2026-03-02
 ---
 

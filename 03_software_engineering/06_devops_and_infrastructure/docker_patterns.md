@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: Docker
 status: growing
-tags: [docker, containers, devops, infrastructure, ml-ops]
+tags: [pattern, deployment, mlops]
 created: 2026-03-05
 ---
 

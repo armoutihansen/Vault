@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: general
 status: growing
-tags: [observability, monitoring, metrics, logging, alerting, mlops, grafana]
+tags: [workflow, pattern]
 created: 2026-03-05
 ---
 

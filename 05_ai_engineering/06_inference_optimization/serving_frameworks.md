@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: vllm
 status: growing
-tags: [serving, inference, vllm, llama-cpp, ollama, tgi, production]
+tags: [deployment, llm]
 created: 2026-03-05
 ---
 # LLM Serving Frameworks

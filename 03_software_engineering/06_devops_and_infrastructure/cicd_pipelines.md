@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: GitHub Actions
 status: growing
-tags: [ci-cd, github-actions, devops, automation, ml-ops]
+tags: [workflow, mlops]
 created: 2026-03-05
 ---
 

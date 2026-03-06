@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: peft
 status: evergreen
-tags: [peft, lora, qlora, fine-tuning, adapters, axolotl]
+tags: [fine-tuning]
 created: 2026-03-05
 ---
 

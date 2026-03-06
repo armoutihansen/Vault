@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: growing
-tags: [quantization, inference, llm, memory, bitsandbytes, gptq, awq, gguf]
+tags: [quantization, deployment, llm]
 created: 2026-03-05
 ---
 # Quantization for LLMs

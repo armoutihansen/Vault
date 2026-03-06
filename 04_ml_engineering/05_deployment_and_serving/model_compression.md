@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: onnx
 status: growing
-tags: [compression, quantization, pruning, distillation, onnx, optimization]
+tags: [quantization]
 created: 2026-03-05
 ---
 

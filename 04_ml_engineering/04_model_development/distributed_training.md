@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: pytorch
 status: growing
-tags: [distributed-training, ddp, deepspeed, fsdp, accelerate, gpu]
+tags: [distributed]
 created: 2026-03-05
 ---
 

@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: growing
-tags: [foundation-models, transformers, llm, architecture]
+tags: [generation]
 created: 2026-03-05
 ---
 

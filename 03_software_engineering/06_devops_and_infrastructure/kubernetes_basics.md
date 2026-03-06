@@ -3,7 +3,7 @@ layer: 03_software_engineering
 type: engineering
 tool: Kubernetes
 status: growing
-tags: [kubernetes, k8s, containers, orchestration, devops, ml-ops]
+tags: [distributed, deployment, mlops]
 created: 2026-03-05
 ---
 

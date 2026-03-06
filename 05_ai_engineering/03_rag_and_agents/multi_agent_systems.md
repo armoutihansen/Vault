@@ -2,7 +2,7 @@
 layer: 05_ai_engineering
 type: ai_system
 status: growing
-tags: [multi-agent, crewai, autogpt, orchestrator, agents, llm]
+tags: [reasoning, pattern]
 created: 2026-03-05
 ---
 

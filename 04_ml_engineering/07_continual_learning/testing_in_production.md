@@ -3,7 +3,7 @@ layer: 04_ml_engineering
 type: engineering
 tool: general
 status: growing
-tags: [a-b-testing, canary, shadow-mode, bandits, production-testing]
+tags: [pattern, evaluation]
 created: 2026-03-05
 ---
 

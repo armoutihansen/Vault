@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: trl
 status: evergreen
-tags: [rlhf, dpo, grpo, ppo, alignment, trl, preference-learning]
+tags: [fine-tuning]
 created: 2026-03-05
 ---
 

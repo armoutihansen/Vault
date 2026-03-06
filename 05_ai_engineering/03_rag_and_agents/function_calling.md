@@ -3,7 +3,7 @@ layer: 05_ai_engineering
 type: engineering
 tool: general
 status: growing
-tags: [function-calling, tool-use, agents, json-schema, openai, llm]
+tags: [reasoning, pattern]
 created: 2026-03-05
 ---
 
