@@ -64,11 +64,23 @@ This section does NOT cover:
 |------|-------------|
 | [[llamaguard_content_moderation\|LlamaGuard Content Moderation]] | Input/output safety classification, vLLM deployment, and NeMo Guardrails integration |
 
+### Testing and Quality
+| Note | Description |
+|------|-------------|
+| [[pytest_testing_patterns\|pytest Testing Patterns]] | Fixture composition, parametrize, test doubles (mocker), async tests, and CI coverage integration |
+
+### Service Implementation Patterns
+| Note | Description |
+|------|-------------|
+| [[grpc_service_implementation\|gRPC Service Implementation]] | Protobuf schema design, Python server/client, server-streaming, TLS, and testing gRPC services |
+| [[mcp_server_implementation\|MCP Server Implementation]] | MCP server exposing tools, resources, and prompts to AI coding assistants in Python and TypeScript |
+
 ### DevOps and Infrastructure
 | Note | Description |
 |------|-------------|
 | [[docker_ml_pipeline\|Docker for ML Pipelines]] | CUDA base images, multi-stage inference builds, GPU runtime, Docker Compose for local ML stack |
 | [[cicd_for_ml\|CI/CD for ML Pipelines]] | GitHub Actions workflows for data validation, training gates, model registration, and canary deploy |
+| [[kubernetes_deployment\|Kubernetes Deployment Patterns]] | Deployment/Service/Ingress/HPA manifests, rolling update config, and Helm chart patterns |
 
 ---
 

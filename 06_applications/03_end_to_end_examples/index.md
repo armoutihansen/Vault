@@ -34,6 +34,12 @@ This section does NOT cover:
 | [[batch_ml_prediction_pipeline\|Batch ML Prediction Pipeline]] | Full tabular ML lifecycle: data pipeline → training → evaluation → batch scoring → drift monitoring |
 | [[continuous_training_pipeline\|Continuous Training Pipeline]] | Closed-loop CT system: drift detection → automated retraining → evaluation gate → canary deployment |
 
+### Software Service Systems
+| Note | Description |
+|------|-------------|
+| [[containerised_api_service\|Containerised REST API Service]] | FastAPI + Docker + Kubernetes + GitHub Actions CI/CD: full lifecycle from code to production pods |
+| [[llm_coding_assistant\|LLM Coding Assistant]] | MCP server + code RAG + agentic loop: an LLM assistant that reads, writes, and tests your codebase |
+
 ### Intelligent Data Products
 *Notes to be added.*
 
