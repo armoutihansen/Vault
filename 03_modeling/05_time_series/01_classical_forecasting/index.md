@@ -3,20 +3,20 @@ layer: 03_modeling
 type: index
 status: evergreen
 tags: []
-created: 2026-03-06
+created: 2026-05-31
 ---
 
-# Time Series Models
+# 01 — Classical Forecasting
 
-Statistical and neural methods for sequential data: ARIMA, exponential smoothing, state-space models, VAR, LSTMs, and transformer-based forecasting.
+Statistical time series analysis: stationarity, ARIMA family, exponential smoothing, VAR, and evaluation of forecast accuracy.
 
 ## Notes
 
-- [[time_series_models|Time Series Models]] — stationarity, ARIMA, ETS, state-space/Kalman, VAR, neural approaches, evaluation metrics
+- [[03_modeling/05_time_series/01_classical_forecasting/time_series_models|Time Series Models]] — stationarity, ARIMA, seasonal decomposition (STL), ETS/exponential smoothing, VAR, Kalman filter (overview), neural approaches, MAPE/RMSE evaluation
 
 ## Links
 
-← [[03_modeling/03_probabilistic_models/01_graphical_models/index|Graphical Models]]
-→ [[03_modeling/06_training_and_regularization/index|Training Dynamics]]
-- [[03_modeling/04_deep_learning/03_sequence_models/recurrent_networks|Recurrent Networks (LSTM)]]
-- [[01_foundations/03_probability_and_statistics/hypothesis_testing|Hypothesis Testing (ADF test)]]
+← [[03_modeling/05_time_series/index|05 Time Series]]
+→ [[03_modeling/05_time_series/02_state_space_and_probabilistic/index|02 — State-Space and Probabilistic]]
+- [[03_modeling/04_deep_learning/03_sequence_models/recurrent_networks|Recurrent Networks (LSTM for forecasting)]]
+- [[01_foundations/03_probability_and_statistics/hypothesis_testing|Hypothesis Testing — ADF stationarity test]]

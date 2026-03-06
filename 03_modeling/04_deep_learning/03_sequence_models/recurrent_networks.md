@@ -34,7 +34,7 @@ Sequential processing limits parallelization (Transformers are fully parallel); 
 
 ## Links
 
-- [[03_modeling/04_deep_learning/index|Neural Networks Index]]
+- [[03_modeling/04_deep_learning/index|Deep Learning]]
 - [[03_modeling/04_deep_learning/04_transformers/transformer|Transformer]]
 - [[03_modeling/04_deep_learning/04_transformers/attention_mechanism|Attention Mechanism]]
 - [[01_foundations/06_deep_learning_theory/backpropagation_through_time|Backpropagation Through Time — unrolled RNNs, gradient truncation]]

@@ -6,7 +6,7 @@ tags: [workflow, classification, regression]
 created: 2026-03-06
 ---
 
-# Problem Formulation
+# Problem Framing
 
 ## Definition
 

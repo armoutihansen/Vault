@@ -37,6 +37,6 @@ Model must be small enough to run continuously on device (low FLOPs, low memory)
 ## Links
 
 - [[recurrent_networks]]
-- [[03_modeling/04_deep_learning/index|Neural Networks Index]]
+- [[03_modeling/04_deep_learning/index|Deep Learning]]
 - [[01_foundations/06_deep_learning_theory/backpropagation_through_time|Backpropagation Through Time — gradient flow through time steps]]
 - [[01_foundations/06_deep_learning_theory/cross_entropy_loss|Cross-Entropy Loss — binary classification objective]]

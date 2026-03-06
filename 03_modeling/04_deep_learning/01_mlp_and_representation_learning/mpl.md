@@ -64,7 +64,7 @@ Tabular data classification and regression (often outperformed by gradient boost
 
 - [[cnn_architecture]]
 - [[recurrent_networks]]
-- [[03_modeling/04_deep_learning/index|Neural Networks Index]]
+- [[03_modeling/04_deep_learning/index|Deep Learning]]
 - [[01_foundations/06_deep_learning_theory/backpropagation|Backpropagation — chain rule, gradient computation]]
 - [[01_foundations/06_deep_learning_theory/activation_functions|Activation Functions — ReLU, sigmoid, GELU]]
 - [[01_foundations/06_deep_learning_theory/weight_initialization|Weight Initialization — Xavier, Kaiming]]
