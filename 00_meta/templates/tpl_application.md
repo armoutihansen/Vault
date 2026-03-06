@@ -8,11 +8,25 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 
 # <% tp.file.title %>
 
-## Purpose
+## Problem
 
-### Examples
+## Users / Stakeholders
 
-## Architecture
+## Domain Context
+
+## Inputs and Outputs
+
+## Decision or Workflow Role
+
+## Modeling / System Options
+
+## Deployment Constraints
+
+## Risks and Failure Modes
+
+## Success Metrics
+
+## References
 
 ## Links
-- 
+-

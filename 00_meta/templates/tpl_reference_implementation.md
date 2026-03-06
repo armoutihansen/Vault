@@ -1,6 +1,6 @@
 ---
 layer: <% tp.file.folder(true).split("/")[0] %>
-type: ai_system
+type: application
 status: seed
 tags: []
 created: <% tp.date.now("YYYY-MM-DD") %>
@@ -8,17 +8,21 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 
 # <% tp.file.title %>
 
-## Use Case
+## Goal
 
-## Model / Context Strategy
+## Conceptual Counterpart
 
-## Evaluation
+## Dependencies / Framework
 
-## Guardrails / Risks
+## Implementation Outline
 
-## Architecture
+## Code Pattern
 
-## Cost / Latency Considerations
+```python
+# code here
+```
+
+## Practical Notes
 
 ## References
 

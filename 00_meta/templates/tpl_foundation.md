@@ -1,22 +1,22 @@
 ---
 layer: <% tp.file.folder(true).split("/")[0] %>
-type: proof
+type: concept
 status: seed
-tags: [theory]
+tags: []
 created: <% tp.date.now("YYYY-MM-DD") %>
 ---
 
 # <% tp.file.title %>
 
-## Statement
+## Statement / Definition
+
+## Intuition
+
+## Mathematical Formulation
 
 ## Assumptions
 
-## Proof Sketch
-
-## Full Proof
-
-## Notes / Intuition
+## Consequences
 
 ## References
 

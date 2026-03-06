@@ -1,22 +1,26 @@
 ---
 layer: <% tp.file.folder(true).split("/")[0] %>
-type: proof
+type: concept
 status: seed
-tags: [theory]
+tags: []
 created: <% tp.date.now("YYYY-MM-DD") %>
 ---
 
 # <% tp.file.title %>
 
-## Statement
+## Core Idea
 
-## Assumptions
+## Mathematical Formulation
 
-## Proof Sketch
+## Inductive Bias
 
-## Full Proof
+## Training Objective
 
-## Notes / Intuition
+## Strengths
+
+## Weaknesses
+
+## Variants
 
 ## References
 
