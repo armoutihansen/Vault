@@ -31,10 +31,16 @@ This section does NOT cover:
 ### Predictive ML Systems
 | Note | Description |
 |------|-------------|
+| [[tabular_classification_pipeline\|Tabular Classification Pipeline]] | Raw data → EDA → feature pipeline → XGBoost + MLflow → SHAP explanations → FastAPI serving → Evidently drift monitoring |
 | [[batch_ml_prediction_pipeline\|Batch ML Prediction Pipeline]] | Full tabular ML lifecycle: data pipeline → training → evaluation → batch scoring → drift monitoring |
 | [[continuous_training_pipeline\|Continuous Training Pipeline]] | Closed-loop CT system: drift detection → automated retraining → evaluation gate → canary deployment |
 | [[demand_forecasting_pipeline\|Demand Forecasting Pipeline]] | SARIMA + LightGBM ensemble for monthly series: EDA, walk-forward CV, lag features, deployment |
 | [[anomaly_detection_pipeline\|Anomaly Detection Pipeline]] | Isolation Forest + GMM ensemble: PCA preprocessing, unsupervised scoring, UMAP inspection, PR-AUC evaluation |
+
+### Deep Learning Systems
+| Note | Description |
+|------|-------------|
+| [[deep_learning_training_workflow\|Deep Learning Training Workflow]] | PyTorch model → Accelerate multi-GPU → MLflow tracking → checkpoint → evaluation → model registry |
 
 ### Software Service Systems
 | Note | Description |
@@ -48,6 +54,7 @@ This section does NOT cover:
 ### Foundation Model Applications
 | Note | Description |
 |------|-------------|
+| [[nlp_text_classification\|NLP Text Classification]] | Text dataset → tokenizer → LoRA fine-tuning (SFTTrainer) → F1 evaluation → vLLM deployment → FastAPI wrapper |
 | [[rag_qa_system\|RAG Question-Answering System]] | Full RAG pipeline: chunking → Chroma → reranking → LLM → FastAPI + LangSmith observability |
 | [[llm_finetuning_pipeline\|LLM Fine-tuning Pipeline]] | SFT + DPO pipeline with LoRA/QLoRA, MLflow tracking, evaluation, and vLLM deployment |
 | [[production_llm_serving_with_safety\|Production LLM Serving with Safety Stack]] | vLLM + LlamaGuard + semantic cache + LangSmith gateway with fallback routing |
