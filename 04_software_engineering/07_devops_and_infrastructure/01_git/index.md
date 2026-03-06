@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: index
 status: evergreen
 tags: []
@@ -10,7 +10,7 @@ created: 2026-03-02
 
 Core version-control operations, internals, and collaborative workflow patterns.
 
-← Prev [[03_software_engineering/08_version_control/index|← Version Control]] | Next → [[03_software_engineering/09_ai_assisted_engineering/index|AI-Assisted Engineering →]]
+← Prev [[04_software_engineering/07_devops_and_infrastructure/index|← DevOps & Infrastructure]]
 
 ## Notes
 
@@ -28,5 +28,6 @@ Core version-control operations, internals, and collaborative workflow patterns.
 - [[git_ignore|Git Ignore]] — `.gitignore` patterns, global ignore, and `.gitkeep`
 
 ## Links
-- [[03_software_engineering/08_version_control/index|Version Control]]
-- [[cicd_pipelines|CI/CD Pipelines]]
+- [[04_software_engineering/07_devops_and_infrastructure/index|DevOps & Infrastructure]]
+- [[04_software_engineering/07_devops_and_infrastructure/cicd_pipelines|CI/CD Pipelines]]
+- [[04_software_engineering/07_devops_and_infrastructure/github_workflows|GitHub Workflows]]

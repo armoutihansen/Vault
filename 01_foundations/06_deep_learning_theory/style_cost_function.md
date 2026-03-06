@@ -52,5 +52,5 @@ Gram matrix discards all spatial information by design — good for style, bad i
 
 ## Links
 
-- [[neural_style_transfer]] (in 02_modeling/computer_vision)
+- [[neural_style_transfer]] (in 03_modeling/computer_vision)
 - [[01_foundations/_legacy/deep_learning_theory/backpropagation]]

@@ -66,4 +66,4 @@ Completed (learning project).
 
 - [[agent_architecture]]
 - [[lessons_learned]]
-- Related layer: `05_ai_engineering/` (LLM system patterns, agentic architectures)
+- Related layer: `06_ai_engineering/` (LLM system patterns, agentic architectures)

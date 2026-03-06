@@ -78,4 +78,4 @@ A large condition number indicates a near-singular (ill-conditioned) matrix; sma
 - [[eigenvalues_and_eigenvectors|Eigenvalues and Eigenvectors]] — singular values are eigenvalues of $A^\top A$
 - [[matrix_diagonalization|Matrix Diagonalization]] — SVD generalises eigendecomposition to rectangular matrices
 - [[01_foundations/01_linear_algebra/01_vector_spaces/orthogonal_projections|Orthogonal Projections]] — columns of $U_k$, $V_k$ are orthonormal bases for column/row spaces
-- [[02_modeling/03_model_families/06_unsupervised_learning/unsupervised_learning|PCA and Unsupervised Learning]]
+- [[03_modeling/02_unsupervised_learning/01_clustering/unsupervised_learning|PCA and Unsupervised Learning]]

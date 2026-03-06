@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [algorithm, nlp, fine-tuning]
@@ -8,9 +8,19 @@ created: 2026-05-10
 
 # Transformer Fine-tuning Implementation (LoRA / PEFT)
 
+## Goal
+
+Fine-tune a pretrained transformer (BERT, LLaMA) using LoRA/QLoRA via HuggingFace PEFT and TRL SFTTrainer.
+
+## Conceptual Counterpart
+
+- [[06_ai_engineering/05_finetuning/lora_qlora|LoRA and QLoRA Fine-tuning]] — low-rank adaptation theory, rank selection, target modules
+- [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]] — alternative to fine-tuning for knowledge-grounded generation
+- [[07_applications/05_generation_and_assistance/code_generation_assistant|Code Generation Assistant]] — downstream application of transformer fine-tuning
+
 ## Purpose
 
-Practical guide for fine-tuning a pretrained causal or sequence-classification transformer using LoRA and the HuggingFace PEFT + TRL stack. LoRA adds trainable low-rank matrices to frozen model weights, enabling fine-tuning of 7B–70B parameter models on a single consumer GPU while training fewer than 0.3% of parameters.
+Practical guide for fine-tuning a pretrained causal or sequence-classification transformer using LoRA and the HuggingFace PEFT + TRL stack.
 
 ### Examples
 
@@ -200,9 +210,9 @@ print(pipe("Explain gradient descent in one sentence:", max_new_tokens=80)[0]["g
 ## Links
 
 **AI Engineering**
-- [[05_ai_engineering/04_finetuning/peft_and_lora|PEFT and LoRA]] — LoRA theory, QLoRA, target modules
-- [[05_ai_engineering/04_finetuning/finetuning_strategies|Fine-tuning Strategies]] — when to use LoRA vs full FT vs frozen head
-- [[05_ai_engineering/04_finetuning/rl_finetuning|RL Fine-tuning]] — DPO / GRPO after SFT
+- [[06_ai_engineering/05_finetuning/peft_and_lora|PEFT and LoRA]] — LoRA theory, QLoRA, target modules
+- [[06_ai_engineering/05_finetuning/finetuning_strategies|Fine-tuning Strategies]] — when to use LoRA vs full FT vs frozen head
+- [[06_ai_engineering/05_finetuning/rl_finetuning|RL Fine-tuning]] — DPO / GRPO after SFT
 
 **Modeling**
 - [[02_modeling/03_model_families/07_transformers/transformer_architecture|Transformer Architecture]] — attention mechanism underpinning the base model

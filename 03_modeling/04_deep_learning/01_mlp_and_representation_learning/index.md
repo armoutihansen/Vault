@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: index
 status: evergreen
 tags: []
@@ -22,9 +22,9 @@ created: 2026-03-02
 
 ## Links
 
-- [[02_modeling/03_model_families/index|Model Families]]
-- [[02_modeling/03_model_families/07_transformers/index|Transformers]]
+- [[03_modeling/index|Model Families]]
+- [[03_modeling/04_deep_learning/04_transformers/index|Transformers]]
 
 ---
 
-**Navigation:** ← [[02_modeling/03_model_families/03_probabilistic_models/index|Probabilistic Models]] | [[02_modeling/03_model_families/index|Model Families Index]] | [[02_modeling/03_model_families/05_kernel_methods/index|Kernel Methods →]]
+**Navigation:** ← [[03_modeling/03_probabilistic_models/index|Probabilistic Models]] | [[03_modeling/index|Model Families Index]] | [[03_modeling/01_supervised_learning/03_kernel_methods/index|Kernel Methods →]]

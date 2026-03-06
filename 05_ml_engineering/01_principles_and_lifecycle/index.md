@@ -1,5 +1,5 @@
 ---
-layer: 04_ml_engineering
+layer: 05_ml_engineering
 type: index
 status: evergreen
 tags: []
@@ -15,5 +15,5 @@ End-to-end ML system thinking and lifecycle overview.
 - [[ml_lifecycle|ML Lifecycle]] — end-to-end stages from problem framing through monitoring and iteration
 
 ## Links
-- [[04_ml_engineering/index|↑ ML Engineering]]
-- Next: [[04_ml_engineering/01_data_engineering/index|01 — Data Engineering →]]
+- [[05_ml_engineering/index|↑ ML Engineering]]
+- Next: [[05_ml_engineering/02_data_engineering/index|02 — Data Engineering →]]

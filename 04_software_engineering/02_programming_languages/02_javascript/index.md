@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: index
 status: evergreen
 tags: []
@@ -21,9 +21,9 @@ Core language features, async patterns, module system, and runtime environments 
 - [[js_runtimes|JS Runtimes]] — Node.js, Deno, Bun — differences, use cases, and ecosystem
 
 ## Links
-- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]
-- [[03_software_engineering/01_programming_and_runtime/03_typescript/index|TypeScript]]
+- [[04_software_engineering/02_programming_languages/index|Programming Languages]]
+- [[04_software_engineering/02_programming_languages/03_typescript/index|TypeScript]]
 
 ---
 
-**Navigation:** ← [[03_software_engineering/01_programming_and_runtime/01_go/index|Go]] | [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime Index]] | [[03_software_engineering/01_programming_and_runtime/03_typescript/index|TypeScript →]]
+**Navigation:** ← [[04_software_engineering/02_programming_languages/01_go/index|Go]] | [[04_software_engineering/02_programming_languages/index|Programming Languages Index]] | [[04_software_engineering/02_programming_languages/03_typescript/index|TypeScript →]]

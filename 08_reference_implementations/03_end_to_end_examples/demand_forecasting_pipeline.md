@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 domain: forecasting
 stakeholders: [data-scientist, ml-engineer]
@@ -191,5 +191,5 @@ sarima.update(new_train_obs)   # pmdarima supports incremental updates
 - [[02_modeling/02_data_science/exploratory_data_analysis|EDA]]
 - [[02_modeling/02_data_science/data_preprocessing|Data Preprocessing]]
 - [[02_modeling/05_evaluation_and_validation/evaluation_and_validation|Walk-forward evaluation]]
-- [[06_applications/01_model_implementations/time_series_implementation|Time Series Implementation]]
-- [[06_applications/01_model_implementations/tree_ensembles_implementation|Tree Ensembles (LightGBM)]]
+- [[08_reference_implementations/01_model_implementations/time_series_implementation|Time Series Implementation]]
+- [[08_reference_implementations/01_model_implementations/tree_ensembles_implementation|Tree Ensembles (LightGBM)]]

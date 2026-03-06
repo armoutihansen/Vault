@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: index
 status: evergreen
 tags: []
@@ -10,7 +10,7 @@ created: 2026-03-05
 
 Software design principles, architectural patterns, and clean code practices that govern how good software is structured.
 
-← Prev [[index|← Software Engineering]] | Next → [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime →]]
+← Prev [[index|← Software Engineering]] | Next → [[04_software_engineering/02_programming_languages/index|Programming & Runtime →]]
 
 ## Notes
 
@@ -19,5 +19,5 @@ Software design principles, architectural patterns, and clean code practices tha
 - [[clean_code|Clean Code]] — naming, functions, comments, error handling, and refactoring heuristics
 
 ## Links
-- [[03_software_engineering/index|Software Engineering]]
-- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]
+- [[04_software_engineering/index|Software Engineering]]
+- [[04_software_engineering/02_programming_languages/index|Programming & Runtime]]

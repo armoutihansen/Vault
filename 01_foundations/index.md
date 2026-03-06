@@ -47,7 +47,7 @@ Generalization, bias–variance, evaluation strategy, transfer learning.
 Neural network theory: backpropagation, optimization, regularization, architectures.
 
 ## Links
-- [[02_modeling/index|Modeling]]
+- [[03_modeling/index|Modeling]]
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-layer: 04_ml_engineering
+layer: 05_ml_engineering
 type: index
 status: evergreen
 tags: []
@@ -16,6 +16,6 @@ Making trained models accessible in production.
 - [[rollout_strategies|Rollout Strategies]] — canary, blue-green, shadow mode, and feature-flag-controlled progressive rollouts
 
 ## Links
-- [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[04_ml_engineering/04_model_development/index|← 04 — Model Development]]
-- Next: [[04_ml_engineering/06_monitoring_and_observability/index|06 — Monitoring & Observability →]]
+- [[05_ml_engineering/index|↑ ML Engineering]]
+- Prev: [[05_ml_engineering/05_model_development/index|← 05 — Model Development]]
+- Next: [[05_ml_engineering/07_monitoring_and_observability/index|07 — Monitoring & Observability →]]

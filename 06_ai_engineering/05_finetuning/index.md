@@ -1,5 +1,5 @@
 ---
-layer: 05_ai_engineering
+layer: 06_ai_engineering
 type: index
 status: evergreen
 tags: []
@@ -18,7 +18,7 @@ Adapting model weights to specific tasks or domains.
 
 ## Navigation
 
-← Prev [[05_ai_engineering/03_rag_and_agents/index|← RAG and Agents]] | Next → [[05_ai_engineering/05_dataset_engineering/index|Dataset Engineering →]]
+← Prev [[06_ai_engineering/04_rag_and_agents/index|← RAG and Agents]] | Next → [[06_ai_engineering/06_dataset_engineering/index|Dataset Engineering →]]
 
 ## Links
-- [[05_ai_engineering/index|AI Engineering]]
+- [[06_ai_engineering/index|AI Engineering]]

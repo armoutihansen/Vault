@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: engineering
 tool: FastAPI
 status: growing
@@ -377,4 +377,4 @@ async def predict(
 - [[grpc_and_protobuf|gRPC and Protobuf]]
 - [[docker_patterns|Docker Patterns]]
 - [[testing_strategies|Testing Strategies]]
-- [[04_ml_engineering/05_deployment_and_serving/serving_patterns|Model Serving Patterns]]
+- [[05_ml_engineering/06_deployment_and_serving/serving_patterns|Model Serving Patterns]]

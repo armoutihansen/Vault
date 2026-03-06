@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [workflow, retrieval, llm]
@@ -10,7 +10,7 @@ created: 2026-03-06
 
 ## Purpose
 
-End-to-end implementation of a retrieval-augmented generation (RAG) question-answering system over a private document corpus. This system ingests documents, chunks and embeds them into a vector store, retrieves relevant passages at query time, and passes them as context to an LLM to generate grounded answers. Key challenges: chunking strategy, retrieval quality (recall vs. precision), answer groundedness, and latency. Spans `05_ai_engineering` (RAG architecture, vector stores, serving) and `03_software_engineering` (API design, Docker).
+End-to-end implementation of a retrieval-augmented generation (RAG) question-answering system over a private document corpus. This system ingests documents, chunks and embeds them into a vector store, retrieves relevant passages at query time, and passes them as context to an LLM to generate grounded answers. Key challenges: chunking strategy, retrieval quality (recall vs. precision), answer groundedness, and latency. Spans `06_ai_engineering` (RAG architecture, vector stores, serving) and `04_software_engineering` (API design, Docker).
 
 ### Examples
 

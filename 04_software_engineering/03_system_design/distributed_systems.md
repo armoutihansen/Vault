@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: concept
 status: growing
 tags: [distributed, pattern]
@@ -168,4 +168,4 @@ Beyond Raft, simpler leader election can use:
 - [[scalability_patterns|Scalability Patterns]]
 - [[caching_strategies|Caching Strategies]]
 - [[nosql_patterns|NoSQL Patterns]]
-- [[04_ml_engineering/01_data_engineering/data_pipeline_patterns|Data Pipeline Patterns]]
+- [[05_ml_engineering/02_data_engineering/data_pipeline_patterns|Data Pipeline Patterns]]

@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, deployment, mlops]
@@ -207,9 +207,9 @@ curl -X POST http://localhost:8080/predict \
 - **Latency SLA**: Set Kubernetes readiness probe to the `/ready` endpoint; configure HPA on `requests per second` or custom metric.
 
 ## Links
-- [[04_ml_engineering/05_deployment_and_serving/serving_patterns|Model Serving Patterns]]
-- [[04_ml_engineering/05_deployment_and_serving/rollout_strategies|Model Rollout Strategies]]
-- [[03_software_engineering/03_apis_and_services/fastapi_patterns|FastAPI Patterns]]
+- [[05_ml_engineering/06_deployment_and_serving/serving_patterns|Model Serving Patterns]]
+- [[05_ml_engineering/06_deployment_and_serving/rollout_strategies|Model Rollout Strategies]]
+- [[04_software_engineering/04_apis_and_services/fastapi_patterns|FastAPI Patterns]]
 - [[mlflow_experiment_tracking|MLflow Experiment Tracking Pattern]]
 - [[docker_ml_pipeline|Docker for ML Pipelines]]
 - [[batch_ml_prediction_pipeline|Batch ML Prediction Pipeline]]

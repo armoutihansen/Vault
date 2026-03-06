@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, monitoring, mlops]
@@ -170,8 +170,8 @@ weekly_drift_check()
 ```
 
 ## Links
-- [[04_ml_engineering/06_monitoring_and_observability/drift_detection|Drift Detection]]
-- [[04_ml_engineering/06_monitoring_and_observability/ml_observability|ML Observability]]
-- [[04_ml_engineering/07_continual_learning/retraining_strategies|Retraining Strategies]]
+- [[05_ml_engineering/07_monitoring_and_observability/drift_detection|Drift Detection]]
+- [[05_ml_engineering/07_monitoring_and_observability/ml_observability|ML Observability]]
+- [[05_ml_engineering/08_continual_learning/retraining_strategies|Retraining Strategies]]
 - [[continuous_training_pipeline|Continuous Training Pipeline]]
 - [[cicd_for_ml|CI/CD for ML Pipelines]]

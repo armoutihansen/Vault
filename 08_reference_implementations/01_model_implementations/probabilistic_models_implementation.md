@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 domain: supervised-learning
 stakeholders: []
@@ -11,9 +11,19 @@ created: 2026-03-06
 
 # Probabilistic Models — Implementation
 
+## Goal
+
+Implement Naive Bayes classifiers, Gaussian Mixture Models, and Bayesian regression with scikit-learn and PyMC.
+
+## Conceptual Counterpart
+
+- [[03_modeling/03_probabilistic_models/index|Probabilistic Models]] — generative modelling, Bayesian inference, EM algorithm for GMMs
+- [[01_foundations/03_probability_and_statistics/index|Probability and Statistics]] — Bayesian updating, conjugate priors, marginal likelihood
+- [[07_applications/03_detection_and_monitoring/fraud_detection|Fraud Detection]] — Naive Bayes as baseline classifier in fraud context
+
 ## Purpose
 
-Practical implementation of Naive Bayes classifiers, Gaussian Mixture Models, and Bayesian linear regression with scikit-learn and PyMC. Synthesised from [[02_modeling/03_model_families/03_probabilistic_models/probabilistic_models|Probabilistic Models]].
+Practical implementation of Naive Bayes classifiers, Gaussian Mixture Models, and Bayesian linear regression with scikit-learn and PyMC.
 
 ### Examples
 
@@ -140,4 +150,4 @@ print(f"Pred: {y_pred[:3]}, Std: {y_std[:3]}")
 - [[02_modeling/03_model_families/03_probabilistic_models/probabilistic_models|Probabilistic Models (theory)]]
 - [[01_foundations/03_probability_and_statistics/bayesian_inference|Bayesian Inference (MAP, conjugate priors)]]
 - [[02_modeling/05_evaluation_and_validation/evaluation_and_validation|Calibration and evaluation]]
-- [[06_applications/01_model_implementations/unsupervised_learning_implementation|Unsupervised Learning Implementation (GMM vs k-means)]]
+- [[08_reference_implementations/01_model_implementations/unsupervised_learning_implementation|Unsupervised Learning Implementation (GMM vs k-means)]]

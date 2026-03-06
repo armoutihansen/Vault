@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: index
 status: evergreen
 tags: []
@@ -16,7 +16,7 @@ Generative models that explicitly represent probability distributions, enabling 
 
 ## Links
 
-← [[02_modeling/03_model_families/02_tree_ensembles/index|Tree Ensembles]]
-→ [[02_modeling/03_model_families/04_neural_networks/index|Neural Networks]]
+← [[03_modeling/01_supervised_learning/02_tree_based_models/index|Tree Ensembles]]
+→ [[03_modeling/04_deep_learning/index|Neural Networks]]
 - [[01_foundations/03_probability_and_statistics/bayesian_inference|Bayesian Inference]]
-- [[02_modeling/03_model_families/06_unsupervised_learning/index|Unsupervised Learning]]
+- [[03_modeling/02_unsupervised_learning/index|Unsupervised Learning]]

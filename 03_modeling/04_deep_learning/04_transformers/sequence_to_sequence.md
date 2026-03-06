@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: seed
 tags: [algorithm, nlp]
@@ -45,9 +45,9 @@ Vanilla seq2seq bottlenecks all information through a fixed-size context vector;
 ## Links
 
 - [[attention_mechanism]]
-- [[02_modeling/03_model_families/04_neural_networks/recurrent_networks|Recurrent Networks]]
+- [[03_modeling/04_deep_learning/03_sequence_models/recurrent_networks|Recurrent Networks]]
 - [[transformer]]
 - [[word_embeddings]]
-- [[02_modeling/03_model_families/07_transformers/index|Transformers Index]]
+- [[03_modeling/04_deep_learning/04_transformers/index|Transformers Index]]
 - [[01_foundations/06_deep_learning_theory/backpropagation_through_time|Backpropagation Through Time — encoder–decoder gradient flow]]
 - [[01_foundations/03_probability_and_statistics/probability_theory|Probability Theory — conditional language model factorization]]

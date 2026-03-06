@@ -1,5 +1,5 @@
 ---
-layer: 05_ai_engineering
+layer: 06_ai_engineering
 type: index
 status: evergreen
 tags: []
@@ -18,7 +18,7 @@ Holistic AI system design and production feedback loops.
 
 ## Navigation
 
-← Prev [[05_ai_engineering/06_inference_optimization/index|← Inference Optimization]]
+← Prev [[06_ai_engineering/07_inference_optimization/index|← Inference Optimization]]
 
 ## Links
-- [[05_ai_engineering/index|AI Engineering]]
+- [[06_ai_engineering/index|AI Engineering]]

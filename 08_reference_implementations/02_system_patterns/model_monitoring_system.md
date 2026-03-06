@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, monitoring, mlops]
@@ -198,8 +198,8 @@ def trigger_retraining():
 ## Links
 
 **ML Engineering**
-- [[04_ml_engineering/06_monitoring_and_observability/drift_detection|Drift Detection]] — PSI, KS test, covariate vs. concept drift theory
-- [[04_ml_engineering/06_monitoring_and_observability/ml_observability|ML Observability]] — dashboards, logging patterns, alerting setup
+- [[05_ml_engineering/07_monitoring_and_observability/drift_detection|Drift Detection]] — PSI, KS test, covariate vs. concept drift theory
+- [[05_ml_engineering/07_monitoring_and_observability/ml_observability|ML Observability]] — dashboards, logging patterns, alerting setup
 
 **System Patterns**
 - [[drift_monitoring_with_evidently|Drift Monitoring with Evidently]] — Evidently-specific implementation reference

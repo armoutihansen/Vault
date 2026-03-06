@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [workflow, tabular, mlops]
@@ -262,13 +262,13 @@ churn_prediction_pipeline()
 ```
 
 ## Links
-- [[04_ml_engineering/00_principles_and_lifecycle/ml_lifecycle|ML Lifecycle]]
-- [[04_ml_engineering/01_data_engineering/data_pipeline_patterns|Data Pipeline Patterns]]
-- [[04_ml_engineering/03_feature_engineering/feature_engineering_patterns|Feature Engineering Patterns]]
-- [[04_ml_engineering/04_model_development/experiment_tracking|Experiment Tracking]]
-- [[04_ml_engineering/04_model_development/offline_evaluation|Offline Evaluation]]
-- [[04_ml_engineering/05_deployment_and_serving/serving_patterns|Model Serving Patterns]]
-- [[04_ml_engineering/06_monitoring_and_observability/drift_detection|Drift Detection]]
+- [[05_ml_engineering/01_principles_and_lifecycle/ml_lifecycle|ML Lifecycle]]
+- [[05_ml_engineering/02_data_engineering/data_pipeline_patterns|Data Pipeline Patterns]]
+- [[05_ml_engineering/04_feature_engineering/feature_engineering_patterns|Feature Engineering Patterns]]
+- [[05_ml_engineering/05_model_development/experiment_tracking|Experiment Tracking]]
+- [[05_ml_engineering/05_model_development/offline_evaluation|Offline Evaluation]]
+- [[05_ml_engineering/06_deployment_and_serving/serving_patterns|Model Serving Patterns]]
+- [[05_ml_engineering/07_monitoring_and_observability/drift_detection|Drift Detection]]
 - [[mlflow_experiment_tracking|MLflow Experiment Tracking Pattern]]
 - [[dvc_dataset_versioning|DVC Dataset Versioning Pattern]]
 - [[drift_monitoring_with_evidently|Drift Monitoring with Evidently]]

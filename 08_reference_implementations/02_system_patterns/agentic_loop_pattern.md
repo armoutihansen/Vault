@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, reasoning, llm]
@@ -234,9 +234,9 @@ print(f"Tool: {tool_call.function.name}, Args: {tool_call.function.arguments}")
 ## Links
 
 **AI Engineering**
-- [[05_ai_engineering/03_rag_and_agents/agentic_loop|Agentic Loop]] — ReAct, planning patterns, memory types theory
-- [[05_ai_engineering/03_rag_and_agents/multi_agent_systems|Multi-Agent Systems]] — supervisor patterns, CrewAI, AutoGen architectures
-- [[05_ai_engineering/03_rag_and_agents/function_calling|Function Calling]] — structured tool use and JSON schema tool specs
+- [[06_ai_engineering/04_rag_and_agents/agentic_loop|Agentic Loop]] — ReAct, planning patterns, memory types theory
+- [[06_ai_engineering/04_rag_and_agents/multi_agent_systems|Multi-Agent Systems]] — supervisor patterns, CrewAI, AutoGen architectures
+- [[06_ai_engineering/04_rag_and_agents/function_calling|Function Calling]] — structured tool use and JSON schema tool specs
 
 **System Patterns**
 - [[mcp_server_implementation|MCP Server Implementation]] — building an MCP tool server for agents to call

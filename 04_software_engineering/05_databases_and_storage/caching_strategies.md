@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: engineering
 tool: Redis/Memcached
 status: growing
@@ -317,4 +317,4 @@ def warm_cache():
 - [[nosql_patterns|NoSQL Patterns]]
 - [[scalability_patterns|Scalability Patterns]]
 - [[distributed_systems|Distributed Systems]]
-- [[05_ai_engineering/03_rag_and_agents/vector_stores|Vector Stores]]
+- [[06_ai_engineering/04_rag_and_agents/vector_stores|Vector Stores]]

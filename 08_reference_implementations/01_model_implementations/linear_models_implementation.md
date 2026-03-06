@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 domain: supervised-learning
 stakeholders: []
@@ -11,9 +11,19 @@ created: 2026-03-06
 
 # Linear Models and GLMs — Implementation
 
+## Goal
+
+Implement linear and generalised linear models end-to-end: data prep, fitting, evaluation, and serialisation.
+
+## Conceptual Counterpart
+
+- [[03_modeling/01_supervised_learning/01_linear_and_glm/linear_and_glm|Linear and Generalised Linear Models]] — bias-variance, regularisation paths, GLM families
+- [[01_foundations/04_optimization/convex_optimization|Convex Optimization]] — normal equations, gradient descent convergence
+- [[07_applications/04_classification_and_decisioning/credit_scoring|Credit Scoring]] — canonical application of logistic regression and GLMs
+
 ## Purpose
 
-Practical implementation of linear and generalised linear models with scikit-learn and statsmodels. Synthesised from [[02_modeling/03_model_families/01_linear_and_glm/linear_and_glm|Linear Models & GLMs]].
+Practical implementation of linear and generalised linear models with scikit-learn and statsmodels. Synthesised from [[03_modeling/01_supervised_learning/01_linear_and_glm/linear_and_glm|Linear Models & GLMs]].
 
 ### Examples
 

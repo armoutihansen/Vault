@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: index
 status: evergreen
 tags: []
@@ -16,7 +16,7 @@ Parametric models where the response is a function of a linear combination of fe
 
 ## Links
 
-← [[02_modeling/03_model_families/index|Model Families]]
-→ [[02_modeling/03_model_families/02_tree_ensembles/index|Tree Ensembles]]
+← [[03_modeling/index|Model Families]]
+→ [[03_modeling/01_supervised_learning/02_tree_based_models/index|Tree Ensembles]]
 - [[01_foundations/01_linear_algebra/01_vector_spaces/least_squares|Least Squares]]
 - [[01_foundations/04_optimization/convex_optimization|Convex Optimization]]

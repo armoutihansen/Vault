@@ -99,4 +99,4 @@ Correlation: $\rho(X,Y) = \operatorname{Cov}(X,Y) / (\sigma_X \sigma_Y) \in [-1,
 - [[bayesian_inference|Bayesian Inference]]
 - [[hypothesis_testing|Hypothesis Testing]]
 - [[01_foundations/05_statistical_learning_theory/bias_variance_analysis|Bias–Variance Analysis]]
-- [[02_modeling/03_model_families/03_probabilistic_models/index|Probabilistic Models]]
+- [[03_modeling/03_probabilistic_models/index|Probabilistic Models]]

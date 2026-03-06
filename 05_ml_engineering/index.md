@@ -1,48 +1,55 @@
 ---
-layer: 04_ml_engineering
+layer: 05_ml_engineering
 type: index
 status: evergreen
 tags: []
 created: 2026-03-05
 ---
 
-# ML Engineering
+# 05 — ML Engineering
 
-Engineering discipline for designing, building, deploying, and operating production-grade ML systems.
+Engineering discipline for designing, building, deploying, and operating production-grade ML systems — from raw data ingestion through to monitored, retraining-ready production deployments.
 
-> How do we build reliable, scalable ML systems in production?
+> Guiding question: "How do we productionize and operate ML systems?"
 
-This layer does NOT cover: foundation-model-based systems (→ 05_ai_engineering), model family selection (→ 02_modeling), or mathematical derivations (→ 01_foundations).
+This layer does NOT cover: foundation-model-based systems (→ 06_ai_engineering), model family selection and statistical trade-offs (→ 03_modeling), or mathematical derivations (→ 01_foundations).
 
-## ML Production Lifecycle
+## Sublayers
 
-### [[04_ml_engineering/00_principles_and_lifecycle/index|00 — Principles & Lifecycle]]
-End-to-end ML system thinking: reliability, scalability, iterative development.
+### [[05_ml_engineering/01_principles_and_lifecycle/index|01 — Principles & Lifecycle]]
+End-to-end ML system thinking: reliability contracts, scalability, and the iterative development philosophy.
 
-### [[04_ml_engineering/01_data_engineering/index|01 — Data Engineering]]
-Data pipelines, ETL/ELT, batch vs stream, feature stores.
+### [[05_ml_engineering/02_data_engineering/index|02 — Data Engineering]]
+Data pipelines, ETL/ELT, batch vs stream processing, feature stores.
 
-### [[04_ml_engineering/02_training_data/index|02 — Training Data]]
-Data labeling, class imbalance, augmentation, dataset versioning.
+### [[05_ml_engineering/03_training_data/index|03 — Training Data]]
+Data labeling, class imbalance handling, augmentation, dataset versioning.
 
-### [[04_ml_engineering/03_feature_engineering/index|03 — Feature Engineering]]
-Numeric/categorical/temporal features, embeddings, data leakage prevention.
+### [[05_ml_engineering/04_feature_engineering/index|04 — Feature Engineering]]
+Numeric/categorical/temporal feature transforms, embeddings, data leakage prevention.
 
-### [[04_ml_engineering/04_model_development/index|04 — Model Development]]
+### [[05_ml_engineering/05_model_development/index|05 — Model Development]]
 Experiment tracking, distributed training, offline evaluation, reproducibility.
 
-### [[04_ml_engineering/05_deployment_and_serving/index|05 — Deployment & Serving]]
-Batch/online/edge serving, model compression, rollout strategies.
+### [[05_ml_engineering/06_deployment_and_serving/index|06 — Deployment & Serving]]
+Batch/online/edge serving patterns, model compression, rollout strategies.
 
-### [[04_ml_engineering/06_monitoring_and_observability/index|06 — Monitoring & Observability]]
+### [[05_ml_engineering/07_monitoring_and_observability/index|07 — Monitoring & Observability]]
 Drift detection, operational metrics, alerting, incident response.
 
-### [[04_ml_engineering/07_continual_learning/index|07 — Continual Learning]]
+### [[05_ml_engineering/08_continual_learning/index|08 — Continual Learning]]
 Retraining triggers, stateless vs stateful updates, test-in-production.
 
-### [[04_ml_engineering/08_infrastructure_and_platform/index|08 — Infrastructure & Platform]]
-Orchestration, ML platform architecture, environment management.
+### [[05_ml_engineering/09_infrastructure_and_platform/index|09 — Infrastructure & Platform]]
+Orchestration, ML platform architecture, environment and dependency management.
+
+## Relationship to Other Layers
+
+- **03_modeling** — model families and training dynamics; this layer handles productionizing them
+- **04_software_engineering** — general software patterns applied to ML system concerns
+- **06_ai_engineering** — foundation-model-specific workflows that build on top of this layer's infrastructure
 
 ## Links
-- [[02_modeling/index|Modeling]]
-- [[05_ai_engineering/index|AI Engineering]]
+- [[03_modeling/index|Modeling]]
+- [[04_software_engineering/index|Software Engineering]]
+- [[06_ai_engineering/index|AI Engineering]]

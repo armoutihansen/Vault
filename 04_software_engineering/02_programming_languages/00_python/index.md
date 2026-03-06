@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: index
 status: evergreen
 tags: []
@@ -18,9 +18,9 @@ Core language, data model, async programming, and tooling for the Python ecosyst
 - [[python_tooling|Python Tooling]] — packaging (uv/pip/pyproject.toml), type checking (mypy), linting (ruff), and virtual environments
 
 ## Links
-- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]
-- [[testing_strategies|Testing Strategies]]
+- [[04_software_engineering/02_programming_languages/index|Programming Languages]]
+- [[04_software_engineering/06_testing_and_quality/testing_strategies|Testing Strategies]]
 
 ---
 
-**Navigation:** ← [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime Index]] | [[03_software_engineering/01_programming_and_runtime/01_go/index|Go →]]
+**Navigation:** ← [[04_software_engineering/02_programming_languages/index|Programming Languages Index]] | [[04_software_engineering/02_programming_languages/01_go/index|Go →]]

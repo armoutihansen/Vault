@@ -1,5 +1,5 @@
 ---
-layer: 04_ml_engineering
+layer: 05_ml_engineering
 type: index
 status: evergreen
 tags: []
@@ -16,6 +16,6 @@ Controlled offline model development and evaluation.
 - [[offline_evaluation|Offline Evaluation]] — hold-out strategy, cross-validation, calibration, bias audits, and eval infrastructure
 
 ## Links
-- [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[04_ml_engineering/03_feature_engineering/index|← 03 — Feature Engineering]]
-- Next: [[04_ml_engineering/05_deployment_and_serving/index|05 — Deployment & Serving →]]
+- [[05_ml_engineering/index|↑ ML Engineering]]
+- Prev: [[05_ml_engineering/04_feature_engineering/index|← 04 — Feature Engineering]]
+- Next: [[05_ml_engineering/06_deployment_and_serving/index|06 — Deployment & Serving →]]

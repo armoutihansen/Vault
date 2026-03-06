@@ -83,4 +83,4 @@ Each sub-layer receives normalised input, improving gradient flow through deep s
 - [[dropout|Dropout]] — alternative / complementary regularisation
 - [[residual_connections|Residual Connections]] — LN always used in conjunction with residuals in transformers
 - [[01_foundations/06_deep_learning_theory/weight_initialization|Weight Initialization]] — normalisation reduces sensitivity to init scale
-- [[05_ai_engineering/00_foundation_models/foundation_model_overview|Foundation Model Overview]] — LN / RMSNorm are standard in all modern LLMs
+- [[06_ai_engineering/01_foundation_models/foundation_model_overview|Foundation Model Overview]] — LN / RMSNorm are standard in all modern LLMs

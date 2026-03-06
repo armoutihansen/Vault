@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [algorithm, training]
@@ -8,9 +8,19 @@ created: 2026-05-10
 
 # Neural Network Implementation (PyTorch)
 
+## Goal
+
+Implement MLP, CNN, and RNN neural networks in PyTorch with complete training loops, validation, and serialisation.
+
+## Conceptual Counterpart
+
+- [[03_modeling/04_deep_learning/index|Deep Learning Architectures]] — MLP, CNN, RNN inductive biases and design choices
+- [[01_foundations/06_deep_learning_theory/index|Deep Learning Theory]] — backpropagation, activation functions, initialisation
+- [[07_applications/05_generation_and_assistance/document_summarization|Document Summarization]] — downstream NLP application
+
 ## Purpose
 
-Practical reference for implementing and training feedforward, convolutional, and recurrent neural networks with PyTorch. Covers a complete training loop with early stopping, a validation loop, loss curve logging, and model serialization — the patterns that appear in every PyTorch project regardless of architecture.
+Practical reference for implementing and training feedforward, convolutional, and recurrent neural networks with PyTorch.
 
 ### Examples
 

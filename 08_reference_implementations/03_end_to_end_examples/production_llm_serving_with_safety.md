@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [workflow, deployment, safety, llm]
@@ -10,7 +10,7 @@ created: 2026-03-06
 
 ## Purpose
 
-End-to-end reference architecture for deploying an LLM as a production API with a full safety, monitoring, and reliability stack. The system integrates vLLM for high-throughput inference, LlamaGuard for input/output content moderation, LangSmith for tracing and quality evaluation, and a model gateway pattern (fallback routing, semantic caching). Spans `05_ai_engineering` (serving frameworks, safety, observability, AI application architecture) and `03_software_engineering` (Docker, CI/CD, FastAPI).
+End-to-end reference architecture for deploying an LLM as a production API with a full safety, monitoring, and reliability stack. The system integrates vLLM for high-throughput inference, LlamaGuard for input/output content moderation, LangSmith for tracing and quality evaluation, and a model gateway pattern (fallback routing, semantic caching). Spans `06_ai_engineering` (serving frameworks, safety, observability, AI application architecture) and `04_software_engineering` (Docker, CI/CD, FastAPI).
 
 ### Examples
 

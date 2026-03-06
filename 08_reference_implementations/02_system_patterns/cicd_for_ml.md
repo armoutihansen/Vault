@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, mlops, deployment]
@@ -236,10 +236,10 @@ if __name__ == "__main__":
 ```
 
 ## Links
-- [[03_software_engineering/06_devops_and_infrastructure/cicd_pipelines|CI/CD Pipelines]]
-- [[03_software_engineering/08_version_control/github_workflows|GitHub Workflows]]
-- [[04_ml_engineering/07_continual_learning/retraining_strategies|Retraining Strategies]]
-- [[04_ml_engineering/05_deployment_and_serving/rollout_strategies|Model Rollout Strategies]]
+- [[04_software_engineering/07_devops_and_infrastructure/cicd_pipelines|CI/CD Pipelines]]
+- [[04_software_engineering/07_devops_and_infrastructure/github_workflows|GitHub Workflows]]
+- [[05_ml_engineering/08_continual_learning/retraining_strategies|Retraining Strategies]]
+- [[05_ml_engineering/06_deployment_and_serving/rollout_strategies|Model Rollout Strategies]]
 - [[mlflow_experiment_tracking|MLflow Experiment Tracking Pattern]]
 - [[dvc_dataset_versioning|DVC Dataset Versioning Pattern]]
 - [[docker_ml_pipeline|Docker for ML Pipelines]]

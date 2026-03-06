@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, retrieval, llm]
@@ -192,8 +192,8 @@ print(response)
 ## Links
 
 **AI Engineering**
-- [[05_ai_engineering/03_rag_and_agents/rag_architecture|RAG Architecture]] — naive/advanced/modular RAG theory, HyDE, multi-query, reranking
-- [[05_ai_engineering/03_rag_and_agents/vector_stores|Vector Stores]] — FAISS, Chroma, pgvector comparison
+- [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]] — naive/advanced/modular RAG theory, HyDE, multi-query, reranking
+- [[06_ai_engineering/04_rag_and_agents/vector_stores|Vector Stores]] — FAISS, Chroma, pgvector comparison
 
 **System Patterns**
 - [[chroma_vector_store|Chroma Vector Store]] — Chroma-specific CRUD and metadata filtering

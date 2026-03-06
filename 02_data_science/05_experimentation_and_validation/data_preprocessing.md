@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 02_data_science
 type: concept
 status: growing
 tags: [data, workflow]
@@ -173,5 +173,5 @@ df[col] = df[col].clip(lower, upper)
 - [[exploratory_data_analysis|Exploratory Data Analysis]]
 - [[feature_engineering|Feature Engineering]]
 - [[data_validation|Data Validation]]
-- [[04_ml_engineering/03_feature_engineering/index|Feature Engineering (Production)]]
+- [[05_ml_engineering/04_feature_engineering/index|Feature Engineering (Production)]]
 - [[01_foundations/03_probability_and_statistics/probability_distributions|Probability Distributions]]

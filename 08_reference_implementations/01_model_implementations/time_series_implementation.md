@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 domain: forecasting
 stakeholders: []
@@ -11,9 +11,19 @@ created: 2026-03-06
 
 # Time Series Models — Implementation
 
+## Goal
+
+Implement ARIMA, ETS/Holt-Winters, and neural time series models with walk-forward cross-validation.
+
+## Conceptual Counterpart
+
+- [[03_modeling/05_time_series/index|Time Series Models]] — stationarity, ARIMA identification, seasonal decomposition, state space models
+- [[07_applications/01_prediction_and_forecasting/demand_forecasting|Demand Forecasting]] — production use case combining SARIMAX and LightGBM
+- [[07_applications/08_domain_verticals/04_ecommerce/inventory_optimization|Inventory Optimization]] — downstream decision system consuming forecasts
+
 ## Purpose
 
-Practical implementation of ARIMA, ETS, and neural time series models. Synthesised from [[02_modeling/03_model_families/09_time_series_models/time_series_models|Time Series Models]].
+Practical implementation of ARIMA, ETS, and neural time series models.
 
 ### Examples
 
@@ -177,4 +187,4 @@ y = df["y"]
 - [[02_modeling/03_model_families/09_time_series_models/time_series_models|Time Series Models (theory)]]
 - [[01_foundations/03_probability_and_statistics/hypothesis_testing|ADF test / hypothesis testing]]
 - [[02_modeling/05_evaluation_and_validation/evaluation_and_validation|Walk-forward evaluation]]
-- [[06_applications/01_model_implementations/tree_ensembles_implementation|Tree Ensembles (LightGBM)]]
+- [[08_reference_implementations/01_model_implementations/tree_ensembles_implementation|Tree Ensembles (LightGBM)]]

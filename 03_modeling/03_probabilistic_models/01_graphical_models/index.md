@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: index
 status: evergreen
 tags: []
@@ -16,6 +16,6 @@ Probabilistic graphical models representing joint distributions via graph struct
 
 ## Links
 
-← [[02_modeling/03_model_families/07_transformers/index|Transformers]]
-→ [[02_modeling/03_model_families/09_time_series_models/index|Time Series Models]]
+← [[03_modeling/04_deep_learning/04_transformers/index|Transformers]]
+→ [[03_modeling/05_time_series/01_classical_forecasting/index|Time Series Models]]
 - [[01_foundations/03_probability_and_statistics/bayesian_inference|Bayesian Inference]]

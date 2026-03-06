@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, deployment]
@@ -254,4 +254,4 @@ Service (ClusterIP) → round-robin load balancing
 - [[docker_patterns|Docker Patterns]]
 - [[cicd_pipelines|CI/CD Pipelines]]
 - [[github_actions|GitHub Actions]]
-- [[04_ml_engineering/08_infrastructure_and_platform/ml_environment_management|ML Environment Management]]
+- [[05_ml_engineering/09_infrastructure_and_platform/ml_environment_management|ML Environment Management]]

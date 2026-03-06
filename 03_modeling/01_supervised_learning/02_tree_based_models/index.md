@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: index
 status: evergreen
 tags: []
@@ -16,7 +16,7 @@ Decision trees and ensemble methods (random forests and gradient boosting). The 
 
 ## Links
 
-← [[02_modeling/03_model_families/01_linear_and_glm/index|Linear Models and GLMs]]
-→ [[02_modeling/03_model_families/03_probabilistic_models/index|Probabilistic Models]]
-- [[02_modeling/06_interpretability/shap_and_feature_attribution|SHAP and Feature Attribution]]
+← [[03_modeling/01_supervised_learning/01_linear_and_glm/index|Linear Models and GLMs]]
+→ [[03_modeling/03_probabilistic_models/index|Probabilistic Models]]
+- [[03_modeling/07_evaluation_and_model_selection/shap_and_feature_attribution|SHAP and Feature Attribution]]
 - [[01_foundations/04_optimization/gradient_descent_optimization|Gradient Descent]]

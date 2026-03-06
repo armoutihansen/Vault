@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 02_data_science
 type: concept
 status: seed
 tags: [interpretability, evaluation, safety]
@@ -89,6 +89,6 @@ $$\frac{\min_a P(\hat Y=1 \mid A=a)}{\max_a P(\hat Y=1 \mid A=a)} \geq 0.8$$
 
 - [[interpretability_overview|Interpretability Overview]]
 - [[model_risk_considerations|Model Risk Considerations]]
-- [[02_modeling/index|Modeling]]
+- [[03_modeling/index|Modeling]]
 - [[01_foundations/03_probability_and_statistics/probability_theory|Probability Theory — conditional probability, calibration, disparate impact]]
 - [[01_foundations/05_statistical_learning_theory/evaluation_metrics|Evaluation Metrics — precision, recall, AUC-ROC across groups]]

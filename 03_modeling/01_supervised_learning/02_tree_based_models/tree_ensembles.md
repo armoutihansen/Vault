@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: growing
 tags: [algorithm, tabular, classification, regression]
@@ -116,6 +116,6 @@ LightGBM uses **GOSS** (Gradient-based One-Side Sampling) and **EFB** (Exclusive
 
 - [[01_foundations/03_probability_and_statistics/probability_theory|Probability Theory (Bootstrap)]]
 - [[01_foundations/04_optimization/gradient_descent_optimization|Gradient Descent (Boosting derivation)]]
-- [[02_modeling/04_training_dynamics/regularization|Regularization]]
-- [[02_modeling/04_training_dynamics/hyperparameter_tuning|Hyperparameter Tuning]]
-- [[02_modeling/06_interpretability/shap_and_feature_attribution|SHAP and Feature Attribution]]
+- [[03_modeling/06_training_and_regularization/regularization|Regularization]]
+- [[03_modeling/06_training_and_regularization/hyperparameter_tuning|Hyperparameter Tuning]]
+- [[03_modeling/07_evaluation_and_model_selection/shap_and_feature_attribution|SHAP and Feature Attribution]]

@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: engineering
 tool: PyTorch
 status: growing
@@ -193,5 +193,5 @@ print(prof.key_averages().table(sort_by='cuda_time_total', row_limit=10))
 - [[deep_learning_frameworks|Deep Learning Frameworks]]
 - [[framework_comparison|Framework Comparison]]
 - [[huggingface_usage|HuggingFace Usage]]
-- [[04_ml_engineering/04_model_development/distributed_training|Distributed Training]]
-- [[05_ai_engineering/04_finetuning/peft_and_lora|PEFT and LoRA]]
+- [[05_ml_engineering/05_model_development/distributed_training|Distributed Training]]
+- [[06_ai_engineering/05_finetuning/peft_and_lora|PEFT and LoRA]]

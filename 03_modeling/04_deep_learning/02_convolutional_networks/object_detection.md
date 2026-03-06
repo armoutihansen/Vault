@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: seed
 tags: [algorithm, vision]
@@ -55,6 +55,6 @@ Autonomous driving (pedestrian/vehicle detection), surveillance, medical imaging
 - [[convolution]]
 - [[cnn_architecture]]
 - [[face_recognition]]
-- [[02_modeling/03_model_families/04_neural_networks/index|Neural Networks Index]]
+- [[03_modeling/04_deep_learning/index|Neural Networks Index]]
 - [[01_foundations/06_deep_learning_theory/activation_functions|Activation Functions — sigmoid for confidence scores, ReLU in feature maps]]
 - [[01_foundations/03_probability_and_statistics/probability_theory|Probability Theory — IoU as set overlap, NMS probability thresholding]]

@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: index
 status: evergreen
 tags: []
@@ -16,6 +16,6 @@ Methods that operate via kernel functions to learn non-linear decision boundarie
 
 ## Links
 
-← [[02_modeling/03_model_families/04_neural_networks/index|Neural Networks]]
-→ [[02_modeling/03_model_families/06_unsupervised_learning/index|Unsupervised Learning]]
+← [[03_modeling/04_deep_learning/index|Neural Networks]]
+→ [[03_modeling/02_unsupervised_learning/index|Unsupervised Learning]]
 - [[01_foundations/04_optimization/lagrangian_and_constrained_optimization|Lagrangian and Constrained Optimization]]

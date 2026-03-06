@@ -1,114 +1,56 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: index
 status: growing
 tags: []
 created: 2026-03-05
 ---
-# Applications
 
-Practical implementation patterns and example systems that demonstrate how concepts from modeling, software engineering, ML engineering, and AI engineering are applied in practice.
+# 08 — Reference Implementations
 
-> How are models and ML/AI systems implemented in real code and real architectures?
+> Guiding question: "How is this implemented in code or architecture?"
 
-This layer contains **implementation-oriented examples**, not theory or project work.
+This layer contains **verified, runnable implementations** of models, system patterns, and end-to-end ML/AI architectures. It is the code counterpart to the conceptual layers:
 
-It serves as a bridge between:
+- `03_modeling/` explains *what models are* → here we implement them
+- `05_ml_engineering/` explains *how ML systems are designed* → here we show them in code
+- `06_ai_engineering/` explains *how LLM systems work* → here we build them
 
-- conceptual knowledge (→ `01_foundations`, `02_modeling`)
-- engineering systems (→ `03_software_engineering`, `04_ml_engineering`, `05_ai_engineering`)
-- real production projects (→ `07_projects`)
-
-The goal is to build a **library of reusable implementation patterns** that can be referenced when designing or implementing real systems.
-
-This layer does NOT cover:
-- mathematical derivations (→ `01_foundations`)
-- model theory and algorithm design (→ `02_modeling`)
-- engineering principles and system architecture patterns (→ `03_software_engineering`, `04_ml_engineering`, `05_ai_engineering`)
-- project-specific work (→ `07_projects`)
+This layer does **not** contain business problem framing (→ `07_applications`), theory (→ `01_foundations`), or project-specific work (→ `09_projects`).
 
 ---
 
-## Implementation Patterns
+## [[08_reference_implementations/01_model_implementations/index|01 — Model Implementations]]
 
-### [[06_applications/01_model_implementations/index|01 — Model Implementations]]
-Practical implementations of machine learning and deep learning models.
+Runnable training, evaluation, and serialisation code for each model family. Synthesises `03_modeling/` theory with scikit-learn, PyTorch, XGBoost, statsmodels, and related libraries.
 
-Examples include:
-- implementing GMM clustering with sklearn
-- training tree ensembles with XGBoost
-- dimensionality reduction with PCA
-- transformer fine-tuning with PyTorch
-
-These examples connect **model theory** (→ `02_modeling`) with **real code and libraries**.
-
----
-
-### [[06_applications/02_system_patterns/index|02 — System Patterns]]
-Reusable system-level patterns for building ML and AI systems.
-
-Examples include:
-- training pipelines
-- feature stores
-- model serving APIs
-- model monitoring systems
-- RAG pipelines
-- vector database retrieval architectures
-
-These examples demonstrate how concepts from:
-
-- `03_software_engineering`
-- `04_ml_engineering`
-- `05_ai_engineering`
-
-are implemented in practice.
+- [[linear_models_implementation|Linear Models and GLMs]]
+- [[tree_ensembles_implementation|Tree Ensembles]]
+- [[kernel_methods_implementation|Kernel Methods]]
+- [[probabilistic_models_implementation|Probabilistic Models]]
+- [[unsupervised_learning_implementation|Unsupervised Learning]]
+- [[time_series_implementation|Time Series Models]]
+- [[neural_network_implementation|Neural Networks (PyTorch)]]
+- [[transformer_finetuning_implementation|Transformer Fine-tuning]]
+- [[graphical_model_implementation|Graphical Models]]
+- [[interpretability_implementation|Model Interpretability (SHAP)]]
 
 ---
 
-### [[06_applications/03_end_to_end_examples/index|03 — End-to-End Examples]]
-Small complete ML/AI systems that combine modeling and engineering concepts.
+## [[08_reference_implementations/02_system_patterns/index|02 — System Patterns]]
 
-Examples include:
-- churn prediction pipeline
-- recommendation system architecture
-- anomaly detection pipeline
-- document question-answering system using RAG
-
-These examples show **how multiple layers combine to form a working system**.
-
-They serve as reference architectures that can be adapted for real projects.
+Reusable production patterns for ML/AI systems: experiment tracking, feature stores, model serving, monitoring, RAG, agents, quantization, and more. Synthesises `05_ml_engineering/` and `06_ai_engineering/`.
 
 ---
 
-## Role in the Vault
+## [[08_reference_implementations/03_end_to_end_examples/index|03 — End-to-End Examples]]
 
-This layer forms the **implementation bridge** of the knowledge stack:
-
-```
-01_foundations  
-↓  
-02_modeling  
-↓  
-03_software_engineering  
-04_ml_engineering  
-05_ai_engineering  
-↓  
-06_applications  
-↓  
-07_projects
-```
-
-
-- **Modeling layers** explain *what the methods are*.
-- **Engineering layers** explain *how systems should be designed*.
-- **Applications** demonstrate *how they are implemented in practice*.
-- **Projects** contain *real-world implementations*.
+Complete ML/AI system walkthroughs combining multiple components across multiple layers. Each is a reference architecture adaptable to real projects.
 
 ---
 
 ## Links
-- [[02_modeling/index|Modeling]]
-- [[03_software_engineering/index|Software Engineering]]
-- [[04_ml_engineering/index|ML Engineering]]
-- [[05_ai_engineering/index|AI Engineering]]
-- Projects
+- [[07_applications/index|07 — Applications]]
+- [[03_modeling/index|03 — Modeling]]
+- [[05_ml_engineering/index|05 — ML Engineering]]
+- [[06_ai_engineering/index|06 — AI Engineering]]

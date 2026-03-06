@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: growing
 tags: [algorithm, classification, clustering]
@@ -98,5 +98,5 @@ The MAP estimate $\boldsymbol{\mu}_n$ is identical to ridge regression with $\la
 
 - [[01_foundations/03_probability_and_statistics/bayesian_inference|Bayesian Inference]]
 - [[01_foundations/03_probability_and_statistics/probability_distributions|Probability Distributions]]
-- [[02_modeling/03_model_families/06_unsupervised_learning/unsupervised_learning|Unsupervised Learning (k-means vs GMM)]]
-- [[02_modeling/04_training_dynamics/optimization_algorithms|Optimization Algorithms (EM as coordinate ascent)]]
+- [[03_modeling/02_unsupervised_learning/01_clustering/unsupervised_learning|Unsupervised Learning (k-means vs GMM)]]
+- [[03_modeling/06_training_and_regularization/optimization_algorithms|Optimization Algorithms (EM as coordinate ascent)]]

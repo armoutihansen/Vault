@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, reasoning, llm]
@@ -219,4 +219,4 @@ Security boundary:
 - [[repo_rag_for_code|Repo RAG for Code]]
 - [[llm_code_generation|LLM Code Generation]]
 - [[03_software_engineering/07_security/filesystem_sandboxing|Filesystem Sandboxing]]
-- [[05_ai_engineering/03_rag_and_agents/function_calling|Function Calling]]
+- [[06_ai_engineering/04_rag_and_agents/function_calling|Function Calling]]

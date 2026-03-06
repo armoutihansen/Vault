@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: seed
 tags: [algorithm, vision]
@@ -53,6 +53,6 @@ All CNN-based vision models; feature extraction for images. Modern variants incl
 ## Links
 
 - [[cnn_architecture]]
-- [[02_modeling/03_model_families/04_neural_networks/index|Neural Networks Index]]
+- [[03_modeling/04_deep_learning/index|Neural Networks Index]]
 - [[01_foundations/01_linear_algebra/02_matrices/matrix_operations|Matrix Operations — linear transformations, element-wise ops]]
 - [[01_foundations/02_calculus_and_analysis/05_vector_calculus/gradient_and_directional_derivative|Gradient and Directional Derivative — backprop through filters]]

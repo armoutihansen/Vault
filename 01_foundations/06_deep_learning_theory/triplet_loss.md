@@ -38,5 +38,5 @@ Requires careful triplet mining strategy; random sampling leads to training stag
 
 ## Links
 
-- [[face_recognition]] (in 02_modeling/computer_vision)
+- [[face_recognition]] (in 03_modeling/computer_vision)
 - [[01_foundations/06_deep_learning_theory/cross_entropy_loss]]

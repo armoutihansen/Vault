@@ -107,4 +107,4 @@ Validated manually: agent successfully built and tested a `calculator/` module (
 
 - [[overview]]
 - [[lessons_learned]]
-- Related: `05_ai_engineering/` — agentic architectures, function calling patterns, LLMOps
+- Related: `06_ai_engineering/` — agentic architectures, function calling patterns, LLMOps

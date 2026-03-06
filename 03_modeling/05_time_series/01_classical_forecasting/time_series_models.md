@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: growing
 tags: [algorithm, forecasting]
@@ -109,6 +109,6 @@ Models cross-series dependencies. Used in macroeconomics; Granger causality test
 ## Links
 
 - [[01_foundations/03_probability_and_statistics/hypothesis_testing|ADF Test (Stationarity)]]
-- [[02_modeling/03_model_families/08_graphical_models/graphical_models|Graphical Models (HMM, State-Space)]]
-- [[02_modeling/03_model_families/04_neural_networks/recurrent_networks|Recurrent Networks (LSTM)]]
-- [[02_modeling/04_training_dynamics/loss_functions|Loss Functions]]
+- [[03_modeling/03_probabilistic_models/01_graphical_models/graphical_models|Graphical Models (HMM, State-Space)]]
+- [[03_modeling/04_deep_learning/03_sequence_models/recurrent_networks|Recurrent Networks (LSTM)]]
+- [[03_modeling/06_training_and_regularization/loss_functions|Loss Functions]]

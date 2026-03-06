@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: growing
 tags: [algorithm, theory]
@@ -90,5 +90,5 @@ $$P(\mathbf{x},\mathbf{z}) = P(z_1)\prod_{t=2}^T P(z_t|z_{t-1})\prod_{t=1}^T P(x
 
 - [[01_foundations/03_probability_and_statistics/bayesian_inference|Bayesian Inference]]
 - [[01_foundations/03_probability_and_statistics/probability_theory|Conditional Independence]]
-- [[02_modeling/03_model_families/03_probabilistic_models/probabilistic_models|Probabilistic Models (GMM, Naive Bayes)]]
-- [[02_modeling/03_model_families/09_time_series_models/time_series_models|Time Series Models (HMM)]]
+- [[03_modeling/03_probabilistic_models/03_bayesian_modeling/probabilistic_models|Probabilistic Models (GMM, Naive Bayes)]]
+- [[03_modeling/05_time_series/01_classical_forecasting/time_series_models|Time Series Models (HMM)]]

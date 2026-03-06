@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [workflow, fine-tuning, llm]
@@ -10,7 +10,7 @@ created: 2026-03-06
 
 ## Purpose
 
-End-to-end pipeline for adapting a pre-trained LLM to a specific domain or task via supervised fine-tuning (SFT) followed by preference alignment (DPO). The pipeline covers: curating and formatting training data, LoRA/QLoRA fine-tuning with TRL's SFTTrainer, reward-free preference alignment with DPO, merging the adapter, and evaluating the fine-tuned model against a benchmark. Spans `05_ai_engineering` (finetuning, dataset engineering, evaluation) and `04_ml_engineering` (experiment tracking, distributed training).
+End-to-end pipeline for adapting a pre-trained LLM to a specific domain or task via supervised fine-tuning (SFT) followed by preference alignment (DPO). The pipeline covers: curating and formatting training data, LoRA/QLoRA fine-tuning with TRL's SFTTrainer, reward-free preference alignment with DPO, merging the adapter, and evaluating the fine-tuned model against a benchmark. Spans `06_ai_engineering` (finetuning, dataset engineering, evaluation) and `05_ml_engineering` (experiment tracking, distributed training).
 
 ### Examples
 

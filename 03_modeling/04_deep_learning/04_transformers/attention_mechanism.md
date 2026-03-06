@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: seed
 tags: [algorithm, nlp]
@@ -53,7 +53,7 @@ $O(T_x \cdot T_y)$ alignment computation can be expensive; attention is not a si
 
 - [[sequence_to_sequence]]
 - [[transformer]]
-- [[02_modeling/03_model_families/04_neural_networks/recurrent_networks|Recurrent Networks]]
-- [[02_modeling/03_model_families/07_transformers/index|Transformers Index]]
+- [[03_modeling/04_deep_learning/03_sequence_models/recurrent_networks|Recurrent Networks]]
+- [[03_modeling/04_deep_learning/04_transformers/index|Transformers Index]]
 - [[01_foundations/01_linear_algebra/02_matrices/matrix_operations|Matrix Operations — QKV matmuls, scaled dot-product]]
 - [[01_foundations/03_probability_and_statistics/probability_distributions|Probability Distributions — softmax as categorical distribution]]

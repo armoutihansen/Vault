@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [algorithm, interpretability, tabular]
@@ -8,9 +8,19 @@ created: 2026-05-10
 
 # Interpretability Implementation (SHAP, PDP, Permutation Importance)
 
+## Goal
+
+Explain ML model predictions using SHAP values, Partial Dependence Plots, and Permutation Feature Importance.
+
+## Conceptual Counterpart
+
+- [[03_modeling/07_evaluation_and_model_selection/index|Evaluation and Model Selection]] — model evaluation and selection framework
+- [[07_applications/04_classification_and_decisioning/credit_scoring|Credit Scoring]] — regulatory interpretability requirements (FCRA adverse action notices)
+- [[07_applications/08_domain_verticals/01_insurance/underwriting_support|Underwriting Support]] — model explainability in regulated insurance context
+
 ## Purpose
 
-Practical guide for explaining ML model predictions using three complementary interpretability methods: SHAP (model-agnostic, game-theoretic), Partial Dependence Plots (marginal effect of a single feature), and Permutation Feature Importance (drop in metric when a feature is shuffled). These methods cover local explanation (why this prediction?), global summary (which features matter overall?), and hypothesis testing (what happens when a feature is removed?).
+Practical guide for explaining ML model predictions using SHAP, PDP, and Permutation Feature Importance.
 
 ### Examples
 

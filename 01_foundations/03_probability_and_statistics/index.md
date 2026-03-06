@@ -22,4 +22,4 @@ Foundational probability theory and statistical inference. Answers the question:
 ← [[01_foundations/02_calculus_and_analysis/index|02 — Calculus & Analysis]]
 → [[01_foundations/04_optimization/index|04 — Optimization]]
 - [[01_foundations/05_statistical_learning_theory/index|05 — Statistical Learning Theory]]
-- [[02_modeling/03_model_families/03_probabilistic_models/index|Probabilistic Models]]
+- [[03_modeling/03_probabilistic_models/index|Probabilistic Models]]

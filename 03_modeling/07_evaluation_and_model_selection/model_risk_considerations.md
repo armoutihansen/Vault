@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: seed
 tags: [interpretability, evaluation, monitoring]
@@ -92,6 +92,6 @@ Every deployed model is an approximation of reality built on historical data. Th
 
 - [[fairness_metrics|Fairness Metrics]]
 - [[interpretability_overview|Interpretability Overview]]
-- [[02_modeling/index|Modeling]]
+- [[03_modeling/index|Modeling]]
 - [[01_foundations/05_statistical_learning_theory/generalization_bounds|Generalization Bounds — out-of-distribution and deployment risk]]
 - [[01_foundations/05_statistical_learning_theory/bias_variance_analysis|Bias–Variance Analysis — model complexity and overfitting risk]]

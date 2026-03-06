@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 domain: supervised-learning
 stakeholders: []
@@ -11,9 +11,19 @@ created: 2026-03-06
 
 # Tree Ensembles — Implementation
 
+## Goal
+
+Implement Random Forest, XGBoost, and LightGBM end-to-end with tuning, evaluation, and SHAP explainability.
+
+## Conceptual Counterpart
+
+- [[03_modeling/01_supervised_learning/02_tree_based_models/gradient_boosting|Gradient Boosting]] — boosting theory, XGBoost/LightGBM algorithm details
+- [[07_applications/04_classification_and_decisioning/credit_scoring|Credit Scoring]] — typical decision tree ensemble deployment context
+- [[07_applications/01_prediction_and_forecasting/churn_prediction|Churn Prediction]] — classification application using tree ensembles
+
 ## Purpose
 
-Practical implementation of tree ensembles using scikit-learn, XGBoost, and LightGBM. Synthesised from [[02_modeling/03_model_families/02_tree_ensembles/tree_ensembles|Tree Ensembles]].
+Practical implementation of tree ensembles using scikit-learn, XGBoost, and LightGBM. Synthesised from [[03_modeling/01_supervised_learning/02_tree_based_models/gradient_boosting|Tree Ensembles]].
 
 ### Examples
 

@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: index
 status: evergreen
 tags: []
@@ -18,9 +18,9 @@ created: 2026-03-02
 
 ## Links
 
-- [[02_modeling/03_model_families/index|Model Families]]
-- [[02_modeling/03_model_families/04_neural_networks/index|Neural Networks]]
+- [[03_modeling/index|Model Families]]
+- [[03_modeling/04_deep_learning/index|Neural Networks]]
 
 ---
 
-**Navigation:** ← [[02_modeling/03_model_families/06_unsupervised_learning/index|Unsupervised Learning]] | [[02_modeling/03_model_families/index|Model Families Index]] | [[02_modeling/03_model_families/08_graphical_models/index|Graphical Models →]]
+**Navigation:** ← [[03_modeling/02_unsupervised_learning/index|Unsupervised Learning]] | [[03_modeling/index|Model Families Index]] | [[03_modeling/03_probabilistic_models/01_graphical_models/index|Graphical Models →]]

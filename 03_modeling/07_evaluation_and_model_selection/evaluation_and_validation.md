@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: growing
 tags: [algorithm, evaluation]
@@ -116,5 +116,5 @@ CalibrationDisplay.from_estimator(model, X_test, y_test, n_bins=10)
 - [[01_foundations/05_statistical_learning_theory/bias_variance_analysis|Bias–Variance Analysis]]
 - [[01_foundations/05_statistical_learning_theory/evaluation_metrics|Evaluation Metrics (theory)]]
 - [[01_foundations/03_probability_and_statistics/hypothesis_testing|Hypothesis Testing (model comparison)]]
-- [[02_modeling/04_training_dynamics/hyperparameter_tuning|Hyperparameter Tuning]]
-- [[02_modeling/06_interpretability/interpretability_overview|Interpretability Overview]]
+- [[03_modeling/06_training_and_regularization/hyperparameter_tuning|Hyperparameter Tuning]]
+- [[02_data_science/06_interpretability_and_communication/interpretability_overview|Interpretability Overview]]

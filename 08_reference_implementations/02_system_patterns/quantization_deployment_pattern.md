@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, quantization, deployment]
@@ -220,8 +220,8 @@ print(outputs[0].outputs[0].text)
 ## Links
 
 **AI Engineering**
-- [[05_ai_engineering/06_inference_optimization/quantization_overview|Quantization Overview]] — bitsandbytes, GPTQ, AWQ, GGUF theory and trade-offs
-- [[05_ai_engineering/06_inference_optimization/serving_frameworks|LLM Serving Frameworks]] — vLLM, TGI, llama.cpp performance characteristics
+- [[06_ai_engineering/07_inference_optimization/quantization_overview|Quantization Overview]] — bitsandbytes, GPTQ, AWQ, GGUF theory and trade-offs
+- [[06_ai_engineering/07_inference_optimization/serving_frameworks|LLM Serving Frameworks]] — vLLM, TGI, llama.cpp performance characteristics
 
 **System Patterns**
 - [[vllm_serving|vLLM Serving]] — production vLLM deployment with quantized models

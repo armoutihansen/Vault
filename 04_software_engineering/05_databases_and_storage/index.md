@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: index
 status: evergreen
 tags: []
@@ -10,7 +10,7 @@ created: 2026-03-05
 
 SQL, NoSQL, and caching patterns for persistent data management and high-performance data access.
 
-← Prev [[03_software_engineering/03_apis_and_services/index|← APIs & Services]] | Next → [[03_software_engineering/05_testing_and_quality/index|Testing & Quality →]]
+← Prev [[04_software_engineering/04_apis_and_services/index|← APIs & Services]] | Next → [[04_software_engineering/06_testing_and_quality/index|Testing & Quality →]]
 
 ## Notes
 
@@ -19,7 +19,7 @@ SQL, NoSQL, and caching patterns for persistent data management and high-perform
 - [[caching_strategies|Caching Strategies]] — cache-aside, write-through, TTL, eviction policies, cache stampede prevention
 
 ## Links
-- [[03_software_engineering/index|Software Engineering]]
-- [[03_software_engineering/03_apis_and_services/index|APIs & Services]]
-- [[03_software_engineering/05_testing_and_quality/index|Testing & Quality]]
-- [[03_software_engineering/02_system_design/distributed_systems|Distributed Systems]]
+- [[04_software_engineering/index|Software Engineering]]
+- [[04_software_engineering/04_apis_and_services/index|APIs & Services]]
+- [[04_software_engineering/06_testing_and_quality/index|Testing & Quality]]
+- [[04_software_engineering/03_system_design/distributed_systems|Distributed Systems]]

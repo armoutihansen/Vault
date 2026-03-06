@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: index
 status: evergreen
 tags: []
@@ -10,7 +10,7 @@ created: 2026-03-05
 
 Fundamentals of designing large-scale distributed systems: consistency, scalability, availability, and architectural trade-offs.
 
-← Prev [[03_software_engineering/01_programming_and_runtime/index|← Programming & Runtime]] | Next → [[03_software_engineering/03_apis_and_services/index|APIs & Services →]]
+← Prev [[04_software_engineering/02_programming_languages/index|← Programming & Runtime]] | Next → [[04_software_engineering/04_apis_and_services/index|APIs & Services →]]
 
 ## Notes
 
@@ -19,7 +19,7 @@ Fundamentals of designing large-scale distributed systems: consistency, scalabil
 - [[scalability_patterns|Scalability Patterns]] — horizontal scaling, sharding, fan-out, rate limiting, and circuit breakers
 
 ## Links
-- [[03_software_engineering/index|Software Engineering]]
-- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]
-- [[03_software_engineering/03_apis_and_services/index|APIs & Services]]
-- [[03_software_engineering/04_databases_and_storage/index|Databases & Storage]]
+- [[04_software_engineering/index|Software Engineering]]
+- [[04_software_engineering/02_programming_languages/index|Programming & Runtime]]
+- [[04_software_engineering/04_apis_and_services/index|APIs & Services]]
+- [[04_software_engineering/05_databases_and_storage/index|Databases & Storage]]

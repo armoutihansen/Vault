@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: index
 status: evergreen
 tags: []
@@ -10,7 +10,7 @@ created: 2026-03-05
 
 Strategies and techniques for software correctness, quality assurance, and test-driven design.
 
-← Prev [[03_software_engineering/04_databases_and_storage/index|← Databases & Storage]] | Next → [[03_software_engineering/06_devops_and_infrastructure/index|DevOps & Infrastructure →]]
+← Prev [[04_software_engineering/05_databases_and_storage/index|← Databases & Storage]] | Next → [[04_software_engineering/07_devops_and_infrastructure/index|DevOps & Infrastructure →]]
 
 ## Notes
 
@@ -19,6 +19,6 @@ Strategies and techniques for software correctness, quality assurance, and test-
 - [[property_based_testing|Property-Based Testing]] — Hypothesis strategies, stateful testing, invariant discovery, fuzzing
 
 ## Links
-- [[03_software_engineering/index|Software Engineering]]
-- [[03_software_engineering/04_databases_and_storage/index|Databases & Storage]]
-- [[03_software_engineering/06_devops_and_infrastructure/index|DevOps & Infrastructure]]
+- [[04_software_engineering/index|Software Engineering]]
+- [[04_software_engineering/05_databases_and_storage/index|Databases & Storage]]
+- [[04_software_engineering/07_devops_and_infrastructure/index|DevOps & Infrastructure]]

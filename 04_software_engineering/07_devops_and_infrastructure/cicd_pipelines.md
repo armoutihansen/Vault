@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: engineering
 tool: GitHub Actions
 status: growing
@@ -391,4 +391,4 @@ GPU jobs can't run on GitHub-hosted runners. Use self-hosted runners registered 
 - [[docker_patterns|Docker]]
 - [[kubernetes_basics|Kubernetes]]
 - [[github_actions|GitHub Actions]]
-- [[04_ml_engineering/05_deployment_and_serving/rollout_strategies|Rollout Strategies]]
+- [[05_ml_engineering/06_deployment_and_serving/rollout_strategies|Rollout Strategies]]

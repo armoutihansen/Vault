@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: seed
 tags: [algorithm, nlp]
@@ -55,9 +55,9 @@ $O(T^2)$ attention scaling limits context length (addressed by sparse attention,
 - [[attention_mechanism]]
 - [[word_embeddings]]
 - [[sequence_to_sequence]]
-- [[02_modeling/03_model_families/04_neural_networks/recurrent_networks|Recurrent Networks]]
+- [[03_modeling/04_deep_learning/03_sequence_models/recurrent_networks|Recurrent Networks]]
 - [[transformers_overview]]
-- [[02_modeling/03_model_families/07_transformers/index|Transformers Index]]
+- [[03_modeling/04_deep_learning/04_transformers/index|Transformers Index]]
 - [[01_foundations/06_deep_learning_theory/layer_normalization|Layer Normalization — Pre-LN, RMSNorm stabilization]]
 - [[01_foundations/06_deep_learning_theory/residual_connections|Residual Connections — gradient highway in deep stacks]]
 - [[01_foundations/06_deep_learning_theory/adaptive_optimizers|Adaptive Optimizers — warmup + Adam scheduling]]

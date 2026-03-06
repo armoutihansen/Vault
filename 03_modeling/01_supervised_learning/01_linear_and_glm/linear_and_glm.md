@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: growing
 tags: [algorithm, tabular, regression, classification]
@@ -100,5 +100,5 @@ Each coefficient $e^{w_j}$ is a **rating factor** multiplying the base rate — 
 - [[01_foundations/01_linear_algebra/01_vector_spaces/least_squares|Least Squares]]
 - [[01_foundations/03_probability_and_statistics/bayesian_inference|Bayesian Inference (MAP = regularised MLE)]]
 - [[01_foundations/04_optimization/convex_optimization|Convex Optimization]]
-- [[02_modeling/04_training_dynamics/regularization|Regularization]]
-- [[02_modeling/05_evaluation_and_validation/index|Evaluation and Validation]]
+- [[03_modeling/06_training_and_regularization/regularization|Regularization]]
+- [[03_modeling/07_evaluation_and_model_selection/index|Evaluation and Validation]]

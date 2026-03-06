@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, data, mlops]
@@ -174,8 +174,8 @@ jobs:
 ```
 
 ## Links
-- [[04_ml_engineering/02_training_data/dataset_versioning|Dataset Versioning and Lineage]]
-- [[04_ml_engineering/01_data_engineering/data_pipeline_patterns|Data Pipeline Patterns]]
+- [[05_ml_engineering/03_training_data/dataset_versioning|Dataset Versioning and Lineage]]
+- [[05_ml_engineering/02_data_engineering/data_pipeline_patterns|Data Pipeline Patterns]]
 - [[mlflow_experiment_tracking|MLflow Experiment Tracking Pattern]]
 - [[cicd_for_ml|CI/CD for ML Pipelines]]
 - [[batch_ml_prediction_pipeline|Batch ML Prediction Pipeline]]

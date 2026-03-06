@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 02_data_science
 type: concept
 status: growing
 tags: [workflow, classification, regression]
@@ -89,6 +89,6 @@ Define before any modeling:
 
 - [[01_foundations/05_statistical_learning_theory/evaluation_metrics|Evaluation Metrics]]
 - [[01_foundations/05_statistical_learning_theory/bias_variance_analysis|Bias–Variance Analysis]]
-- [[02_modeling/02_data_science/exploratory_data_analysis|Exploratory Data Analysis]]
-- [[02_modeling/04_training_dynamics/loss_functions|Loss Functions]]
-- [[02_modeling/05_evaluation_and_validation/index|Evaluation and Validation]]
+- [[02_data_science/03_exploratory_data_analysis/exploratory_data_analysis|Exploratory Data Analysis]]
+- [[03_modeling/06_training_and_regularization/loss_functions|Loss Functions]]
+- [[03_modeling/07_evaluation_and_model_selection/index|Evaluation and Validation]]

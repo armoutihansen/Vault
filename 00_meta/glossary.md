@@ -142,8 +142,8 @@ One-line definitions for key terms used across the vault. Entries link to the pr
 | **A/B test** | Controlled experiment comparing a treatment (new model) to a control (current model) on live traffic; used to measure real-world impact. |
 | **canary deployment** | Gradually shift a fraction of traffic to a new model version; roll back if metrics degrade before full rollout. |
 | **data drift** | Change in input feature distribution $P(X)$ between training and production; detected via statistical tests (KS, PSI). |
-| **feature store** | Centralised repository for computed features with consistent serving between training and inference; prevents train–serve skew. See [[04_ml_engineering/03_feature_engineering/index\|Feature Engineering]]. |
-| **MLflow** | Open-source ML lifecycle platform: experiment tracking, model registry, and model serving. See [[04_ml_engineering/04_model_development/index\|Model Development]]. |
+| **feature store** | Centralised repository for computed features with consistent serving between training and inference; prevents train–serve skew. See [[05_ml_engineering/04_feature_engineering/index\|Feature Engineering]]. |
+| **MLflow** | Open-source ML lifecycle platform: experiment tracking, model registry, and model serving. See [[05_ml_engineering/05_model_development/index\|Model Development]]. |
 | **model registry** | Versioned store of trained model artefacts with stage transitions (Staging → Production); enables reproducibility and governance. |
 | **online learning** | Model updates continuously as new data arrives; suited for non-stationary environments. |
 | **PSI (population stability index)** | Measures shift between two distributions; PSI < 0.1: stable; 0.1–0.25: minor shift; > 0.25: major drift requiring investigation. |
@@ -158,19 +158,19 @@ One-line definitions for key terms used across the vault. Entries link to the pr
 | **chunking** | Splitting documents into segments for embedding and retrieval in RAG pipelines; chunk size and overlap affect recall and coherence. |
 | **context window** | Maximum number of tokens a language model can process in a single forward pass; limits document length and conversation history. |
 | **embedding** | Dense vector representation of text, image, or other data in a latent semantic space; similarity is measured by cosine or dot product. |
-| **fine-tuning** | Further training a pre-trained model on a task-specific dataset; updates weights (full fine-tuning) or only adapters (LoRA/QLoRA). See [[05_ai_engineering/04_finetuning/index\|Fine-tuning]]. |
+| **fine-tuning** | Further training a pre-trained model on a task-specific dataset; updates weights (full fine-tuning) or only adapters (LoRA/QLoRA). See [[06_ai_engineering/05_finetuning/index\|Fine-tuning]]. |
 | **hallucination** | LLM generating plausible-sounding but factually incorrect or unsupported content; mitigated by RAG, grounding, and output validation. |
 | **KV cache** | Cached key-value attention tensors for previously processed tokens; enables efficient autoregressive decoding without recomputation. |
-| **LoRA (Low-Rank Adaptation)** | Parameter-efficient fine-tuning: learns low-rank updates $\Delta W = AB$ added to frozen weight matrices; far fewer trainable parameters. See [[05_ai_engineering/04_finetuning/index\|Fine-tuning]]. |
-| **prompt engineering** | Designing input text to elicit desired LLM behaviour; includes chain-of-thought, few-shot examples, and system prompts. See [[05_ai_engineering/02_prompt_engineering/index\|Prompt Engineering]]. |
-| **quantisation** | Reducing model weight precision (FP32 → INT8/INT4) to decrease memory footprint and increase inference throughput with minimal accuracy loss. See [[05_ai_engineering/06_inference_optimization/index\|Inference Optimisation]]. |
-| **RAG (retrieval-augmented generation)** | Combines a retrieval system (vector search over a knowledge base) with an LLM; grounds responses in retrieved context. See [[05_ai_engineering/03_rag_and_agents/index\|RAG and Agents]]. |
+| **LoRA (Low-Rank Adaptation)** | Parameter-efficient fine-tuning: learns low-rank updates $\Delta W = AB$ added to frozen weight matrices; far fewer trainable parameters. See [[06_ai_engineering/05_finetuning/index\|Fine-tuning]]. |
+| **prompt engineering** | Designing input text to elicit desired LLM behaviour; includes chain-of-thought, few-shot examples, and system prompts. See [[06_ai_engineering/03_prompt_engineering/index\|Prompt Engineering]]. |
+| **quantisation** | Reducing model weight precision (FP32 → INT8/INT4) to decrease memory footprint and increase inference throughput with minimal accuracy loss. See [[06_ai_engineering/07_inference_optimization/index\|Inference Optimisation]]. |
+| **RAG (retrieval-augmented generation)** | Combines a retrieval system (vector search over a knowledge base) with an LLM; grounds responses in retrieved context. See [[06_ai_engineering/04_rag_and_agents/index\|RAG and Agents]]. |
 | **reranker** | A cross-encoder model that scores query–document pairs for relevance; used after initial retrieval to improve precision before LLM generation. |
 | **system prompt** | Instruction prepended to a conversation that shapes LLM behaviour, persona, and constraints; not visible to end-users in production. |
 | **temperature** | Sampling parameter scaling logits before softmax; higher → more random outputs; temperature = 0 → greedy (deterministic) decoding. |
 | **token** | Basic unit of text processed by an LLM; typically ~0.75 words for English; models have a fixed context window measured in tokens. |
 | **tool use / function calling** | LLM capability to invoke external tools (APIs, code interpreters, databases) by outputting structured JSON; enables agentic behaviour. |
-| **vLLM** | High-throughput LLM inference library using PagedAttention for efficient KV cache management; enables continuous batching. See [[05_ai_engineering/06_inference_optimization/index\|Inference Optimisation]]. |
+| **vLLM** | High-throughput LLM inference library using PagedAttention for efficient KV cache management; enables continuous batching. See [[06_ai_engineering/07_inference_optimization/index\|Inference Optimisation]]. |
 
 ---
 
@@ -179,6 +179,6 @@ One-line definitions for key terms used across the vault. Entries link to the pr
 - [[00_meta/conventions.md|Conventions]]
 - [[01_foundations/index|Foundations]]
 - [[02_modeling/index|Modeling]]
-- [[03_software_engineering/index|Software Engineering]]
-- [[04_ml_engineering/index|ML Engineering]]
-- [[05_ai_engineering/index|AI Engineering]]
+- [[04_software_engineering/index|Software Engineering]]
+- [[05_ml_engineering/index|ML Engineering]]
+- [[06_ai_engineering/index|AI Engineering]]

@@ -1,5 +1,5 @@
 ---
-layer: 04_ml_engineering
+layer: 05_ml_engineering
 type: index
 status: evergreen
 tags: []
@@ -15,6 +15,6 @@ Data infrastructure: pipelines, formats, and feature stores.
 - [[feature_store|Feature Store]] — centralised registry for computing, versioning, and serving features for training and online inference
 
 ## Links
-- [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[04_ml_engineering/00_principles_and_lifecycle/index|← 00 — Principles & Lifecycle]]
-- Next: [[04_ml_engineering/02_training_data/index|02 — Training Data →]]
+- [[05_ml_engineering/index|↑ ML Engineering]]
+- Prev: [[05_ml_engineering/01_principles_and_lifecycle/index|← 01 — Principles & Lifecycle]]
+- Next: [[05_ml_engineering/03_training_data/index|03 — Training Data →]]

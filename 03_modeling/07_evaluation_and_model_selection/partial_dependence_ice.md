@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: seed
 tags: [interpretability, algorithm]
@@ -81,6 +81,6 @@ where $z_{k-1,j}$ and $z_{k,j}$ are the interval boundaries and $N_j(k)$ is the 
 
 - [[interpretability_overview|Interpretability Overview]]
 - [[shap_and_feature_attribution|SHAP and Feature Attribution]]
-- [[02_modeling/index|Modeling]]
+- [[03_modeling/index|Modeling]]
 - [[01_foundations/03_probability_and_statistics/probability_theory|Probability Theory — marginalisation over feature distributions]]
 - [[01_foundations/02_calculus_and_analysis/01_differentiation/partial_derivatives|Partial Derivatives — measuring isolated feature effect]]

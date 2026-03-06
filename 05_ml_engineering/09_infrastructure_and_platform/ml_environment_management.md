@@ -1,5 +1,5 @@
 ---
-layer: 04_ml_engineering
+layer: 05_ml_engineering
 type: engineering
 tool: docker
 status: growing
@@ -107,6 +107,6 @@ The same Docker image should run in all three environments, parameterized only b
 - [[feature_store|Feature Store]]
 - [[data_pipeline_patterns|Data Pipeline Patterns]]
 - [[experiment_tracking|Experiment Tracking]]
-- [[03_software_engineering/06_devops_and_infrastructure/docker_patterns|Docker Patterns]]
-- [[03_software_engineering/06_devops_and_infrastructure/kubernetes_basics|Kubernetes Basics]]
-- [[03_software_engineering/06_devops_and_infrastructure/cicd_pipelines|CI/CD Pipelines]]
+- [[04_software_engineering/07_devops_and_infrastructure/docker_patterns|Docker Patterns]]
+- [[04_software_engineering/07_devops_and_infrastructure/kubernetes_basics|Kubernetes Basics]]
+- [[04_software_engineering/07_devops_and_infrastructure/cicd_pipelines|CI/CD Pipelines]]

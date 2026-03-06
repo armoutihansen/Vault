@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 02_data_science
 type: concept
 status: growing
 tags: [data, workflow]
@@ -135,6 +135,6 @@ df['target'].value_counts(normalize=True)
 
 - [[feature_engineering|Feature Engineering]]
 - [[data_preprocessing|Data Preprocessing]]
-- [[02_modeling/01_problem_formulation/problem_formulation|Problem Formulation]]
+- [[02_data_science/01_problem_framing/problem_framing|Problem Formulation]]
 - [[01_foundations/03_probability_and_statistics/probability_distributions|Probability Distributions]]
-- [[04_ml_engineering/01_data_engineering/index|Data Engineering]]
+- [[05_ml_engineering/02_data_engineering/index|Data Engineering]]

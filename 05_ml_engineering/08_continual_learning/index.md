@@ -1,5 +1,5 @@
 ---
-layer: 04_ml_engineering
+layer: 05_ml_engineering
 type: index
 status: evergreen
 tags: []
@@ -15,6 +15,6 @@ Adapting models to a changing world.
 - [[testing_in_production|Testing in Production]] — shadow evaluation, online A/B testing, interleaving experiments, and safe rollback
 
 ## Links
-- [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[04_ml_engineering/06_monitoring_and_observability/index|← 06 — Monitoring & Observability]]
-- Next: [[04_ml_engineering/08_infrastructure_and_platform/index|08 — Infrastructure & Platform →]]
+- [[05_ml_engineering/index|↑ ML Engineering]]
+- Prev: [[05_ml_engineering/07_monitoring_and_observability/index|← 07 — Monitoring & Observability]]
+- Next: [[05_ml_engineering/09_infrastructure_and_platform/index|09 — Infrastructure & Platform →]]

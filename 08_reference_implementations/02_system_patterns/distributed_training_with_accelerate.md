@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, distributed, training]
@@ -155,7 +155,7 @@ model, optimizer, dataloader, scheduler = accelerator.prepare(
 ```
 
 ## Links
-- [[04_ml_engineering/04_model_development/distributed_training|Distributed Training]]
-- [[04_ml_engineering/04_model_development/experiment_tracking|Experiment Tracking]]
+- [[05_ml_engineering/05_model_development/distributed_training|Distributed Training]]
+- [[05_ml_engineering/05_model_development/experiment_tracking|Experiment Tracking]]
 - [[mlflow_experiment_tracking|MLflow Experiment Tracking Pattern]]
 - [[large_model_training_pipeline|Large Model Training Pipeline]]

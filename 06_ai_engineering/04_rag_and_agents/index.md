@@ -1,5 +1,5 @@
 ---
-layer: 05_ai_engineering
+layer: 06_ai_engineering
 type: index
 status: evergreen
 tags: []
@@ -21,7 +21,7 @@ Architectures that extend foundation models with retrieval and tools.
 
 ## Navigation
 
-← Prev [[05_ai_engineering/02_prompt_engineering/index|← Prompt Engineering]] | Next → [[05_ai_engineering/04_finetuning/index|Fine-tuning →]]
+← Prev [[06_ai_engineering/03_prompt_engineering/index|← Prompt Engineering]] | Next → [[06_ai_engineering/05_finetuning/index|Fine-tuning →]]
 
 ## Links
-- [[05_ai_engineering/index|AI Engineering]]
+- [[06_ai_engineering/index|AI Engineering]]

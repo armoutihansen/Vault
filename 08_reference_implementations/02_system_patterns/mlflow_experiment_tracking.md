@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, training, mlops]
@@ -164,9 +164,9 @@ model.fit(X_train, y_train)
 ```
 
 ## Links
-- [[04_ml_engineering/04_model_development/experiment_tracking|Experiment Tracking]]
-- [[04_ml_engineering/08_infrastructure_and_platform/ml_platform_architecture|ML Platform Architecture]]
-- [[04_ml_engineering/02_training_data/dataset_versioning|Dataset Versioning and Lineage]]
-- [[04_ml_engineering/04_model_development/offline_evaluation|Offline Evaluation]]
+- [[05_ml_engineering/05_model_development/experiment_tracking|Experiment Tracking]]
+- [[05_ml_engineering/09_infrastructure_and_platform/ml_platform_architecture|ML Platform Architecture]]
+- [[05_ml_engineering/03_training_data/dataset_versioning|Dataset Versioning and Lineage]]
+- [[05_ml_engineering/05_model_development/offline_evaluation|Offline Evaluation]]
 - [[model_serving_with_fastapi|Model Serving with FastAPI]]
 - [[cicd_for_ml|CI/CD for ML Pipelines]]

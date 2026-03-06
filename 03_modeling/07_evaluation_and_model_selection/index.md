@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: index
 status: evergreen
 tags: []
@@ -16,7 +16,7 @@ Techniques for measuring model performance, selecting between models, and assess
 
 ## Links
 
-← [[02_modeling/04_training_dynamics/index|Training Dynamics]]
-→ [[02_modeling/06_interpretability/index|Interpretability]]
+← [[03_modeling/06_training_and_regularization/index|Training Dynamics]]
+→ [[02_data_science/06_interpretability_and_communication/index|Interpretability]]
 - [[01_foundations/05_statistical_learning_theory/evaluation_metrics|Evaluation Metrics (theory)]]
 - [[01_foundations/05_statistical_learning_theory/bias_variance_analysis|Bias–Variance Analysis]]

@@ -102,5 +102,5 @@ The **dual problem**: $\max_{\boldsymbol{\lambda} \geq 0, \boldsymbol{\nu}} g(\b
 - [[lagrangian_and_constrained_optimization|Lagrangian and Constrained Optimization]]
 - [[01_foundations/02_calculus_and_analysis/01_differentiation/partial_derivatives|Partial Derivatives]]
 - [[01_foundations/02_calculus_and_analysis/01_differentiation/chain_rule|Chain Rule]]
-- [[02_modeling/04_training_dynamics/optimization_algorithms|Optimization Algorithms]]
-- [[02_modeling/03_model_families/05_kernel_methods/index|Kernel Methods]]
+- [[03_modeling/06_training_and_regularization/optimization_algorithms|Optimization Algorithms]]
+- [[03_modeling/01_supervised_learning/03_kernel_methods/index|Kernel Methods]]

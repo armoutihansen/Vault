@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 domain: unsupervised-learning
 stakeholders: []
@@ -11,9 +11,19 @@ created: 2026-03-06
 
 # Unsupervised Learning — Implementation
 
+## Goal
+
+Implement clustering, dimensionality reduction, and anomaly detection with scikit-learn and UMAP.
+
+## Conceptual Counterpart
+
+- [[03_modeling/02_unsupervised_learning/index|Unsupervised Learning]] — clustering algorithms, PCA, anomaly detection methods
+- [[07_applications/03_detection_and_monitoring/anomaly_detection_operations|Anomaly Detection — Operations]] — production context for unsupervised anomaly detection
+- [[07_applications/08_domain_verticals/06_operations/quality_control_vision|Quality Control Vision]] — manufacturing anomaly detection application
+
 ## Purpose
 
-Practical implementation of clustering, dimensionality reduction, and anomaly detection with scikit-learn and UMAP. Synthesised from [[02_modeling/03_model_families/06_unsupervised_learning/unsupervised_learning|Unsupervised Learning]].
+Practical implementation of clustering, dimensionality reduction, and anomaly detection with scikit-learn and UMAP.
 
 ### Examples
 

@@ -1,5 +1,5 @@
 ---
-layer: 04_ml_engineering
+layer: 05_ml_engineering
 type: index
 status: evergreen
 tags: []
@@ -15,6 +15,6 @@ Detecting failures and maintaining reliability.
 - [[ml_observability|ML Observability]] — prediction monitoring, feature statistics, alerting pipelines, and incident response
 
 ## Links
-- [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[04_ml_engineering/05_deployment_and_serving/index|← 05 — Deployment & Serving]]
-- Next: [[04_ml_engineering/07_continual_learning/index|07 — Continual Learning →]]
+- [[05_ml_engineering/index|↑ ML Engineering]]
+- Prev: [[05_ml_engineering/06_deployment_and_serving/index|← 06 — Deployment & Serving]]
+- Next: [[05_ml_engineering/08_continual_learning/index|08 — Continual Learning →]]

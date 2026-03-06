@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, evaluation, llm]
@@ -233,8 +233,8 @@ if mean_faithfulness < args.fail_threshold:
 ## Links
 
 **AI Engineering**
-- [[05_ai_engineering/01_evaluation/llm_evaluation_overview|LLM Evaluation Overview]] — evaluation taxonomy: automated metrics, LLM-as-judge, human eval
-- [[05_ai_engineering/01_evaluation/benchmarks_and_harness|Benchmarks and Harness]] — lm-evaluation-harness for standardised benchmarks
+- [[06_ai_engineering/02_evaluation/llm_evaluation_overview|LLM Evaluation Overview]] — evaluation taxonomy: automated metrics, LLM-as-judge, human eval
+- [[06_ai_engineering/02_evaluation/benchmarks_and_harness|Benchmarks and Harness]] — lm-evaluation-harness for standardised benchmarks
 
 **System Patterns**
 - [[langsmith_llm_observability|LangSmith LLM Observability]] — tracing and monitoring companion to evaluation

@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: concept
 status: growing
 tags: [pattern, distributed]
@@ -206,4 +206,4 @@ Distributed rate limiting requires atomic operations. Redis `INCR` + `EXPIRE` fo
 - [[caching_strategies|Caching]]
 - [[nosql_patterns|NoSQL Patterns]]
 - [[kubernetes_basics|Kubernetes]]
-- [[04_ml_engineering/05_deployment_and_serving/serving_patterns|Model Serving Patterns]]
+- [[05_ml_engineering/06_deployment_and_serving/serving_patterns|Model Serving Patterns]]

@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: growing
 tags: [algorithm, classification, regression]
@@ -90,5 +90,5 @@ Closed-form kernel regression: $\hat{f}(\mathbf{x}) = \mathbf{k}^\top(K + \lambd
 
 - [[01_foundations/04_optimization/lagrangian_and_constrained_optimization|Lagrangian and Constrained Optimization (SVM dual)]]
 - [[01_foundations/04_optimization/convex_optimization|Convex Optimization (QP)]]
-- [[02_modeling/03_model_families/01_linear_and_glm/linear_and_glm|Linear Models (linear kernel = linear SVM)]]
-- [[02_modeling/04_training_dynamics/regularization|Regularization (C parameter)]]
+- [[03_modeling/01_supervised_learning/01_linear_and_glm/linear_and_glm|Linear Models (linear kernel = linear SVM)]]
+- [[03_modeling/06_training_and_regularization/regularization|Regularization (C parameter)]]

@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [workflow, nlp, fine-tuning, classification]
@@ -261,9 +261,9 @@ uvicorn api:app --host 0.0.0.0 --port 8080 --workers 2
 ## Links
 
 **AI Engineering**
-- [[05_ai_engineering/04_finetuning/peft_and_lora|PEFT and LoRA]] — LoRA/QLoRA theory and target modules
-- [[05_ai_engineering/04_finetuning/finetuning_strategies|Fine-tuning Strategies]] — SFT vs. RLHF vs. frozen head
-- [[05_ai_engineering/06_inference_optimization/serving_frameworks|LLM Serving Frameworks]] — vLLM, TGI performance characteristics
+- [[06_ai_engineering/05_finetuning/peft_and_lora|PEFT and LoRA]] — LoRA/QLoRA theory and target modules
+- [[06_ai_engineering/05_finetuning/finetuning_strategies|Fine-tuning Strategies]] — SFT vs. RLHF vs. frozen head
+- [[06_ai_engineering/07_inference_optimization/serving_frameworks|LLM Serving Frameworks]] — vLLM, TGI performance characteristics
 
 **Modeling**
 - [[02_modeling/03_model_families/07_transformers/transformer_architecture|Transformer Architecture]] — attention mechanism of the base model

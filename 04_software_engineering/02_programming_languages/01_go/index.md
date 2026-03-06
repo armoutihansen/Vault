@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: index
 status: evergreen
 tags: []
@@ -25,8 +25,8 @@ Programming language notes for Go — types, concurrency, interfaces, error hand
 - [[go_packages|Go Packages]] — module system, `go.mod`, import paths, and workspace management
 
 ## Links
-- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]
+- [[04_software_engineering/02_programming_languages/index|Programming Languages]]
 
 ---
 
-**Navigation:** ← [[03_software_engineering/01_programming_and_runtime/00_python/index|Python]] | [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime Index]] | [[03_software_engineering/01_programming_and_runtime/02_javascript/index|JavaScript →]]
+**Navigation:** ← [[04_software_engineering/02_programming_languages/00_python/index|Python]] | [[04_software_engineering/02_programming_languages/index|Programming Languages Index]] | [[04_software_engineering/02_programming_languages/02_javascript/index|JavaScript →]]

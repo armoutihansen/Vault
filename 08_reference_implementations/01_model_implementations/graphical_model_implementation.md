@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [algorithm, reasoning]
@@ -8,9 +8,19 @@ created: 2026-05-10
 
 # Graphical Model Implementation (pgmpy)
 
+## Goal
+
+Construct, fit, and query Bayesian networks with pgmpy for probabilistic reasoning and causal modelling.
+
+## Conceptual Counterpart
+
+- [[03_modeling/03_probabilistic_models/index|Probabilistic Models]] — Bayesian networks, conditional independence, d-separation, factor graphs
+- [[07_applications/08_domain_verticals/01_insurance/underwriting_support|Underwriting Support]] — causal reasoning in risk assessment
+- [[07_applications/03_detection_and_monitoring/fraud_detection|Fraud Detection]] — probabilistic evidence combination
+
 ## Purpose
 
-Practical guide for constructing, fitting, and querying Bayesian networks with `pgmpy`. Covers explicit DAG construction from domain knowledge, maximum-likelihood / Bayesian parameter estimation, and exact Variable Elimination inference — the core workflow for probabilistic reasoning in diagnostic, risk-assessment, and causal modelling problems.
+Practical guide for constructing, fitting, and querying Bayesian networks with `pgmpy`.
 
 ### Examples
 

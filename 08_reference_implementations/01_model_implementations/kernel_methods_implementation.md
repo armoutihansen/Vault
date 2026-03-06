@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 domain: supervised-learning
 stakeholders: []
@@ -11,9 +11,19 @@ created: 2026-03-06
 
 # Kernel Methods — Implementation
 
+## Goal
+
+Implement SVMs and kernel regression with scikit-learn: kernel selection, hyperparameter search, and evaluation.
+
+## Conceptual Counterpart
+
+- [[03_modeling/01_supervised_learning/03_kernel_methods/index|Kernel Methods]] — kernel trick, SVM margin, support vectors, RBF vs polynomial kernels
+- [[01_foundations/index|Foundations]] — reproducing kernel Hilbert spaces, dual problem formulation
+- [[07_applications/04_classification_and_decisioning/credit_scoring|Credit Scoring]] — binary classification context
+
 ## Purpose
 
-Practical implementation of SVMs and SVRs with scikit-learn. Synthesised from [[02_modeling/03_model_families/05_kernel_methods/kernel_methods|Kernel Methods]].
+Practical implementation of SVMs and SVRs with scikit-learn.
 
 ### Examples
 
@@ -138,4 +148,4 @@ def plot_svm_boundary(clf, X, y, ax):
 - [[02_modeling/03_model_families/05_kernel_methods/kernel_methods|Kernel Methods (theory)]]
 - [[01_foundations/04_optimization/lagrangian_and_constrained_optimization|KKT / SVM Dual Derivation]]
 - [[02_modeling/05_evaluation_and_validation/evaluation_and_validation|Evaluation and Validation]]
-- [[06_applications/01_model_implementations/linear_models_implementation|Linear Models Implementation]]
+- [[08_reference_implementations/01_model_implementations/linear_models_implementation|Linear Models Implementation]]

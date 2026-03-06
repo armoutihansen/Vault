@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 02_data_science
 type: concept
 status: growing
 tags: [feature-engineering, tabular]
@@ -161,7 +161,7 @@ A feature is **leaked** if it encodes information available only after the predi
 - [[exploratory_data_analysis|Exploratory Data Analysis]]
 - [[data_preprocessing|Data Preprocessing]]
 - [[data_validation|Data Validation]]
-- [[04_ml_engineering/03_feature_engineering/index|Feature Engineering (Production)]]
-- [[02_modeling/03_model_families/01_linear_and_glm/index|Linear Models and GLMs]]
+- [[05_ml_engineering/04_feature_engineering/index|Feature Engineering (Production)]]
+- [[03_modeling/01_supervised_learning/01_linear_and_glm/index|Linear Models and GLMs]]
 - [[01_foundations/01_linear_algebra/01_vector_spaces/vector_space|Vector Space — feature space geometry, basis transformations]]
 - [[01_foundations/03_probability_and_statistics/probability_distributions|Probability Distributions — normalization, encoding categorical features]]

@@ -123,4 +123,4 @@ Warmup + cosine decay is standard for transformer training.
 - [[lagrangian_and_constrained_optimization|Lagrangian and Constrained Optimization]]
 - [[01_foundations/02_calculus_and_analysis/01_differentiation/partial_derivatives|Partial Derivatives]]
 - [[01_foundations/06_deep_learning_theory/gradient_descent|Gradient Descent (DL Theory)]]
-- [[02_modeling/04_training_dynamics/optimization_algorithms|Optimization Algorithms (Modeling)]]
+- [[03_modeling/06_training_and_regularization/optimization_algorithms|Optimization Algorithms (Modeling)]]

@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, deployment, mlops]
@@ -197,8 +197,8 @@ os.environ["CUBLAS_WORKSPACE_CONFIG"] = ":4096:8"
 ```
 
 ## Links
-- [[04_ml_engineering/08_infrastructure_and_platform/ml_environment_management|ML Environment Management]]
-- [[03_software_engineering/06_devops_and_infrastructure/docker_patterns|Docker Patterns]]
-- [[03_software_engineering/06_devops_and_infrastructure/kubernetes_basics|Kubernetes Basics]]
+- [[05_ml_engineering/09_infrastructure_and_platform/ml_environment_management|ML Environment Management]]
+- [[04_software_engineering/07_devops_and_infrastructure/docker_patterns|Docker Patterns]]
+- [[04_software_engineering/07_devops_and_infrastructure/kubernetes_basics|Kubernetes Basics]]
 - [[model_serving_with_fastapi|Model Serving with FastAPI]]
 - [[cicd_for_ml|CI/CD for ML Pipelines]]

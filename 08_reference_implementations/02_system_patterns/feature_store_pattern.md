@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, feature-engineering]
@@ -179,8 +179,8 @@ print(online_features)
 ## Links
 
 **ML Engineering**
-- [[04_ml_engineering/01_data_engineering/feature_store|Feature Store]] — training-serving skew, offline/online stores, point-in-time joins theory
-- [[04_ml_engineering/01_data_engineering/data_pipeline_patterns|Data Pipeline Patterns]] — upstream data ingestion feeding the feature store
+- [[05_ml_engineering/02_data_engineering/feature_store|Feature Store]] — training-serving skew, offline/online stores, point-in-time joins theory
+- [[05_ml_engineering/02_data_engineering/data_pipeline_patterns|Data Pipeline Patterns]] — upstream data ingestion feeding the feature store
 
 **Applications**
 - [[training_pipeline_pattern|Training Pipeline Pattern]] — feature store is the first stage of the training pipeline

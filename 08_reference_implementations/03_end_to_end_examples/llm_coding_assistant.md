@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [workflow, retrieval, reasoning, llm]
@@ -10,7 +10,7 @@ created: 2026-03-06
 
 ## Purpose
 
-End-to-end implementation of an LLM-powered coding assistant that uses MCP tools for file system access, RAG for codebase retrieval, and an agentic loop for multi-step code generation and refactoring. Synthesized from: [[mcp_protocol|MCP Protocol]], [[agentic_coding|Agentic Coding]], [[repo_rag_for_code|Repo RAG for Code]], [[llm_code_generation|LLM Code Generation]], [[05_ai_engineering/03_rag_and_agents/rag_architecture|RAG Architecture]], [[05_ai_engineering/03_rag_and_agents/agentic_loop|Agentic Loop]].
+End-to-end implementation of an LLM-powered coding assistant that uses MCP tools for file system access, RAG for codebase retrieval, and an agentic loop for multi-step code generation and refactoring. Synthesized from: [[mcp_protocol|MCP Protocol]], [[agentic_coding|Agentic Coding]], [[repo_rag_for_code|Repo RAG for Code]], [[llm_code_generation|LLM Code Generation]], [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]], [[06_ai_engineering/04_rag_and_agents/agentic_loop|Agentic Loop]].
 
 ## Architecture
 
@@ -214,6 +214,6 @@ python main.py "Refactor UserService to use async/await throughout"
 - [[llm_code_generation|LLM Code Generation]]
 - [[mcp_server_implementation|MCP Server Implementation]]
 - [[pytest_testing_patterns|pytest Testing Patterns]]
-- [[05_ai_engineering/03_rag_and_agents/rag_architecture|RAG Architecture]]
-- [[05_ai_engineering/03_rag_and_agents/agentic_loop|Agentic Loop]]
-- [[05_ai_engineering/03_rag_and_agents/function_calling|Function Calling]]
+- [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]]
+- [[06_ai_engineering/04_rag_and_agents/agentic_loop|Agentic Loop]]
+- [[06_ai_engineering/04_rag_and_agents/function_calling|Function Calling]]

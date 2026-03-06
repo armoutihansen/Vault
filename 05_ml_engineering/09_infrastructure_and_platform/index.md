@@ -1,5 +1,5 @@
 ---
-layer: 04_ml_engineering
+layer: 05_ml_engineering
 type: index
 status: evergreen
 tags: []
@@ -15,6 +15,6 @@ Platform-level concerns enabling ML engineering.
 - [[ml_environment_management|ML Environment Management]] — reproducible environments (conda/Docker/devcontainer), dependency pinning, and containerised training
 
 ## Links
-- [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[04_ml_engineering/07_continual_learning/index|← 07 — Continual Learning]]
-- [[03_software_engineering/06_devops_and_infrastructure/index|SE: DevOps & Infrastructure]]
+- [[05_ml_engineering/index|↑ ML Engineering]]
+- Prev: [[05_ml_engineering/08_continual_learning/index|← 08 — Continual Learning]]
+- [[04_software_engineering/07_devops_and_infrastructure/index|SE: DevOps & Infrastructure]]

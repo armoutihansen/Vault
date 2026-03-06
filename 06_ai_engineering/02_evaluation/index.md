@@ -1,5 +1,5 @@
 ---
-layer: 05_ai_engineering
+layer: 06_ai_engineering
 type: index
 status: evergreen
 tags: []
@@ -18,7 +18,7 @@ Systematically evaluating generative AI systems.
 
 ## Navigation
 
-← Prev [[05_ai_engineering/00_foundation_models/index|← Foundation Models]] | Next → [[05_ai_engineering/02_prompt_engineering/index|Prompt Engineering →]]
+← Prev [[06_ai_engineering/01_foundation_models/index|← Foundation Models]] | Next → [[06_ai_engineering/03_prompt_engineering/index|Prompt Engineering →]]
 
 ## Links
-- [[05_ai_engineering/index|AI Engineering]]
+- [[06_ai_engineering/index|AI Engineering]]

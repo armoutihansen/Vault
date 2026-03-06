@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: engineering
 tool: HuggingFace
 status: growing
@@ -11,7 +11,7 @@ created: 2026-03-05
 
 ## Purpose
 
-HuggingFace provides the `transformers`, `datasets`, `tokenizers`, and `PEFT` libraries that together form the dominant Python ecosystem for working with pretrained language models. This note covers the core usage patterns: loading models from the Hub, inference pipelines, custom training, and dataset manipulation. For fine-tuning strategies see [[05_ai_engineering/04_finetuning/peft_and_lora|PEFT and LoRA]] and [[05_ai_engineering/04_finetuning/finetuning_strategies|Finetuning Strategies]].
+HuggingFace provides the `transformers`, `datasets`, `tokenizers`, and `PEFT` libraries that together form the dominant Python ecosystem for working with pretrained language models. This note covers the core usage patterns: loading models from the Hub, inference pipelines, custom training, and dataset manipulation. For fine-tuning strategies see [[06_ai_engineering/05_finetuning/peft_and_lora|PEFT and LoRA]] and [[06_ai_engineering/05_finetuning/finetuning_strategies|Finetuning Strategies]].
 
 ## Architecture
 
@@ -185,6 +185,6 @@ trainer.push_to_hub()
 - [[deep_learning_frameworks|Deep Learning Frameworks]]
 - [[pytorch_patterns|PyTorch Patterns]]
 - [[framework_comparison|Framework Comparison]]
-- [[05_ai_engineering/04_finetuning/peft_and_lora|PEFT and LoRA]]
-- [[05_ai_engineering/00_foundation_models/tokenization|Tokenization]]
-- [[04_ml_engineering/04_model_development/experiment_tracking|Experiment Tracking]]
+- [[06_ai_engineering/05_finetuning/peft_and_lora|PEFT and LoRA]]
+- [[06_ai_engineering/01_foundation_models/tokenization|Tokenization]]
+- [[05_ml_engineering/05_model_development/experiment_tracking|Experiment Tracking]]

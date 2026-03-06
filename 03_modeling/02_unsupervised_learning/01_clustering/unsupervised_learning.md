@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: growing
 tags: [algorithm, clustering, anomaly-detection]
@@ -117,6 +117,6 @@ Anomalies are isolated more quickly by random partitioning. The **anomaly score*
 
 - [[01_foundations/01_linear_algebra/03_eigenvalues/eigenvalues_and_eigenvectors|Eigenvalues and Eigenvectors (PCA)]]
 - [[01_foundations/01_linear_algebra/04_linear_systems/lu_decomposition|LU Decomposition (SVD relationship)]]
-- [[02_modeling/03_model_families/03_probabilistic_models/probabilistic_models|Probabilistic Models (GMM)]]
-- [[02_modeling/02_data_science/exploratory_data_analysis|Exploratory Data Analysis]]
-- [[02_modeling/06_interpretability/interpretability_overview|Interpretability Overview]]
+- [[03_modeling/03_probabilistic_models/03_bayesian_modeling/probabilistic_models|Probabilistic Models (GMM)]]
+- [[02_data_science/03_exploratory_data_analysis/exploratory_data_analysis|Exploratory Data Analysis]]
+- [[02_data_science/06_interpretability_and_communication/interpretability_overview|Interpretability Overview]]

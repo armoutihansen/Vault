@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [pattern, retrieval, llm]
@@ -207,8 +207,8 @@ for i in range(0, len(ids), BATCH_SIZE):
 ## Links
 
 **AI Engineering**
-- [[05_ai_engineering/03_rag_and_agents/vector_stores|Vector Stores]] — FAISS, Chroma, pgvector, Qdrant comparison and selection criteria
-- [[05_ai_engineering/03_rag_and_agents/rag_architecture|RAG Architecture]] — how vector retrieval fits into the full RAG pipeline
+- [[06_ai_engineering/04_rag_and_agents/vector_stores|Vector Stores]] — FAISS, Chroma, pgvector, Qdrant comparison and selection criteria
+- [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]] — how vector retrieval fits into the full RAG pipeline
 
 **System Patterns**
 - [[chroma_vector_store|Chroma Vector Store]] — Chroma-specific patterns including HTTP server mode

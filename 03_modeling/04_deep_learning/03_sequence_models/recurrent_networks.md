@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: seed
 tags: [algorithm, nlp]
@@ -34,8 +34,8 @@ Sequential processing limits parallelization (Transformers are fully parallel); 
 
 ## Links
 
-- [[02_modeling/03_model_families/04_neural_networks/index|Neural Networks Index]]
-- [[02_modeling/03_model_families/07_transformers/transformer|Transformer]]
-- [[02_modeling/03_model_families/07_transformers/attention_mechanism|Attention Mechanism]]
+- [[03_modeling/04_deep_learning/index|Neural Networks Index]]
+- [[03_modeling/04_deep_learning/04_transformers/transformer|Transformer]]
+- [[03_modeling/04_deep_learning/04_transformers/attention_mechanism|Attention Mechanism]]
 - [[01_foundations/06_deep_learning_theory/backpropagation_through_time|Backpropagation Through Time — unrolled RNNs, gradient truncation]]
 - [[01_foundations/06_deep_learning_theory/activation_functions|Activation Functions — tanh, sigmoid gates in LSTM/GRU]]

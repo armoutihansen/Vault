@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: seed
 tags: [algorithm, nlp]
@@ -71,7 +71,7 @@ All tokens are processed in parallel; queries, keys, and values are learned line
 - [[attention_mechanism]]
 - [[word_embeddings]]
 - [[sequence_to_sequence]]
-- [[02_modeling/03_model_families/04_neural_networks/recurrent_networks|Recurrent Networks]]
-- [[02_modeling/03_model_families/07_transformers/index|Transformers Index]]
+- [[03_modeling/04_deep_learning/03_sequence_models/recurrent_networks|Recurrent Networks]]
+- [[03_modeling/04_deep_learning/04_transformers/index|Transformers Index]]
 - [[01_foundations/06_deep_learning_theory/backpropagation|Backpropagation — gradient flow through attention layers]]
 - [[01_foundations/06_deep_learning_theory/layer_normalization|Layer Normalization — normalisation in transformer blocks]]

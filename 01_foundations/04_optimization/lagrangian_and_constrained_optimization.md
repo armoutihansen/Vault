@@ -87,4 +87,4 @@ The kernel trick enters naturally in the dual, replacing $\mathbf{x}_i^\top\math
 - [[convex_optimization|Convex Optimization]]
 - [[gradient_descent_optimization|Gradient Descent and Variants]]
 - [[01_foundations/02_calculus_and_analysis/01_differentiation/partial_derivatives|Partial Derivatives]]
-- [[02_modeling/03_model_families/05_kernel_methods/index|Kernel Methods (SVM)]]
+- [[03_modeling/01_supervised_learning/03_kernel_methods/index|Kernel Methods (SVM)]]

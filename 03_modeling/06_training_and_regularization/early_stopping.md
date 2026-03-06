@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: concept
 status: seed
 tags: [algorithm, training]
@@ -58,6 +58,6 @@ Early stopping is the default in most high-level frameworks:
 
 - [[regularization|Regularization]]
 - [[hyperparameter_tuning|Hyperparameter Tuning]]
-- [[02_modeling/index|Modeling]]
+- [[03_modeling/index|Modeling]]
 - [[01_foundations/05_statistical_learning_theory/bias_variance_analysis|Bias–Variance Analysis — generalization and overfitting]]
 - [[01_foundations/06_deep_learning_theory/gradient_descent|Gradient Descent — training dynamics and convergence]]

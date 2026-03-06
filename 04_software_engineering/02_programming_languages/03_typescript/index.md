@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: index
 status: evergreen
 tags: []
@@ -24,9 +24,9 @@ TypeScript type system, OOP patterns, generics, and local development setup.
 - [[ts_local_dev|TS Local Dev]] — `tsconfig.json`, strict mode, `ts-node`/`tsx`, and build tooling (esbuild, tsc)
 
 ## Links
-- [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime]]
-- [[03_software_engineering/01_programming_and_runtime/02_javascript/index|JavaScript]]
+- [[04_software_engineering/02_programming_languages/index|Programming Languages]]
+- [[04_software_engineering/02_programming_languages/02_javascript/index|JavaScript]]
 
 ---
 
-**Navigation:** ← [[03_software_engineering/01_programming_and_runtime/02_javascript/index|JavaScript]] | [[03_software_engineering/01_programming_and_runtime/index|Programming & Runtime Index]]
+**Navigation:** ← [[04_software_engineering/02_programming_languages/02_javascript/index|JavaScript]] | [[04_software_engineering/02_programming_languages/index|Programming Languages Index]]

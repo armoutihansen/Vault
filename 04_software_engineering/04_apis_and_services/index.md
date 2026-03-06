@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: index
 status: evergreen
 tags: []
@@ -10,7 +10,7 @@ created: 2026-03-05
 
 Patterns and frameworks for building APIs and service interfaces: REST design, FastAPI, and gRPC.
 
-← Prev [[03_software_engineering/02_system_design/index|← System Design]] | Next → [[03_software_engineering/04_databases_and_storage/index|Databases & Storage →]]
+← Prev [[04_software_engineering/03_system_design/index|← System Design]] | Next → [[04_software_engineering/05_databases_and_storage/index|Databases & Storage →]]
 
 ## Notes
 
@@ -19,6 +19,6 @@ Patterns and frameworks for building APIs and service interfaces: REST design, F
 - [[grpc_and_protobuf|gRPC and Protobuf]] — protobuf schema, service definition, streaming, code generation, error handling
 
 ## Links
-- [[03_software_engineering/index|Software Engineering]]
-- [[03_software_engineering/02_system_design/index|System Design]]
-- [[03_software_engineering/04_databases_and_storage/index|Databases & Storage]]
+- [[04_software_engineering/index|Software Engineering]]
+- [[04_software_engineering/03_system_design/index|System Design]]
+- [[04_software_engineering/05_databases_and_storage/index|Databases & Storage]]

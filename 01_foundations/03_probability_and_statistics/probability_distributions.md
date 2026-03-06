@@ -93,5 +93,5 @@ where $\boldsymbol{\eta}$ are natural parameters, $T(x)$ are sufficient statisti
 - [[probability_theory|Probability Theory]]
 - [[bayesian_inference|Bayesian Inference]]
 - [[01_foundations/05_statistical_learning_theory/evaluation_metrics|Evaluation Metrics]]
-- [[02_modeling/03_model_families/03_probabilistic_models/index|Probabilistic Models]]
-- [[02_modeling/04_training_dynamics/loss_functions|Loss Functions]]
+- [[03_modeling/03_probabilistic_models/index|Probabilistic Models]]
+- [[03_modeling/06_training_and_regularization/loss_functions|Loss Functions]]

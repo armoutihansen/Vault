@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 02_data_science
 type: concept
 status: growing
 tags: [data, workflow]
@@ -157,7 +157,7 @@ Plotly is preferred for exploratory reports and dashboards; matplotlib/seaborn f
 
 - [[exploratory_data_analysis|Exploratory Data Analysis]]
 - [[feature_engineering|Feature Engineering]]
-- [[02_modeling/06_interpretability/partial_dependence_ice|PDP, ICE, and ALE]]
-- [[02_modeling/05_evaluation_and_validation/index|Evaluation and Validation]]
+- [[03_modeling/07_evaluation_and_model_selection/partial_dependence_ice|PDP, ICE, and ALE]]
+- [[03_modeling/07_evaluation_and_model_selection/index|Evaluation and Validation]]
 - [[01_foundations/03_probability_and_statistics/probability_distributions|Probability Distributions — density plots, histograms, Q-Q plots]]
 - [[01_foundations/05_statistical_learning_theory/bias_variance_analysis|Bias–Variance Analysis — learning curves, error decomposition]]

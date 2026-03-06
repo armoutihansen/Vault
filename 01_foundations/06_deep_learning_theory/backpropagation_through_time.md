@@ -48,4 +48,4 @@ $$\frac{\partial a^{\langle T \rangle}}{\partial a^{\langle 0 \rangle}} = \prod_
 
 - [[backpropagation]]
 - [[01_foundations/06_deep_learning_theory/weight_initialization]]
-- [[recurrent_networks]] (in 02_modeling/sequence_models)
+- [[recurrent_networks]] (in 03_modeling/sequence_models)

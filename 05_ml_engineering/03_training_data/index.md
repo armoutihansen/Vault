@@ -1,5 +1,5 @@
 ---
-layer: 04_ml_engineering
+layer: 05_ml_engineering
 type: index
 status: evergreen
 tags: []
@@ -16,6 +16,6 @@ Constructing high-quality training datasets.
 - [[dataset_versioning|Dataset Versioning]] — DVC-based lineage, data contracts, and reproducible data snapshots
 
 ## Links
-- [[04_ml_engineering/index|↑ ML Engineering]]
-- Prev: [[04_ml_engineering/01_data_engineering/index|← 01 — Data Engineering]]
-- Next: [[04_ml_engineering/03_feature_engineering/index|03 — Feature Engineering →]]
+- [[05_ml_engineering/index|↑ ML Engineering]]
+- Prev: [[05_ml_engineering/02_data_engineering/index|← 02 — Data Engineering]]
+- Next: [[05_ml_engineering/04_feature_engineering/index|04 — Feature Engineering →]]

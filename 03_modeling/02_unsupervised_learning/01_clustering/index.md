@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: index
 status: evergreen
 tags: []
@@ -16,7 +16,7 @@ Methods for learning structure from unlabelled data: clustering, dimensionality 
 
 ## Links
 
-← [[02_modeling/03_model_families/05_kernel_methods/index|Kernel Methods]]
-→ [[02_modeling/03_model_families/07_transformers/index|Transformers]]
+← [[03_modeling/01_supervised_learning/03_kernel_methods/index|Kernel Methods]]
+→ [[03_modeling/04_deep_learning/04_transformers/index|Transformers]]
 - [[01_foundations/01_linear_algebra/03_eigenvalues/eigenvalues_and_eigenvectors|Eigenvalues and Eigenvectors (PCA)]]
-- [[02_modeling/03_model_families/03_probabilistic_models/index|Probabilistic Models (GMM)]]
+- [[03_modeling/03_probabilistic_models/index|Probabilistic Models (GMM)]]

@@ -20,5 +20,5 @@ Mathematical theory of finding minima and maxima of functions, with and without 
 
 ← [[01_foundations/03_probability_and_statistics/index|03 — Probability & Statistics]]
 → [[01_foundations/05_statistical_learning_theory/index|05 — Statistical Learning Theory]]
-- [[02_modeling/04_training_dynamics/optimization_algorithms|Optimization Algorithms (Modeling)]]
+- [[03_modeling/06_training_and_regularization/optimization_algorithms|Optimization Algorithms (Modeling)]]
 - [[01_foundations/06_deep_learning_theory/gradient_descent|Gradient Descent (DL Theory)]]

@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: engineering
 tool: pytorch
 status: growing
@@ -160,5 +160,5 @@ Use `jax.jit` for compilation, `jax.vmap` for batching, `jax.pmap` for multi-dev
 - [[pytorch_patterns|PyTorch Patterns]]
 - [[framework_comparison|Framework Comparison]]
 - [[huggingface_usage|HuggingFace Usage]]
-- [[04_ml_engineering/04_model_development/distributed_training|Distributed Training]]
-- [[05_ai_engineering/04_finetuning/peft_and_lora|PEFT and LoRA]]
+- [[05_ml_engineering/05_model_development/distributed_training|Distributed Training]]
+- [[06_ai_engineering/05_finetuning/peft_and_lora|PEFT and LoRA]]

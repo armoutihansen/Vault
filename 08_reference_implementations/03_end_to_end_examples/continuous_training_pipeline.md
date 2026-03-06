@@ -1,5 +1,5 @@
 ---
-layer: 06_applications
+layer: 08_reference_implementations
 type: application
 status: growing
 tags: [workflow, training, monitoring, mlops]
@@ -300,13 +300,13 @@ continuous_training()
 ```
 
 ## Links
-- [[04_ml_engineering/07_continual_learning/retraining_strategies|Retraining Strategies]]
-- [[04_ml_engineering/07_continual_learning/testing_in_production|Testing in Production]]
-- [[04_ml_engineering/06_monitoring_and_observability/drift_detection|Drift Detection]]
-- [[04_ml_engineering/06_monitoring_and_observability/ml_observability|ML Observability]]
-- [[04_ml_engineering/05_deployment_and_serving/rollout_strategies|Model Rollout Strategies]]
-- [[04_ml_engineering/04_model_development/experiment_tracking|Experiment Tracking]]
-- [[04_ml_engineering/08_infrastructure_and_platform/ml_platform_architecture|ML Platform Architecture]]
+- [[05_ml_engineering/08_continual_learning/retraining_strategies|Retraining Strategies]]
+- [[05_ml_engineering/08_continual_learning/testing_in_production|Testing in Production]]
+- [[05_ml_engineering/07_monitoring_and_observability/drift_detection|Drift Detection]]
+- [[05_ml_engineering/07_monitoring_and_observability/ml_observability|ML Observability]]
+- [[05_ml_engineering/06_deployment_and_serving/rollout_strategies|Model Rollout Strategies]]
+- [[05_ml_engineering/05_model_development/experiment_tracking|Experiment Tracking]]
+- [[05_ml_engineering/09_infrastructure_and_platform/ml_platform_architecture|ML Platform Architecture]]
 - [[mlflow_experiment_tracking|MLflow Experiment Tracking Pattern]]
 - [[drift_monitoring_with_evidently|Drift Monitoring with Evidently]]
 - [[model_serving_with_fastapi|Model Serving with FastAPI]]

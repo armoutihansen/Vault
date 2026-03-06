@@ -1,5 +1,5 @@
 ---
-layer: 03_software_engineering
+layer: 04_software_engineering
 type: engineering
 tool: MCP
 status: growing
@@ -327,4 +327,4 @@ The [MCP servers repository](https://github.com/modelcontextprotocol/servers) pr
 - [[agentic_coding|Agentic Coding]]
 - [[llm_code_generation|LLM Code Generation]]
 - [[repo_rag_for_code|Repo RAG for Code]]
-- [[05_ai_engineering/03_rag_and_agents/function_calling|Function Calling]]
+- [[06_ai_engineering/04_rag_and_agents/function_calling|Function Calling]]

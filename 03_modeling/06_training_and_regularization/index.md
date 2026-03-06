@@ -1,5 +1,5 @@
 ---
-layer: 02_modeling
+layer: 03_modeling
 type: index
 status: evergreen
 tags: []
@@ -18,8 +18,8 @@ created: 2026-03-02
 
 ## Links
 
-- [[02_modeling/index|Modeling]]
+- [[03_modeling/index|Modeling]]
 
 ---
 
-**Navigation:** ← [[02_modeling/03_model_families/index|Model Families]] | [[02_modeling/index|Modeling Index]] | [[02_modeling/05_evaluation_and_validation/index|Evaluation & Validation →]]
+**Navigation:** ← [[03_modeling/index|Model Families]] | [[03_modeling/index|Modeling Index]] | [[03_modeling/07_evaluation_and_model_selection/index|Evaluation & Validation →]]
