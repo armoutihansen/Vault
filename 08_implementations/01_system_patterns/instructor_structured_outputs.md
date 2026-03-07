@@ -200,7 +200,7 @@ result = client.chat.completions.create(
 - [Instructor Documentation](https://python.useinstructor.com/)
 
 ## Links
-- [[structured_outputs|Structured Outputs]]
-- [[prompting_strategies|Prompting Strategies]]
-- [[function_calling|Function Calling]]
+- [[06_ai_engineering/03_prompt_engineering/structured_outputs|Structured Outputs]]
+- [[06_ai_engineering/03_prompt_engineering/prompting_strategies|Prompting Strategies]]
+- [[06_ai_engineering/04_rag_and_agents/function_calling|Function Calling]]
 - [[model_serving_with_fastapi|Model Serving with FastAPI]]

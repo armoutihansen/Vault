@@ -157,7 +157,7 @@ qa.load("models/qa_v1.json")
 - [DSPy Documentation](https://dspy.ai/)
 
 ## Links
-- [[dspy_systematic_prompting|DSPy Systematic Prompting]]
-- [[rag_architecture|RAG Architecture]]
-- [[prompting_strategies|Prompting Strategies]]
-- [[structured_outputs|Structured Outputs]]
+- [[06_ai_engineering/04_rag_and_agents/dspy_systematic_prompting|DSPy Systematic Prompting]]
+- [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]]
+- [[06_ai_engineering/03_prompt_engineering/prompting_strategies|Prompting Strategies]]
+- [[06_ai_engineering/03_prompt_engineering/structured_outputs|Structured Outputs]]

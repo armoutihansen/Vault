@@ -10,7 +10,7 @@ created: 2026-03-06
 
 ## Purpose
 
-Practical implementation of a Model Context Protocol (MCP) server that exposes tools, resources, and prompts to AI coding assistants (Copilot, Claude, Cursor). MCP provides a standardised way for LLMs to call functions, read resources, and use prompt templates. Synthesized from: [[mcp_protocol|MCP Protocol]], [[agentic_coding|Agentic Coding]], [[repo_rag_for_code|Repo RAG for Code]].
+Practical implementation of a Model Context Protocol (MCP) server that exposes tools, resources, and prompts to AI coding assistants (Copilot, Claude, Cursor). MCP provides a standardised way for LLMs to call functions, read resources, and use prompt templates. Synthesized from: [[04_software_engineering/09_ai_assisted_software_engineering/mcp_protocol|MCP Protocol]], [[04_software_engineering/09_ai_assisted_software_engineering/agentic_coding|Agentic Coding]], [[04_software_engineering/09_ai_assisted_software_engineering/repo_rag_for_code|Repo RAG for Code]].
 
 ### Examples
 
@@ -218,9 +218,9 @@ Security boundary:
 - [Model Context Protocol Documentation](https://modelcontextprotocol.io/)
 
 ## Links
-- [[mcp_protocol|MCP Protocol]]
-- [[agentic_coding|Agentic Coding]]
-- [[repo_rag_for_code|Repo RAG for Code]]
-- [[llm_code_generation|LLM Code Generation]]
+- [[04_software_engineering/09_ai_assisted_software_engineering/mcp_protocol|MCP Protocol]]
+- [[04_software_engineering/09_ai_assisted_software_engineering/agentic_coding|Agentic Coding]]
+- [[04_software_engineering/09_ai_assisted_software_engineering/repo_rag_for_code|Repo RAG for Code]]
+- [[04_software_engineering/09_ai_assisted_software_engineering/llm_code_generation|LLM Code Generation]]
 - [[04_software_engineering/08_security/filesystem_sandboxing|Filesystem Sandboxing]]
 - [[06_ai_engineering/04_rag_and_agents/function_calling|Function Calling]]

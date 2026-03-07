@@ -149,8 +149,8 @@ collection.delete(where={"source": {"$eq": "outdated_source"}})
 ## Links
 
 **AI Engineering**
-- [[vector_stores|Vector Stores]] — overview of vector store options (Chroma, FAISS, pgvector, Qdrant)
-- [[rag_architecture|RAG Architecture]] — retrieval-augmented generation pipeline this pattern serves
+- [[06_ai_engineering/04_rag_and_agents/vector_stores|Vector Stores]] — overview of vector store options (Chroma, FAISS, pgvector, Qdrant)
+- [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]] — retrieval-augmented generation pipeline this pattern serves
 
 **System Patterns**
 - [[model_serving_with_fastapi|Model Serving with FastAPI]] — wrap Chroma retrieval behind a REST endpoint

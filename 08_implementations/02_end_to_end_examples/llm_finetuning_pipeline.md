@@ -215,11 +215,11 @@ vllm serve ./merged-llama3-8b-domain \
 - [HuggingFace PEFT Documentation](https://huggingface.co/docs/peft)
 
 ## Links
-- [[finetuning_strategies|Fine-tuning Strategies]]
-- [[peft_and_lora|PEFT and LoRA]]
-- [[rl_finetuning|RL Fine-tuning]]
-- [[instruction_data_design|Instruction Data Design]]
-- [[synthetic_data_generation|Synthetic Data Generation]]
+- [[06_ai_engineering/05_finetuning/finetuning_strategies|Fine-tuning Strategies]]
+- [[06_ai_engineering/05_finetuning/peft_and_lora|PEFT and LoRA]]
+- [[06_ai_engineering/05_finetuning/rl_finetuning|RL Fine-tuning]]
+- [[06_ai_engineering/06_dataset_engineering/instruction_data_design|Instruction Data Design]]
+- [[06_ai_engineering/06_dataset_engineering/synthetic_data_generation|Synthetic Data Generation]]
 - [[peft_lora_finetuning|PEFT and LoRA Fine-tuning (Pattern)]]
 - [[trl_preference_training|TRL Preference Training (Pattern)]]
 - [[mlflow_experiment_tracking|MLflow Experiment Tracking]]

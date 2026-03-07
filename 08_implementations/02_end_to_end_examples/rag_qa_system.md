@@ -178,11 +178,11 @@ def answer_traced(question: str) -> dict:
 - [LangSmith Documentation](https://docs.smith.langchain.com/)
 
 ## Links
-- [[rag_architecture|RAG Architecture]]
-- [[vector_stores|Vector Stores]]
+- [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]]
+- [[06_ai_engineering/04_rag_and_agents/vector_stores|Vector Stores]]
 - [[chroma_vector_store|Chroma Vector Store]]
-- [[llm_observability|LLM Observability]]
+- [[06_ai_engineering/08_architecture_and_feedback/llm_observability|LLM Observability]]
 - [[langsmith_llm_observability|LangSmith LLM Observability]]
-- [[serving_frameworks|LLM Serving Frameworks]]
+- [[06_ai_engineering/07_inference_optimization/serving_frameworks|LLM Serving Frameworks]]
 - [[vllm_serving|vLLM Serving]]
 - [[model_serving_with_fastapi|Model Serving with FastAPI]]

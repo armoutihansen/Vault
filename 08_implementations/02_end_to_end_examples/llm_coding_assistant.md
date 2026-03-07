@@ -10,7 +10,7 @@ created: 2026-03-06
 
 ## Purpose
 
-End-to-end implementation of an LLM-powered coding assistant that uses MCP tools for file system access, RAG for codebase retrieval, and an agentic loop for multi-step code generation and refactoring. Synthesized from: [[mcp_protocol|MCP Protocol]], [[agentic_coding|Agentic Coding]], [[repo_rag_for_code|Repo RAG for Code]], [[llm_code_generation|LLM Code Generation]], [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]], [[06_ai_engineering/04_rag_and_agents/agentic_loop|Agentic Loop]].
+End-to-end implementation of an LLM-powered coding assistant that uses MCP tools for file system access, RAG for codebase retrieval, and an agentic loop for multi-step code generation and refactoring. Synthesized from: [[04_software_engineering/09_ai_assisted_software_engineering/mcp_protocol|MCP Protocol]], [[04_software_engineering/09_ai_assisted_software_engineering/agentic_coding|Agentic Coding]], [[04_software_engineering/09_ai_assisted_software_engineering/repo_rag_for_code|Repo RAG for Code]], [[04_software_engineering/09_ai_assisted_software_engineering/llm_code_generation|LLM Code Generation]], [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]], [[06_ai_engineering/04_rag_and_agents/agentic_loop|Agentic Loop]].
 
 ## Architecture
 
@@ -212,12 +212,12 @@ python main.py "Refactor UserService to use async/await throughout"
 - [Model Context Protocol Documentation](https://modelcontextprotocol.io/)
 
 ## Links
-- [[mcp_protocol|MCP Protocol]]
-- [[agentic_coding|Agentic Coding]]
-- [[repo_rag_for_code|Repo RAG for Code]]
-- [[llm_code_generation|LLM Code Generation]]
+- [[04_software_engineering/09_ai_assisted_software_engineering/mcp_protocol|MCP Protocol]]
+- [[04_software_engineering/09_ai_assisted_software_engineering/agentic_coding|Agentic Coding]]
+- [[04_software_engineering/09_ai_assisted_software_engineering/repo_rag_for_code|Repo RAG for Code]]
+- [[04_software_engineering/09_ai_assisted_software_engineering/llm_code_generation|LLM Code Generation]]
 - [[mcp_server_implementation|MCP Server Implementation]]
-- [[pytest_testing_patterns|pytest Testing Patterns]]
+- [[04_software_engineering/06_testing_and_quality/pytest_testing_patterns|pytest Testing Patterns]]
 - [[06_ai_engineering/04_rag_and_agents/rag_architecture|RAG Architecture]]
 - [[06_ai_engineering/04_rag_and_agents/agentic_loop|Agentic Loop]]
 - [[06_ai_engineering/04_rag_and_agents/function_calling|Function Calling]]

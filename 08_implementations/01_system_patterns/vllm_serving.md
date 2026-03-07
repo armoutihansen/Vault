@@ -168,8 +168,8 @@ vllm serve meta-llama/Llama-3-70B-Instruct \
 - [vLLM Documentation](https://docs.vllm.ai/)
 
 ## Links
-- [[serving_frameworks|LLM Serving Frameworks]]
-- [[quantization_overview|Quantization for LLMs]]
-- [[attention_and_kv_cache|Attention Optimization and KV Cache]]
-- [[llm_observability|LLM Observability]]
+- [[06_ai_engineering/07_inference_optimization/serving_frameworks|LLM Serving Frameworks]]
+- [[06_ai_engineering/07_inference_optimization/quantization_overview|Quantization for LLMs]]
+- [[06_ai_engineering/07_inference_optimization/attention_and_kv_cache|Attention Optimization and KV Cache]]
+- [[06_ai_engineering/08_architecture_and_feedback/llm_observability|LLM Observability]]
 - [[docker_ml_pipeline|Docker for ML Pipelines]]

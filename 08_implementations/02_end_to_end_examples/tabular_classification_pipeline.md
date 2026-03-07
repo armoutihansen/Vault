@@ -252,8 +252,8 @@ if n_drifted > 2:
 - [[03_modeling/07_evaluation_and_model_selection/shap_and_feature_attribution|SHAP and Feature Attribution]] — Shapley value theory
 
 **Model Implementations**
-- [[tree_ensembles_implementation|Tree Ensembles Implementation]] — XGBoost, LightGBM, Optuna tuning code
-- [[interpretability_implementation|Interpretability Implementation]] — SHAP TreeExplainer, PDP, permutation importance
+- [[03_modeling/01_supervised_learning/02_tree_based_models/tree_ensembles_implementation|Tree Ensembles Implementation]] — XGBoost, LightGBM, Optuna tuning code
+- [[03_modeling/07_evaluation_and_model_selection/interpretability_implementation|Interpretability Implementation]] — SHAP TreeExplainer, PDP, permutation importance
 
 **System Patterns**
 - [[model_serving_with_fastapi|Model Serving with FastAPI]] — production API patterns

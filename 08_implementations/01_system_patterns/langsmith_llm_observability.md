@@ -164,7 +164,7 @@ LangchainInstrumentor().instrument()
 - [LangSmith Documentation](https://docs.smith.langchain.com/)
 
 ## Links
-- [[llm_observability|LLM Observability]]
-- [[ai_application_architecture|AI Application Architecture]]
-- [[ml_observability|ML Observability]]
+- [[06_ai_engineering/08_architecture_and_feedback/llm_observability|LLM Observability]]
+- [[06_ai_engineering/08_architecture_and_feedback/ai_application_architecture|AI Application Architecture]]
+- [[05_ml_engineering/07_monitoring_and_observability/ml_observability|ML Observability]]
 - [[langsmith-observability (skill)|LangSmith Observability Skill]]

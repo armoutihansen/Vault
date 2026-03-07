@@ -182,8 +182,8 @@ axolotl train axolotl_config.yml
 - [HuggingFace PEFT Documentation](https://huggingface.co/docs/peft)
 
 ## Links
-- [[peft_and_lora|PEFT and LoRA]]
-- [[finetuning_strategies|Fine-tuning Strategies]]
-- [[rl_finetuning|RL Fine-tuning]]
-- [[instruction_data_design|Instruction Data Design]]
+- [[06_ai_engineering/05_finetuning/peft_and_lora|PEFT and LoRA]]
+- [[06_ai_engineering/05_finetuning/finetuning_strategies|Fine-tuning Strategies]]
+- [[06_ai_engineering/05_finetuning/rl_finetuning|RL Fine-tuning]]
+- [[06_ai_engineering/06_dataset_engineering/instruction_data_design|Instruction Data Design]]
 - [[distributed_training_with_accelerate|Distributed Training with Accelerate]]

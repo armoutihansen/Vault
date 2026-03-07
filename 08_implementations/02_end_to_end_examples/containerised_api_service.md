@@ -10,7 +10,7 @@ created: 2026-03-06
 
 ## Purpose
 
-End-to-end walkthrough of building, testing, containerising, and deploying a production FastAPI service with full CI/CD. Covers the complete lifecycle from app code to running pods. Synthesized from: [[fastapi_patterns|FastAPI Patterns]], [[docker_patterns|Docker Patterns]], [[kubernetes_basics|Kubernetes Basics]], [[cicd_pipelines|CI/CD Pipelines]], [[testing_strategies|Testing Strategies]], [[github_actions|GitHub Actions]].
+End-to-end walkthrough of building, testing, containerising, and deploying a production FastAPI service with full CI/CD. Covers the complete lifecycle from app code to running pods. Synthesized from: [[04_software_engineering/04_apis_and_services/fastapi_patterns|FastAPI Patterns]], [[04_software_engineering/07_devops_and_infrastructure/docker_patterns|Docker Patterns]], [[04_software_engineering/07_devops_and_infrastructure/kubernetes_basics|Kubernetes Basics]], [[04_software_engineering/07_devops_and_infrastructure/cicd_pipelines|CI/CD Pipelines]], [[04_software_engineering/06_testing_and_quality/testing_strategies|Testing Strategies]], [[04_software_engineering/07_devops_and_infrastructure/github_actions|GitHub Actions]].
 
 ## Architecture
 
@@ -217,11 +217,11 @@ kubectl logs -l app=inference-api -n staging --tail=50
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 
 ## Links
-- [[fastapi_patterns|FastAPI Patterns]]
-- [[docker_patterns|Docker Patterns]]
-- [[kubernetes_basics|Kubernetes Basics]]
-- [[cicd_pipelines|CI/CD Pipelines]]
-- [[github_actions|GitHub Actions]]
-- [[testing_strategies|Testing Strategies]]
-- [[pytest_testing_patterns|pytest Testing Patterns]]
-- [[kubernetes_deployment|Kubernetes Deployment Patterns]]
+- [[04_software_engineering/04_apis_and_services/fastapi_patterns|FastAPI Patterns]]
+- [[04_software_engineering/07_devops_and_infrastructure/docker_patterns|Docker Patterns]]
+- [[04_software_engineering/07_devops_and_infrastructure/kubernetes_basics|Kubernetes Basics]]
+- [[04_software_engineering/07_devops_and_infrastructure/cicd_pipelines|CI/CD Pipelines]]
+- [[04_software_engineering/07_devops_and_infrastructure/github_actions|GitHub Actions]]
+- [[04_software_engineering/06_testing_and_quality/testing_strategies|Testing Strategies]]
+- [[04_software_engineering/06_testing_and_quality/pytest_testing_patterns|pytest Testing Patterns]]
+- [[04_software_engineering/07_devops_and_infrastructure/kubernetes_deployment|Kubernetes Deployment Patterns]]

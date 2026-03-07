@@ -222,12 +222,12 @@ services:
 - [LlamaGuard: LLM-based Input-Output Safeguard for Human-AI Conversations (Meta AI)](https://ai.meta.com/research/publications/llama-guard-llm-based-input-output-safeguard-for-human-ai-conversations/)
 
 ## Links
-- [[serving_frameworks|LLM Serving Frameworks]]
+- [[06_ai_engineering/07_inference_optimization/serving_frameworks|LLM Serving Frameworks]]
 - [[vllm_serving|vLLM Serving]]
-- [[safety_and_content_moderation|Safety and Content Moderation]]
+- [[06_ai_engineering/08_architecture_and_feedback/safety_and_content_moderation|Safety and Content Moderation]]
 - [[llamaguard_content_moderation|LlamaGuard Content Moderation]]
-- [[llm_observability|LLM Observability]]
+- [[06_ai_engineering/08_architecture_and_feedback/llm_observability|LLM Observability]]
 - [[langsmith_llm_observability|LangSmith LLM Observability]]
-- [[ai_application_architecture|AI Application Architecture]]
+- [[06_ai_engineering/08_architecture_and_feedback/ai_application_architecture|AI Application Architecture]]
 - [[model_serving_with_fastapi|Model Serving with FastAPI]]
 - [[docker_ml_pipeline|Docker for ML Pipelines]]

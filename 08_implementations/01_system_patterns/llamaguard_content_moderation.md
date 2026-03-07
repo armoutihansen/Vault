@@ -178,7 +178,7 @@ def log_violation(content: str, category: str, source: str = "user"):
 - [LlamaGuard: LLM-based Input-Output Safeguard for Human-AI Conversations (Meta AI)](https://ai.meta.com/research/publications/llama-guard-llm-based-input-output-safeguard-for-human-ai-conversations/)
 
 ## Links
-- [[safety_and_content_moderation|Safety and Content Moderation]]
-- [[prompt_injection_and_guardrails|Prompt Injection and Guardrails]]
-- [[ai_application_architecture|AI Application Architecture]]
+- [[06_ai_engineering/08_architecture_and_feedback/safety_and_content_moderation|Safety and Content Moderation]]
+- [[06_ai_engineering/03_prompt_engineering/prompt_injection_and_guardrails|Prompt Injection and Guardrails]]
+- [[06_ai_engineering/08_architecture_and_feedback/ai_application_architecture|AI Application Architecture]]
 - [[vllm_serving|vLLM Serving]]

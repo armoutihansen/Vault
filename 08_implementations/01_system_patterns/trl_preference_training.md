@@ -178,7 +178,7 @@ trainer.train()
 - [HuggingFace TRL Documentation](https://huggingface.co/docs/trl)
 
 ## Links
-- [[rl_finetuning|RL Fine-tuning]]
-- [[alignment_and_rlhf|Alignment and RLHF]]
+- [[06_ai_engineering/05_finetuning/rl_finetuning|RL Fine-tuning]]
+- [[06_ai_engineering/01_foundation_models/alignment_and_rlhf|Alignment and RLHF]]
 - [[peft_lora_finetuning|PEFT and LoRA Fine-tuning]]
-- [[instruction_data_design|Instruction Data Design]]
+- [[06_ai_engineering/06_dataset_engineering/instruction_data_design|Instruction Data Design]]
