@@ -15,6 +15,7 @@ Pre-training paradigms, model families, and alignment of large language models.
 - [[foundation_model_overview|Foundation Model Overview]] — Architecture, model families, VRAM requirements, and selection criteria for LLMs.
 - [[tokenization|Tokenization]] — BPE, WordPiece, and SentencePiece tokenization algorithms and their engineering implications.
 - [[alignment_and_rlhf|Alignment and RLHF]] — SFT, RLHF/PPO, DPO, and Constitutional AI for aligning pre-trained models to HHH goals.
+- [[scaling_laws|Scaling Laws]] — Chinchilla compute-optimal training, power-law loss curves, emergent abilities, and inference-time compute scaling.
 
 ## Navigation
 

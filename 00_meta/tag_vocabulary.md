@@ -1,7 +1,7 @@
 ---
 layer: 00_meta
 type: index
-status: stable
+status: evergreen
 tags: []
 created: 2025-01-01
 ---
@@ -102,6 +102,7 @@ Use this when migrating old tags:
 | `metrics`, `benchmarks`, `benchmarking`, `offline-evaluation`, `llm-evaluation`, `model-validation`, `llm-eval` | `evaluation` | All about measuring quality |
 | `concept-drift`, `data-drift`, `distribution-shift`, `drift`, `drift-detection` | `monitoring` | All about production health |
 | `vector-store`, `vector-database`, `vector-db`, `vector-search`, `similarity-search` | `retrieval` | All vector search patterns |
+| `ranking`, `reranking`, `re-ranking` | `retrieval` | Ranking is part of the retrieval pipeline; use `retrieval` |
 | `deep_learning`, `deep-learning`, `neural-networks`, `neural_networks` | remove (structural) | Redundant with `01_foundations/06_deep_learning_theory/` |
 | `mlops`, `ml-ops`, `ml-pipelines`, `ml-systems`, `ml-lifecycle` | `mlops` | When outside `05_ml_engineering/`; otherwise remove |
 | `computer_vision` | `vision` | Canonical form |

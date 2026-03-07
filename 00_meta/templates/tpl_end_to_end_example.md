@@ -1,6 +1,6 @@
 ---
 layer: <% tp.file.folder(true).split("/")[0] %>
-type: application
+type: workflow
 status: seed
 tags: []
 created: <% tp.date.now("YYYY-MM-DD") %>

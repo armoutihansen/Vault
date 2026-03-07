@@ -18,6 +18,10 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 
 ## Architecture
 
+## Components
+
+## Failure Modes
+
 ## Cost / Latency Considerations
 
 ## References
