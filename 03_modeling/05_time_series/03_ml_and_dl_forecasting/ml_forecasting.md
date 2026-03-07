@@ -118,7 +118,7 @@ TFT (Lim et al., 2021) is a multi-horizon attention-based architecture:
 
 ## Variants
 
-- **Prophet** (Meta): additive model with piecewise linear trend, Fourier seasonality, and holiday effects. Good for business forecasting with strong seasonality.
+- **Prophet** (Meta): additive decomposition model (trend + Fourier seasonality + holidays); see [[03_modeling/05_time_series/01_classical_forecasting/time_series_implementation|Time Series Implementation]] for implementation details.
 - **Temporal Convolutional Network (TCN)**: dilated causal convolutions for long-range dependencies without recurrence.
 - **DeepAR** (Amazon): autoregressive RNN that outputs full probability distributions.
 - **PatchTST**: treats time series as patches fed to a standard Transformer.

@@ -13,6 +13,7 @@ Machine learning and deep learning approaches to time series forecasting, treati
 ## Notes
 
 - [[03_modeling/05_time_series/03_ml_and_dl_forecasting/ml_forecasting|ML and DL Forecasting]] — lag features for tree models, LSTMs, temporal convolutional networks, N-BEATS, temporal fusion transformers
+- [[03_modeling/05_time_series/03_ml_and_dl_forecasting/ml_forecasting_implementation|ML Forecasting — Implementation]] — LightGBM lag features, LSTM windowed dataset, walk-forward validation code
 
 ## Links
 

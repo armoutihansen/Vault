@@ -121,6 +121,62 @@ ets_fit = ets.fit(optimized=True)
 forecast = ets_fit.forecast(12)
 ```
 
+### Prophet
+
+Prophet (Meta/Facebook, 2017) uses an additive decomposition model:
+
+$$y(t) = \text{trend}(t) + \text{seasonality}(t) + \text{holidays}(t) + \varepsilon_t$$
+
+Strengths: handles missing data, multiple seasonalities, and changepoints without manual tuning. Best for business time series with strong seasonality and known calendar effects.
+
+```python
+from prophet import Prophet
+import pandas as pd
+
+# Prophet requires columns named 'ds' (datetime) and 'y' (target)
+df_prophet = df.rename(columns={'date': 'ds', 'value': 'y'})
+
+# Initialise and fit
+m = Prophet(
+    seasonality_mode='multiplicative',   # or 'additive'
+    yearly_seasonality=True,
+    weekly_seasonality=True,
+    daily_seasonality=False,
+    changepoint_prior_scale=0.05,        # flexibility of trend (default 0.05)
+    interval_width=0.95                  # uncertainty interval width
+)
+
+# Add custom seasonality (e.g. monthly)
+m.add_seasonality(name='monthly', period=30.5, fourier_order=5)
+
+# Add country holidays
+m.add_country_holidays(country_name='US')
+
+m.fit(df_prophet)
+
+# Forecast 365 days into the future
+future = m.make_future_dataframe(periods=365, freq='D')
+forecast = m.predict(future)
+
+# Key output columns
+print(forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail())
+
+# Decomposition plots
+fig1 = m.plot(forecast)
+fig2 = m.plot_components(forecast)
+```
+
+**Hyperparameter guidance:**
+
+| Parameter | Default | When to increase | When to decrease |
+|---|---|---|---|
+| `changepoint_prior_scale` | 0.05 | Trend is highly irregular | Trend is smooth |
+| `seasonality_prior_scale` | 10 | Seasonality amplitude varies | Stable seasonality |
+| `holidays_prior_scale` | 10 | Holiday effects dominate | Weak holiday effects |
+| `seasonality_mode` | additive | Variance grows with level | Variance is stable |
+
+Install: `pip install prophet`
+
 ### Walk-Forward Validation
 
 ```python
