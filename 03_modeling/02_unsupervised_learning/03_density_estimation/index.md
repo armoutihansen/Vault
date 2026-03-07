@@ -13,6 +13,7 @@ Methods for estimating the probability density function underlying observed data
 ## Notes
 
 - [[03_modeling/02_unsupervised_learning/03_density_estimation/density_estimation|Density Estimation]] — kernel density estimation (KDE), Gaussian mixture models (GMM), EM algorithm, model selection
+- [[03_modeling/02_unsupervised_learning/03_density_estimation/density_estimation_implementation|Density Estimation — Implementation]] — KDE (scipy), GMM BIC/AIC selection, Isolation Forest, Local Outlier Factor with scikit-learn
 
 ## Links
 

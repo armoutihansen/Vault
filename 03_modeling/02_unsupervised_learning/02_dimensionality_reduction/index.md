@@ -13,6 +13,7 @@ Methods for projecting data from a high-dimensional space into a lower-dimension
 ## Notes
 
 - [[03_modeling/02_unsupervised_learning/02_dimensionality_reduction/dimensionality_reduction|Dimensionality Reduction]] — PCA, truncated SVD, t-SNE, UMAP, random projections, applications and trade-offs
+- [[03_modeling/02_unsupervised_learning/02_dimensionality_reduction/dimensionality_reduction_implementation|Dimensionality Reduction — Implementation]] — PCA (scree plot, whitening), TruncatedSVD (sparse), t-SNE, UMAP, SparseRandomProjection with scikit-learn
 
 ## Links
 

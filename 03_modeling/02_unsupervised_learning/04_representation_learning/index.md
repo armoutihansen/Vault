@@ -13,6 +13,7 @@ Learning compact, meaningful representations of data without explicit supervisio
 ## Notes
 
 - [[03_modeling/02_unsupervised_learning/04_representation_learning/representation_learning|Representation Learning]] — autoencoders, VAE, contrastive learning, disentanglement
+- [[03_modeling/02_unsupervised_learning/04_representation_learning/representation_learning_implementation|Representation Learning — Implementation]] — shallow autoencoder, VAE with reparameterisation trick and ELBO loss, SimCLR NT-Xent loss in PyTorch
 
 ## Links
 

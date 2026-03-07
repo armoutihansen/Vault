@@ -12,8 +12,8 @@ Methods for learning structure from unlabelled data: clustering, dimensionality 
 
 ## Notes
 
-- [[unsupervised_learning|Unsupervised Learning]] — k-means, DBSCAN, PCA, t-SNE/UMAP, Isolation Forest, silhouette score
-- [[03_modeling/02_unsupervised_learning/01_clustering/unsupervised_learning_implementation|Unsupervised Learning — Implementation]] — K-means, DBSCAN, PCA, t-SNE/UMAP, Isolation Forest with scikit-learn
+- [[03_modeling/02_unsupervised_learning/01_clustering/clustering|Clustering]] — K-Means (Lloyd's, k-means++, silhouette), DBSCAN, HDBSCAN, hierarchical clustering, GMM soft clustering
+- [[03_modeling/02_unsupervised_learning/01_clustering/clustering_implementation|Clustering Implementation]] — K-Means elbow/silhouette selection, DBSCAN with k-distance graph, agglomerative with dendrogram, GMM BIC selection
 
 ## Links
 
