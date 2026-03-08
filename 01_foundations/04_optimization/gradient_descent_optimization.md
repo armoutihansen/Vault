@@ -28,11 +28,15 @@ $\eta > 0$ is the **learning rate**. Computes gradient over the full dataset —
 
 ### Stochastic Gradient Descent (SGD)
 
-Uses one randomly sampled example per update:
+In the **classical definition**, uses one randomly sampled example per update:
 
-$$\boldsymbol{\theta}_{t+1} = \boldsymbol{\theta}_t - \eta \nabla \ell(\boldsymbol{\theta}_t; x_i)$$
+$$\boldsymbol{\theta}_{t+1} = \boldsymbol{\theta}_t - \eta \nabla_{\boldsymbol{\theta}} \ell(\boldsymbol{\theta}_t; x_i)$$
 
-Noisy estimate of the true gradient; the noise can help escape shallow local minima. Complexity per step: $O(1)$ vs $O(n)$ for batch.
+This is an unbiased but noisy estimate of the full gradient; the noise can help escape saddle points and some shallow minima. 
+
+**Complexity per iteration:** $O(d)$ for single-example SGD vs $O(nd)$ for batch gradient descent, where $d$ is the parameter dimension and $n$ is the dataset size.
+
+**Note on terminology:** In modern practice, "SGD" often refers to mini-batch SGD (see below). True single-example SGD is rarely used because it cannot leverage GPU parallelism effectively.
 
 **Mini-batch SGD** (standard in deep learning): average gradient over a batch of $B$ examples:
 

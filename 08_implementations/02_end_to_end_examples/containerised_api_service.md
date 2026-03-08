@@ -6,11 +6,11 @@ tags: [workflow, deployment, mlops]
 created: 2026-03-06
 ---
 
-# Containerised REST API Service
+# Containerized REST API Service
 
 ## Purpose
 
-End-to-end walkthrough of building, testing, containerising, and deploying a production FastAPI service with full CI/CD. Covers the complete lifecycle from app code to running pods. Synthesized from: [[04_software_engineering/04_apis_and_services/fastapi_patterns|FastAPI Patterns]], [[04_software_engineering/07_devops_and_infrastructure/docker_patterns|Docker Patterns]], [[04_software_engineering/07_devops_and_infrastructure/kubernetes_basics|Kubernetes Basics]], [[04_software_engineering/07_devops_and_infrastructure/cicd_pipelines|CI/CD Pipelines]], [[04_software_engineering/06_testing_and_quality/testing_strategies|Testing Strategies]], [[04_software_engineering/07_devops_and_infrastructure/github_actions|GitHub Actions]].
+End-to-end walkthrough of building, testing, containerizing, and deploying a production FastAPI service with full CI/CD. Covers the complete lifecycle from app code to running pods. Synthesized from: [[04_software_engineering/04_apis_and_services/fastapi_patterns|FastAPI Patterns]], [[04_software_engineering/07_devops_and_infrastructure/docker_patterns|Docker Patterns]], [[04_software_engineering/07_devops_and_infrastructure/kubernetes_basics|Kubernetes Basics]], [[04_software_engineering/07_devops_and_infrastructure/cicd_pipelines|CI/CD Pipelines]], [[04_software_engineering/06_testing_and_quality/testing_strategies|Testing Strategies]], [[04_software_engineering/07_devops_and_infrastructure/github_actions|GitHub Actions]].
 
 ## Architecture
 
@@ -39,6 +39,7 @@ Kubernetes Cluster
 ```
 
 **Component stack:**
+
 | Layer | Technology | Role |
 |-------|-----------|------|
 | Application | FastAPI + Pydantic v2 | REST API, validation, async |

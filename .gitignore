@@ -2,3 +2,5 @@
 
 quartz/node_modules/
 quartz/public/
+.vscode/settings.json
+.DS_Store
